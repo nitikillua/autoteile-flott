@@ -84,7 +84,7 @@ export const translations = {
           id: 'climate',
           name: 'Klima & Heizung',
           description: 'Klimakompressoren, Kondensatoren, Heizungsgebläse – für angenehme Temperaturen zu jeder Jahreszeit. Professionelle Beratung für Ihr Klimasystem.',
-          image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399'
+          image: 'https://customer-assets.emergentagent.com/job_autoberatung/artifacts/idk0bzb2_heizung.png'
         },
         {
           id: 'others',
