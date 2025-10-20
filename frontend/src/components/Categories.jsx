@@ -13,11 +13,23 @@ const Categories = () => {
   const { t } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(3);
 
   const handleReadMore = (categoryId) => {
     setSelectedCategory(categoryId);
     setIsModalOpen(true);
   };
+
+  const handleShowMore = () => {
+    if (visibleCount === 3) {
+      setVisibleCount(6);
+    } else if (visibleCount === 6) {
+      setVisibleCount(12);
+    }
+  };
+
+  const visibleCategories = t.categories.items.slice(0, visibleCount);
+  const hasMoreToShow = visibleCount < t.categories.items.length;
 
   return (
     <>
@@ -34,7 +46,7 @@ const Categories = () => {
 
           <div className="max-w-5xl mx-auto">
             <Accordion type="single" collapsible className="space-y-4">
-              {t.categories.items.map((category) => (
+              {visibleCategories.map((category) => (
                 <AccordionItem
                   key={category.id}
                   value={category.id}
