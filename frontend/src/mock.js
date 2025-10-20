@@ -138,7 +138,7 @@ export const translations = {
         },
         {
           id: 'filters',
-          name: 'Filters',
+          name: 'Oil and Filters',
           description: 'Air filters, oil filters, fuel filters – we have the right filters for optimal engine performance. Let us advise you on which filter suits your maintenance interval.',
           image: 'https://images.unsplash.com/photo-1588294020274-1e23a4815b72'
         },
