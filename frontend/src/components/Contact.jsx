@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, MapPin } from 'lucide-react';
+import { Phone, MapPin, Mail } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Contact = () => {
@@ -18,36 +18,55 @@ const Contact = () => {
 
           {/* Contact Card */}
           <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-gray-200">
-            <div className="flex flex-col items-center space-y-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               {/* Phone Section */}
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-600 rounded-full mb-4">
-                  <Phone className="w-10 h-10 text-white" />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
+                  <Phone className="w-8 h-8 text-white" />
                 </div>
-                <p className="text-sm text-slate-600 mb-2">Rufen Sie uns an</p>
+                <p className="text-sm text-slate-600 mb-2">Telefon</p>
                 <a
                   href="tel:+491744185651"
-                  className="text-3xl font-bold text-slate-900 hover:text-blue-600 transition-colors"
+                  className="text-lg font-bold text-slate-900 hover:text-blue-600 transition-colors block"
                 >
                   {t.contact.phone}
                 </a>
               </div>
 
-              {/* CTA Button */}
-              <a
-                href="tel:+491744185651"
-                className="inline-flex items-center justify-center px-10 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
-              >
-                <Phone className="w-5 h-5 mr-3" />
-                {t.contact.cta}
-              </a>
+              {/* Email Section */}
+              <div className="text-center">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
+                  <Mail className="w-8 h-8 text-white" />
+                </div>
+                <p className="text-sm text-slate-600 mb-2">E-Mail</p>
+                <a
+                  href={`mailto:${t.contact.email}`}
+                  className="text-lg font-bold text-slate-900 hover:text-blue-600 transition-colors block break-all"
+                >
+                  {t.contact.email}
+                </a>
+              </div>
 
-              {/* Location */}
-              <div className="flex items-center text-slate-600 pt-4">
-                <MapPin className="w-5 h-5 mr-2" />
-                <span>{t.contact.location}</span>
+              {/* Location Section */}
+              <div className="text-center">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
+                  <MapPin className="w-8 h-8 text-white" />
+                </div>
+                <p className="text-sm text-slate-600 mb-2">Standort</p>
+                <p className="text-lg font-bold text-slate-900">
+                  {t.contact.location}
+                </p>
               </div>
             </div>
+
+            {/* CTA Button */}
+            <a
+              href="tel:+491744185651"
+              className="inline-flex items-center justify-center px-10 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+            >
+              <Phone className="w-5 h-5 mr-3" />
+              {t.contact.cta}
+            </a>
           </div>
 
           {/* Trust Badge */}

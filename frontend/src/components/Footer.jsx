@@ -1,5 +1,7 @@
 import React from 'react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { companyInfo } from '../mock';
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -8,11 +10,13 @@ const Footer = () => {
     <footer className="bg-slate-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Company Info */}
+          {/* Company Info with Logo */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">
-              Autoteile <span className="text-blue-400">Flott</span>
-            </h3>
+            <img
+              src={companyInfo.logo}
+              alt="Autoteile Flott Logo"
+              className="h-16 w-auto mb-4 brightness-0 invert"
+            />
             <p className="text-slate-400">
               Ihr Partner für Autoteile in Feldkirchen und Umgebung.
             </p>
@@ -35,9 +39,26 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
-            <div className="space-y-2 text-slate-400">
-              <p>Telefon: +49 174 4185651</p>
-              <p>Feldkirchen, Bayern</p>
+            <div className="space-y-3 text-slate-400">
+              <div className="flex items-start">
+                <Phone className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" />
+                <a href="tel:+491744185651" className="hover:text-white transition-colors">
+                  {companyInfo.phone}
+                </a>
+              </div>
+              <div className="flex items-start">
+                <Mail className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" />
+                <a href={`mailto:${companyInfo.email}`} className="hover:text-white transition-colors break-all">
+                  {companyInfo.email}
+                </a>
+              </div>
+              <div className="flex items-start">
+                <MapPin className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" />
+                <div>
+                  <p>{companyInfo.address.street}</p>
+                  <p>{companyInfo.address.zipCity}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

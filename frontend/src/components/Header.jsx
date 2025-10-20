@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Phone, Menu, X, ChevronDown } from 'lucide-react';
+import { Phone, Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { companyInfo } from '../mock';
 import {
   Select,
   SelectContent,
@@ -36,9 +37,13 @@ const Header = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('hero')}
-              className="text-2xl font-bold text-slate-800 hover:text-slate-600 transition-colors"
+              className="flex items-center hover:opacity-80 transition-opacity"
             >
-              Autoteile <span className="text-blue-600">Flott</span>
+              <img
+                src={companyInfo.logo}
+                alt="Autoteile Flott Logo"
+                className="h-12 w-auto"
+              />
             </button>
           </div>
 
