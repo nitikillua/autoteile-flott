@@ -1,5 +1,6 @@
 // Mock data for Autoteile Flott website
 import { companyInfo, categoryDetails } from './mockExtended';
+import { categoriesHU, categoriesPL } from './translations/categories_hu_pl';
 
 export const translations = {
   de: {
