@@ -243,15 +243,81 @@ export const translations = {
       subtitle: 'Kattintson egy kategóriára további információkért',
       readMore: 'Tovább olvasom',
       callNow: 'Hívjon most',
+      showMore: 'Továbbiak megjelenítése',
+      showAll: 'Összes megjelenítése',
       items: [
-        // Hungarian translations for all 12 categories...
         {
           id: 'brakes',
           name: 'Fékek',
           description: 'Kiváló minőségű fékkomponenseket szállítunk minden járműtípushoz – féktárcsák, fékbetétek és komplett fékrendszerek.',
           image: 'https://images.unsplash.com/photo-1613214150384-14921ff659b2'
         },
-        // ... (all 12 categories with Hungarian text)
+        {
+          id: 'filters',
+          name: 'Olaj és Szűrők',
+          description: 'Légszűrők, olajszűrők, üzemanyagszűrők – rendelkezünk a megfelelő szűrőkkel az optimális motorteljesítményhez.',
+          image: 'https://images.unsplash.com/photo-1588294020274-1e23a4815b72'
+        },
+        {
+          id: 'chassis',
+          name: 'Futómű',
+          description: 'Lengéscsillapítók, rugók, lengőkarok és további futómű-komponensek ellenőrzött minőségben.',
+          image: 'https://images.unsplash.com/photo-1610876126529-fb3aa7e9abc1'
+        },
+        {
+          id: 'electrical',
+          name: 'Elektromos',
+          description: 'Akkumulátorok, indítómotorok, generátorok és elektromos komponensek – szakértői tanácsadás.',
+          image: 'https://images.unsplash.com/photo-1640018578914-abe1d592ef50'
+        },
+        {
+          id: 'lighting',
+          name: 'Világítás',
+          description: 'Fényszórók, izzók, hátsó lámpák – optimális láthatóság nappal és éjjel. LED, Xenon vagy Halogén.',
+          image: 'https://images.unsplash.com/photo-1542282088-fe8426682b8f'
+        },
+        {
+          id: 'exhaust',
+          name: 'Kipufogó',
+          description: 'Kipufogó dobok, katalizátorok, részecskeszűrők – tiszta kipufogógáz és optimális teljesítmény.',
+          image: 'https://images.unsplash.com/photo-1556783151-c6d5e7d296bb'
+        },
+        {
+          id: 'clutch',
+          name: 'Kuplung',
+          description: 'Kuplung készletek, kéttömegű lendkerekek, kioldócsapágyak – sima sebességváltáshoz.',
+          image: 'https://images.unsplash.com/photo-1603925246538-193f96ec9acd'
+        },
+        {
+          id: 'engine',
+          name: 'Motor',
+          description: 'Hengerfej tömítések, fogasszíjak, vezérlőláncok, vízpumpák – megbízható motorhoz.',
+          image: 'https://images.unsplash.com/photo-1552656967-7a0991a13906'
+        },
+        {
+          id: 'body',
+          name: 'Karosszéria',
+          description: 'Külső tükrök, ajtókilincsek, lökhárítók, sárvédők – tökéletes megjelenés és funkcionalitás.',
+          image: 'https://images.unsplash.com/photo-1661501316011-607a6871ecce'
+        },
+        {
+          id: 'interior',
+          name: 'Belső tér',
+          description: 'Üléshuzatok, kormánykerekek, burkolatok, szőnyegek – kényelem és jó közérzet.',
+          image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d'
+        },
+        {
+          id: 'climate',
+          name: 'Klíma és Fűtés',
+          description: 'Klímakompresszorok, kondenzátorok, fűtőventilátorok – kellemes hőmérséklet minden évszakban.',
+          image: 'https://customer-assets.emergentagent.com/job_autoberatung/artifacts/idk0bzb2_heizung.png'
+        },
+        {
+          id: 'others',
+          name: 'Egyéb',
+          description: 'Ablaktörlő lapátok, gumiabroncsok, vonóhorgok és még sok más – minden, amire szüksége van.',
+          image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3'
+        }
       ]
     },
     about: {
