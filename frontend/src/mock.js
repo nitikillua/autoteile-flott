@@ -131,6 +131,8 @@ export const translations = {
       subtitle: 'Click on a category for more information',
       readMore: 'Read More',
       callNow: 'Call Now',
+      showMore: 'Show More',
+      showAll: 'Show All',
       items: [
         {
           id: 'brakes',
