@@ -103,6 +103,17 @@ const Categories = () => {
                 </AccordionItem>
               ))}
             </Accordion>
+
+            {hasMoreToShow && (
+              <div className="mt-8 text-center">
+                <button
+                  onClick={handleShowMore}
+                  className="inline-flex items-center px-8 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-md"
+                >
+                  {visibleCount === 3 ? 'Mehr anzeigen' : 'Alle anzeigen'}
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </section>
