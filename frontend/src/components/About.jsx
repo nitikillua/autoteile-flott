@@ -12,15 +12,15 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-12 text-center">
-            {t.about.title}
+            {aboutText.title}
           </h2>
 
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              {t.about.text1}
+              {aboutText.text1}
             </p>
             <p className="text-lg text-slate-700 leading-relaxed mb-10">
-              {t.about.text2}
+              {aboutText.text2}
             </p>
           </div>
 
@@ -31,10 +31,10 @@ const About = () => {
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                100% Passgenau
+                {aboutText.feature1Title}
               </h3>
               <p className="text-slate-600">
-                Garantiert das richtige Teil für Ihr Fahrzeug
+                {aboutText.feature1Text}
               </p>
             </div>
 
@@ -43,10 +43,10 @@ const About = () => {
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                24h Bereitstellung
+                {aboutText.feature2Title}
               </h3>
               <p className="text-slate-600">
-                Schnelle Lieferung und Abholbereitschaft
+                {aboutText.feature2Text}
               </p>
             </div>
 
@@ -55,10 +55,10 @@ const About = () => {
                 <CheckCircle2 className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                Persönliche Beratung
+                {aboutText.feature3Title}
               </h3>
               <p className="text-slate-600">
-                Fachwissen aus jahrelanger Erfahrung
+                {aboutText.feature3Text}
               </p>
             </div>
           </div>
