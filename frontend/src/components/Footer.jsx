@@ -1,10 +1,12 @@
 import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { companyInfo } from '../mock';
 
 const Footer = () => {
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   return (
     <footer className="bg-slate-900 text-white py-12">
