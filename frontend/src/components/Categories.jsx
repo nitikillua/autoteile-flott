@@ -40,18 +40,20 @@ const Categories = () => {
                   value={category.id}
                   className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <AccordionTrigger className="px-6 py-5 hover:no-underline group">
-                    <div className="flex items-center w-full">
-                      <div className="w-16 h-16 rounded-lg overflow-hidden mr-5 flex-shrink-0">
-                        <img
-                          src={category.image}
-                          alt={category.name}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                        />
+                  <AccordionTrigger className="px-6 py-5 hover:no-underline group [&>svg]:hidden">
+                    <div className="flex items-center justify-between w-full">
+                      <div className="flex items-center">
+                        <div className="w-16 h-16 rounded-lg overflow-hidden mr-5 flex-shrink-0">
+                          <img
+                            src={category.image}
+                            alt={category.name}
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                          />
+                        </div>
+                        <h3 className="text-xl font-semibold text-slate-900 group-hover:text-blue-600 transition-colors text-left">
+                          {category.name}
+                        </h3>
                       </div>
-                      <h3 className="text-xl font-semibold text-slate-900 group-hover:text-blue-600 transition-colors text-left">
-                        {category.name}
-                      </h3>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="px-6 pb-6">
