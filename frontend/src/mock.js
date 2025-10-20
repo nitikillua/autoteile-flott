@@ -19,6 +19,8 @@ export const translations = {
       subtitle: 'Klicken Sie auf eine Kategorie für mehr Informationen',
       readMore: 'Weiterlesen',
       callNow: 'Jetzt anrufen',
+      showMore: 'Mehr anzeigen',
+      showAll: 'Alle anzeigen',
       items: [
         {
           id: 'brakes',
