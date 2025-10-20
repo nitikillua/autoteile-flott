@@ -1,9 +1,11 @@
 import React from 'react';
 import { CheckCircle2, Clock, Shield } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { aboutTranslations } from '../translations/about';
 
 const About = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
+  const aboutText = aboutTranslations[language] || aboutTranslations.de;
 
   return (
     <section id="about" className="py-20 bg-white">
