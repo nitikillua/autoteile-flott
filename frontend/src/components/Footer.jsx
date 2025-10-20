@@ -28,13 +28,30 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Schnelllinks</h4>
             <ul className="space-y-2">
-              {t.footer.links.map((link, index) => (
-                <li key={index}>
-                  <button className="text-slate-400 hover:text-white transition-colors">
-                    {link}
-                  </button>
-                </li>
-              ))}
+              <li>
+                <button 
+                  onClick={() => navigate('/impressum')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Impressum
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => navigate('/datenschutz')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Datenschutz
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => navigate('/agb')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  AGB
+                </button>
+              </li>
             </ul>
           </div>
 
