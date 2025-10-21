@@ -14,6 +14,9 @@ export const companyInfo = {
 };
 
 export const categoryDetails = {
+  en: categoryDetailsEN,
+  hu: categoryDetailsHU || {},
+  pl: categoryDetailsPL || {},
   de: {
     brakes: {
       title: 'Bremskomponenten für alle Fahrzeuge',
