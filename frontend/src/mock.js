@@ -283,6 +283,8 @@ export const translations = {
       subtitle: 'Kliknij kategorię, aby uzyskać więcej informacji',
       readMore: 'Czytaj więcej',
       callNow: 'Zadzwoń teraz',
+      showMore: 'Pokaż więcej',
+      showAll: 'Pokaż wszystkie',
       items: categoriesPL
     },
     about: {
