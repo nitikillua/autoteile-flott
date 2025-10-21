@@ -1,4 +1,6 @@
 // Extended mock data with 12 categories and detailed SEO content
+import { categoryDetailsEN } from './translations/seoTexts_en';
+import { categoryDetailsHU, categoryDetailsPL } from './translations/seoTexts_hu_pl';
 
 export const companyInfo = {
   name: 'Autoteile Flott',
