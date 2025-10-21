@@ -261,5 +261,209 @@ export const categoryDetailsPL = {
     `,
     keywords: ['Tarcze hamulcowe', 'Klocki hamulcowe', 'Płyn hamulcowy', 'Zaciski hamulcowe', 'Przewody hamulcowe']
   },
-  // Add more categories...
+  filters: {
+    title: 'Filtry dla optymalnej wydajności silnika',
+    intro: 'Filtry powietrza, filtry oleju, filtry paliwa – dla czystego spalania i długiej żywotności silnika.',
+    content: `
+      <h3>Znaczenie regularnej wymiany filtrów</h3>
+      <p>Filtry to "nerki" pojazdu. Zatrzymują brud, kurz i zanieczyszczenia oraz zapewniają prawidłowe działanie silnika i układu paliwowego. Terminowa wymiana oszczędza paliwo i zapobiega kosztownym naprawom.</p>
+      
+      <h3>Nasza oferta filtrów</h3>
+      <ul>
+        <li><strong>Filtry powietrza:</strong> Standardowe i sportowe filtry powietrza dla lepszej wydajności</li>
+        <li><strong>Filtry oleju:</strong> Dla wszystkich typów silników, również syntetycznych olejów</li>
+        <li><strong>Filtry paliwa:</strong> Benzyna i diesel, również dla nowoczesnych wtryskiwaczy bezpośrednich</li>
+        <li><strong>Filtry kabinowe:</strong> Z węglem aktywnym i bez dla czystego powietrza</li>
+        <li><strong>Filtry oleju przekładniowego:</strong> Dla automatycznych skrzyń biegów</li>
+      </ul>
+      
+      <h3>Często zadawane pytania</h3>
+      <p><strong>Jak często należy wymieniać filtr powietrza?</strong><br>
+      Zwykle co 15 000-30 000 km lub raz w roku.</p>
+      
+      <p><strong>Co się dzieje przy zakorkowanym filtrze paliwa?</strong><br>
+      Silnik może szarpać, tracić moc lub w najgorszym przypadku w ogóle nie uruchomić się.</p>
+    `,
+    keywords: ['Filtr powietrza', 'Filtr oleju', 'Filtr paliwa', 'Filtr kabinowy', 'Filtr oleju przekładniowego']
+  },
+  chassis: {
+    title: 'Komponenty podwozia dla bezpiecznej jazdy',
+    intro: 'Amortyzatory, sprężyny, wahacze – dla komfortu i bezpieczeństwa jazdy.',
+    content: `
+      <h3>Sprawne podwozie jest niezbędne</h3>
+      <p>Podwozie łączy pojazd z drogą. Zużyte komponenty wpływają nie tylko na komfort jazdy, ale także na bezpieczeństwo. Dostarczamy wysokiej jakości części podwozia, które idealnie pasują do pojazdu.</p>
+      
+      <h3>Nasze komponenty podwozia</h3>
+      <ul>
+        <li><strong>Amortyzatory:</strong> Gazowe i olejowe dla wszystkich typów pojazdów</li>
+        <li><strong>Sprężyny:</strong> Oryginalne sprężyny i sprężyny sportowe</li>
+        <li><strong>Wahacze:</strong> Kompletne z tuleiami i przegubami kulowymi</li>
+        <li><strong>Stabilizatory:</strong> Dla lepszego zachowania w zakrętach</li>
+        <li><strong>Zwrotnice i łożyska kół:</strong> W jakości OEM</li>
+      </ul>
+    `,
+    keywords: ['Amortyzatory', 'Sprężyny', 'Wahacze', 'Stabilizatory', 'Łożyska kół']
+  },
+  electrical: {
+    title: 'Komponenty elektryczne dla niezawodności',
+    intro: 'Akumulatory, rozruszniki, alternatory – aby pojazd zawsze się uruchamiał.',
+    content: `
+      <h3>Układy elektryczne – serce nowoczesnych pojazdów</h3>
+      <p>Bez działającej elektryki nic nie działa. Od akumulatora przez rozrusznik po alternator – oferujemy niezawodne komponenty dla wszystkich układów elektrycznych pojazdu.</p>
+      
+      <h3>Nasza oferta elektryczna</h3>
+      <ul>
+        <li><strong>Akumulatory rozruchowe:</strong> Akumulatory AGM, EFB i kwasowo-ołowiowe</li>
+        <li><strong>Rozruszniki:</strong> Dla silników benzynowych i diesla</li>
+        <li><strong>Alternatory:</strong> Jakość oryginalna i odnowiona</li>
+        <li><strong>Świece zapłonowe:</strong> Miedziane, platynowe i irydowe</li>
+        <li><strong>Czujniki:</strong> Sondy lambda, czujniki ABS, czujniki wału korbowego</li>
+      </ul>
+    `,
+    keywords: ['Akumulator', 'Rozrusznik', 'Alternator', 'Świece zapłonowe', 'Czujniki']
+  },
+  lighting: {
+    title: 'Oświetlenie dla bezpieczeństwa i widoczności',
+    intro: 'Reflektory, światła tylne, technologia LED – dla optymalnej widoczności w dzień i w nocy.',
+    content: `
+      <h3>Widzieć i być widzianym</h3>
+      <p>Działające oświetlenie jest wymagane prawem i niezbędne dla życia. Prowadzimy wszystkie typy żarówek i komponentów oświetleniowych dla pojazdu.</p>
+      
+      <h3>Nasza oferta oświetlenia</h3>
+      <ul>
+        <li><strong>Reflektory:</strong> Reflektory halogenowe, ksenonowe i LED</li>
+        <li><strong>Żarówki:</strong> H1, H4, H7 i wszystkie popularne typy</li>
+        <li><strong>Światła tylne:</strong> Oryginalne i wersje tuningowe</li>
+        <li><strong>Światła przeciwmgielne:</strong> Dla lepszej widoczności w złej pogodzie</li>
+        <li><strong>Oświetlenie wewnętrzne:</strong> Zestawy do konwersji LED</li>
+      </ul>
+    `,
+    keywords: ['Reflektory', 'Żarówki', 'Światła tylne', 'LED', 'Ksenon']
+  },
+  exhaust: {
+    title: 'Układy wydechowe dla wydajności i środowiska',
+    intro: 'Tłumiki, katalizatory, rury wydechowe – dla czystych spalin i optymalnej wydajności.',
+    content: `
+      <h3>Układ wydechowy – więcej niż tylko tłumienie hałasu</h3>
+      <p>Sprawny układ wydechowy nie tylko redukuje hałas, ale także zanieczyszczenia i wpływa na wydajność silnika. Oferujemy kompletne systemy i pojedyncze komponenty w najlepszej jakości.</p>
+      
+      <h3>Nasza oferta układów wydechowych</h3>
+      <ul>
+        <li><strong>Tłumiki końcowe:</strong> Oryginalne i sportowe układy wydechowe</li>
+        <li><strong>Katalizatory:</strong> Katalizatory metalowe i ceramiczne</li>
+        <li><strong>Tłumiki środkowe:</strong> Dla wszystkich typów pojazdów</li>
+        <li><strong>Filtry cząstek stałych:</strong> Dla pojazdów diesla</li>
+        <li><strong>Rury wydechowe i obejmy:</strong> Jakość nierdzewna</li>
+      </ul>
+    `,
+    keywords: ['Tłumik końcowy', 'Katalizator', 'Filtr cząstek', 'Rura wydechowa', 'Sportowy wydech']
+  },
+  clutch: {
+    title: 'Sprzęgła dla płynnej zmiany biegów',
+    intro: 'Zestawy sprzęgła, łożyska wyciskowe, koła zamachowe – dla idealnego przełączania.',
+    content: `
+      <h3>Sprzęgło – połączenie między silnikiem a skrzynią biegów</h3>
+      <p>Zużyte sprzęgło objawia się poślizgiem, trudnym przełączaniem lub hałasami. Dostarczamy kompletne zestawy sprzęgła i pojedyncze komponenty dla wszystkich pojazdów.</p>
+      
+      <h3>Nasza oferta sprzęgieł</h3>
+      <ul>
+        <li><strong>Zestawy sprzęgła:</strong> 3-częściowe z płytą dociskową, tarczą i łożyskiem</li>
+        <li><strong>Dwumasowe koła zamachowe:</strong> Oryginalne i wzmocnione wersje</li>
+        <li><strong>Systemy wyciskowe:</strong> Hydrauliczne i mechaniczne</li>
+        <li><strong>Tarcze sprzęgła:</strong> Standardowe i dla wysokich momentów obrotowych</li>
+        <li><strong>Pompy główne:</strong> Dla sprzęgieł hydraulicznych</li>
+      </ul>
+    `,
+    keywords: ['Zestaw sprzęgła', 'Dwumasowe koło zamachowe', 'Łożysko wyciskowe', 'Tarcza sprzęgła']
+  },
+  engine: {
+    title: 'Komponenty silnika dla wydajności i niezawodności',
+    intro: 'Uszczelki głowicy, łańcuchy rozrządu, pompy wody – dla zdrowego silnika.',
+    content: `
+      <h3>Silnik – serce pojazdu</h3>
+      <p>Komponenty silnika muszą wytrzymać najwyższe obciążenia. Oferujemy części zamienne w jakości OEM, które gwarantują długą żywotność i wydajność.</p>
+      
+      <h3>Nasza oferta silnikowa</h3>
+      <ul>
+        <li><strong>Uszczelki głowicy:</strong> Dla wszystkich typów silników</li>
+        <li><strong>Łańcuchy i paski rozrządu:</strong> Włącznie z napinakami i kołkami prowadzącymi</li>
+        <li><strong>Pompy wody:</strong> Z i bez zintegrowanego termostatu</li>
+        <li><strong>Tłoki i korbowody:</strong> Standardowe i wzmocnione wersje</li>
+        <li><strong>Wałki rozrządu:</strong> Oryginalne i wersje wydajnościowe</li>
+      </ul>
+    `,
+    keywords: ['Uszczelka głowicy', 'Pasek rozrządu', 'Łańcuch rozrządu', 'Pompa wody', 'Tłoki']
+  },
+  body: {
+    title: 'Części nadwozia dla wyglądu i funkcji',
+    intro: 'Lusterka, klamki, zderzaki – dla idealnego wyglądu.',
+    content: `
+      <h3>Części nadwozia – dla formy i funkcji</h3>
+      <p>Uszkodzone lub zużyte części nadwozia wpływają nie tylko na wygląd, ale także na funkcjonalność. Dostarczamy pasujące części zamienne dla wszystkich modeli pojazdów.</p>
+      
+      <h3>Nasza oferta nadwozia</h3>
+      <ul>
+        <li><strong>Lusterka boczne:</strong> Kompletne lub pojedyncze szkła lusterek</li>
+        <li><strong>Klamki:</strong> Wewnętrzne i zewnętrzne</li>
+        <li><strong>Zderzaki:</strong> Podkładowane lub malowane</li>
+        <li><strong>Błotniki:</strong> Oryginalne i aftermarket</li>
+        <li><strong>Listwy ozdobne:</strong> Chromowane i plastikowe</li>
+      </ul>
+    `,
+    keywords: ['Lusterka boczne', 'Klamki', 'Zderzaki', 'Błotniki', 'Listwy ozdobne']
+  },
+  interior: {
+    title: 'Komponenty wnętrza dla komfortu',
+    intro: 'Siedzenia, kierownice, panele – dla przyjemnego doświadczenia w jeździe.',
+    content: `
+      <h3>Wnętrze – osobista strefa komfortu</h3>
+      <p>Zużyte lub uszkodzone części wnętrza zmniejszają komfort jazdy. Oferujemy części zamienne i akcesoria dla zadbanego wnętrza.</p>
+      
+      <h3>Nasza oferta wnętrza</h3>
+      <ul>
+        <li><strong>Pokrowce na siedzenia:</strong> Tkanina, skóra i sztuczna skóra</li>
+        <li><strong>Kierownice:</strong> Oryginalne i sportowe kierownice</li>
+        <li><strong>Panele:</strong> Panele drzwi i konsole środkowe</li>
+        <li><strong>Dywaniki:</strong> Gumowe i tekstylne</li>
+        <li><strong>Osłony przeciwsłoneczne:</strong> Z i bez lusterka</li>
+      </ul>
+    `,
+    keywords: ['Pokrowce na siedzenia', 'Kierownica', 'Panele', 'Dywaniki', 'Wyposażenie wnętrza']
+  },
+  climate: {
+    title: 'Klimatyzacja i ogrzewanie dla idealnej temperatury',
+    intro: 'Sprężarki klimatyzacji, dmuchawy ogrzewania, chłodnice – dla komfortowego klimatu w pojeździe.',
+    content: `
+      <h3>Systemy klimatyzacji i ogrzewania – komfort o każdej porze roku</h3>
+      <p>Działająca klimatyzacja i ogrzewanie zapewniają przyjemne temperatury i czystą widoczność. Dostarczamy wszystkie komponenty dla systemu klimatyzacji.</p>
+      
+      <h3>Nasza oferta klimatyzacji</h3>
+      <ul>
+        <li><strong>Sprężarki klimatyzacji:</strong> Oryginalne i wysokiej jakości alternatywy</li>
+        <li><strong>Skraplacze:</strong> Dla wydajnego chłodzenia</li>
+        <li><strong>Dmuchawy ogrzewania:</strong> Dla ciepłego powietrza zimą</li>
+        <li><strong>Chłodnice płynu chłodzącego:</strong> Dla optymalnej temperatury silnika</li>
+        <li><strong>Osuszacze i filtry:</strong> Dla czystych systemów klimatyzacji</li>
+      </ul>
+    `,
+    keywords: ['Sprężarka klimatyzacji', 'Skraplacz', 'Dmuchawa ogrzewania', 'Chłodnica', 'Serwis klimatyzacji']
+  },
+  others: {
+    title: 'Inne części samochodowe i akcesoria',
+    intro: 'Wszystko inne, czego potrzebujesz – od wycieraczek po haki holownicze.',
+    content: `
+      <h3>Kompleksowa oferta dla wszystkich potrzeb</h3>
+      <p>Oprócz głównych kategorii prowadzimy szeroki wybór innych części samochodowych i akcesoriów. Cokolwiek szukasz – mamy to lub możemy to zdobyć dla Ciebie.</p>
+      
+      <h3>Inne produkty</h3>
+      <ul>
+        <li><strong>Wycieraczki:</strong> Wszystkie długości i typy</li>
+        <li><strong>Opony:</strong> Opony letnie, zimowe i całoroczne</li>
+        <li><strong>Haki holownicze:</strong> Stałe i zdejmowane</li>
+        <li><strong>Uszczelki:</strong> Dla drzwi, okien i bagażnika</li>
+        <li><strong>Produkty pielęgnacyjne:</strong> Olej silnikowy, płyn niezamarzający, środki czyszczące</li>
+      </ul>
+    `,
+    keywords: ['Wycieraczki', 'Opony', 'Hak holowniczy', 'Produkty pielęgnacyjne', 'Akcesoria']
+  }
 };
