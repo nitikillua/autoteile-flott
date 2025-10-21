@@ -26,7 +26,211 @@ export const categoryDetailsHU = {
     `,
     keywords: ['Féktárcsák', 'Fékbetétek', 'Fékfolyadék', 'Féknyergek', 'Fékcsövek']
   },
-  // Add more categories... (for brevity, showing structure)
+  filters: {
+    title: 'Szűrők az optimális motorteljesítményhez',
+    intro: 'Légszűrők, olajszűrők, üzemanyagszűrők – tiszta égéshez és hosszú motor-élettartamhoz.',
+    content: `
+      <h3>A rendszeres szűrőcsere fontossága</h3>
+      <p>A szűrők a járműve "veséi". Távol tartják a szennyeződéseket és biztosítják, hogy a motor és az üzemanyagrendszer kifogástalanul működjön. A kellő időben történő csere üzemanyagot takarít meg és megelőzi a költséges javításokat.</p>
+      
+      <h3>Szűrő kínálatunk</h3>
+      <ul>
+        <li><strong>Légszűrők:</strong> Standard és sport légszűrők jobb teljesítményhez</li>
+        <li><strong>Olajszűrők:</strong> Minden motortípushoz, szintetikus olajokhoz is</li>
+        <li><strong>Üzemanyagszűrők:</strong> Benzin és dízel, modern közvetlen befecskendezéshez is</li>
+        <li><strong>Utastér szűrők:</strong> Aktív szénnel és anélkül tiszta levegőhöz</li>
+        <li><strong>Váltóolaj szűrők:</strong> Automata váltókhoz</li>
+      </ul>
+      
+      <h3>Gyakran feltett kérdések</h3>
+      <p><strong>Milyen gyakran kell cserélni a légszűrőt?</strong><br>
+      Általában 15.000-30.000 km-enként vagy évente egyszer.</p>
+      
+      <p><strong>Mi történik egy eltömődött üzemanyagszűrőnél?</strong><br>
+      A motor rángatózhat, teljesítményt veszíthet vagy legrosszabb esetben egyáltalán nem indul.</p>
+    `,
+    keywords: ['Légszűrő', 'Olajszűrő', 'Üzemanyagszűrő', 'Utastér szűrő', 'Váltóolaj szűrő']
+  },
+  chassis: {
+    title: 'Futómű komponensek a biztonságos vezetéshez',
+    intro: 'Lengéscsillapítók, rugók, lengőkarok – kényelemért és vezetési biztonságért.',
+    content: `
+      <h3>Az ép futómű elengedhetetlen</h3>
+      <p>A futómű köti össze járművét az úttal. Az elhasználódott alkatrészek nemcsak a vezetési kényelmet, hanem a biztonságot is befolyásolják. Kiváló minőségű futómű alkatrészeket szállítunk, amelyek tökéletesen illenek járművéhez.</p>
+      
+      <h3>Futómű komponenseink</h3>
+      <ul>
+        <li><strong>Lengéscsillapítók:</strong> Gáz és olaj csillapítók minden járműtípushoz</li>
+        <li><strong>Rugók:</strong> Eredeti rugók és sport rugók</li>
+        <li><strong>Lengőkarok:</strong> Komplett persellyel és gömbcsuklóval</li>
+        <li><strong>Stabilizátorok:</strong> Jobb kanyarodási viselkedéshez</li>
+        <li><strong>Tengelycsapok és kerékcsapágyak:</strong> Első felszerelői minőségben</li>
+      </ul>
+    `,
+    keywords: ['Lengéscsillapítók', 'Rugók', 'Lengőkarok', 'Stabilizátorok', 'Kerékcsapágyak']
+  },
+  electrical: {
+    title: 'Elektromos alkatrészek a megbízhatóságért',
+    intro: 'Akkumulátorok, indítómotorok, generátorok – hogy járműve mindig induljon.',
+    content: `
+      <h3>Elektromos rendszerek – a modern járművek szíve</h3>
+      <p>Működő elektromos rendszer nélkül semmi sem működik. Az akkumulátortól az indítómotoron át a generátorig – megbízható alkatrészeket kínálunk járműve összes elektromos rendszeréhez.</p>
+      
+      <h3>Elektromos kínálatunk</h3>
+      <ul>
+        <li><strong>Indító akkumulátorok:</strong> AGM, EFB és ólom-savas akkumulátorok</li>
+        <li><strong>Indítómotorok:</strong> Benzin és dízel motorokhoz</li>
+        <li><strong>Generátorok:</strong> Eredeti és felújított minőség</li>
+        <li><strong>Gyújtógyertyák:</strong> Réz, platina és irídium</li>
+        <li><strong>Érzékelők:</strong> Lambda szondák, ABS érzékelők, főtengely érzékelők</li>
+      </ul>
+    `,
+    keywords: ['Akkumulátor', 'Indítómotor', 'Generátor', 'Gyújtógyertyák', 'Érzékelők']
+  },
+  lighting: {
+    title: 'Világítás a biztonságért és láthatóságért',
+    intro: 'Fényszórók, hátsó lámpák, LED technológia – optimális láthatóságért nappal és éjjel.',
+    content: `
+      <h3>Látni és látszani</h3>
+      <p>A működő világítás törvényi előírás és létfontosságú. Minden típusú izzót és világítási komponenst vezetünk járművéhez.</p>
+      
+      <h3>Világítási kínálatunk</h3>
+      <ul>
+        <li><strong>Fényszórók:</strong> Halogén, xenon és LED fényszórók</li>
+        <li><strong>Izzók:</strong> H1, H4, H7 és minden elterjedt típus</li>
+        <li><strong>Hátsó lámpák:</strong> Eredeti és tuning változatok</li>
+        <li><strong>Ködlámpák:</strong> Jobb láthatóságért rossz időben</li>
+        <li><strong>Belső világítás:</strong> LED átalakító készletek</li>
+      </ul>
+    `,
+    keywords: ['Fényszórók', 'Izzók', 'Hátsó lámpák', 'LED', 'Xenon']
+  },
+  exhaust: {
+    title: 'Kipufogórendszerek teljesítményhez és környezetvédelemhez',
+    intro: 'Kipufogó dobok, katalizátorok, kipufogócsövek – tiszta kipufogógázért és optimális teljesítményért.',
+    content: `
+      <h3>A kipufogórendszer – több mint zajcsillapítás</h3>
+      <p>Az ép kipufogórendszer nemcsak a zajt csökkenti, hanem a szennyeződéseket is és befolyásolja a motorteljesítményt. Komplett rendszereket és egyes alkatrészeket kínálunk a legjobb minőségben.</p>
+      
+      <h3>Kipufogó kínálatunk</h3>
+      <ul>
+        <li><strong>Hátsó dobok:</strong> Eredeti és sport kipufogó</li>
+        <li><strong>Katalizátorok:</strong> Fém és kerámia katalizátorok</li>
+        <li><strong>Középső dobok:</strong> Minden járműtípushoz</li>
+        <li><strong>Részecskeszűrők:</strong> Dízel járművekhez</li>
+        <li><strong>Kipufogócsövek és bilincsek:</strong> Rozsdamentes minőség</li>
+      </ul>
+    `,
+    keywords: ['Hátsó dob', 'Katalizátor', 'Részecskeszűrő', 'Kipufogócső', 'Sport kipufogó']
+  },
+  clutch: {
+    title: 'Kuplungok a sima sebességváltáshoz',
+    intro: 'Kuplung készletek, kioldócsapágyak, lendkerekek – tökéletes kapcsoláshoz.',
+    content: `
+      <h3>A kuplung – a kapcsolat a motor és a váltó között</h3>
+      <p>Az elhasználódott kuplung csúszással, nehéz kapcsolással vagy zajokkal jelentkezik. Komplett kuplung készleteket és egyes alkatrészeket szállítunk minden járműhöz.</p>
+      
+      <h3>Kuplung kínálatunk</h3>
+      <ul>
+        <li><strong>Kuplung készletek:</strong> 3 részes nyomólappal, tárcsával és kioldócsapággyal</li>
+        <li><strong>Kéttömegű lendkerekek:</strong> Eredeti és megerősített változatok</li>
+        <li><strong>Kioldó rendszerek:</strong> Hidraulikus és mechanikus</li>
+        <li><strong>Kuplung tárcsák:</strong> Standard és nagy nyomatékhoz</li>
+        <li><strong>Főhengerek:</strong> Hidraulikus kuplungokhoz</li>
+      </ul>
+    `,
+    keywords: ['Kuplung készlet', 'Kéttömegű lendkerék', 'Kioldócsapágy', 'Kuplung tárcsa']
+  },
+  engine: {
+    title: 'Motor alkatrészek teljesítményhez és megbízhatósághoz',
+    intro: 'Hengerfej tömítések, vezérlőláncok, vízpumpák – egészséges motorhoz.',
+    content: `
+      <h3>A motor – járműve szíve</h3>
+      <p>A motor alkatrészeinek a legnagyobb terheléseket kell kibírniuk. Első felszerelői minőségű pótalkatrészeket kínálunk, amelyek garantálják a hosszú élettartamot és teljesítményt.</p>
+      
+      <h3>Motor kínálatunk</h3>
+      <ul>
+        <li><strong>Hengerfej tömítések:</strong> Minden motortípushoz</li>
+        <li><strong>Vezérlőláncok és szíjak:</strong> Feszítőkkel és terelőkkel</li>
+        <li><strong>Vízpumpák:</strong> Integrált termosztáttal és anélkül</li>
+        <li><strong>Dugattyúk és hajtórudak:</strong> Standard és megerősített változatok</li>
+        <li><strong>Vezérműtengelyek:</strong> Eredeti és teljesítmény változatok</li>
+      </ul>
+    `,
+    keywords: ['Hengerfej tömítés', 'Fogasszíj', 'Vezérlőlánc', 'Vízpumpa', 'Dugattyúk']
+  },
+  body: {
+    title: 'Karosszéria alkatrészek megjelenéshez és funkcióhoz',
+    intro: 'Tükrök, ajtókilincsek, lökhárítók – tökéletes megjelenéshez.',
+    content: `
+      <h3>Karosszéria alkatrészek – formához és funkcióhoz</h3>
+      <p>A sérült vagy elhasználódott karosszéria alkatrészek nemcsak a megjelenést, hanem a funkcionalitást is befolyásolják. Minden járműmodellhez illő pótalkatrészeket szállítunk.</p>
+      
+      <h3>Karosszéria kínálatunk</h3>
+      <ul>
+        <li><strong>Külső tükrök:</strong> Komplett vagy egyes tükörüvegek</li>
+        <li><strong>Ajtókilincsek:</strong> Belső és külső</li>
+        <li><strong>Lökhárítók:</strong> Alapozott vagy festett</li>
+        <li><strong>Sárvédők:</strong> Eredeti és utángyártott</li>
+        <li><strong>Díszlécek:</strong> Króm és műanyag</li>
+      </ul>
+    `,
+    keywords: ['Külső tükrök', 'Ajtókilincsek', 'Lökhárítók', 'Sárvédők', 'Díszlécek']
+  },
+  interior: {
+    title: 'Belső tér alkatrészek a kényelemért',
+    intro: 'Ülések, kormánykerekek, burkolatok – kellemes vezetési élményért.',
+    content: `
+      <h3>A belső tér – személyes komfortzónája</h3>
+      <p>Az elhasználódott vagy sérült belső alkatrészek csökkentik a vezetési kényelmet. Pótalkatrészeket és kiegészítőket kínálunk a gondozott belső térhez.</p>
+      
+      <h3>Belső tér kínálatunk</h3>
+      <ul>
+        <li><strong>Üléshuzatok:</strong> Szövet, bőr és műbőr</li>
+        <li><strong>Kormánykerekek:</strong> Eredeti és sport kormánykerekek</li>
+        <li><strong>Burkolatok:</strong> Ajtóburkolatok és középkonzolok</li>
+        <li><strong>Szőnyegek:</strong> Gumi és textil</li>
+        <li><strong>Napellenzők:</strong> Tükörrel és anélkül</li>
+      </ul>
+    `,
+    keywords: ['Üléshuzatok', 'Kormány', 'Burkolatok', 'Szőnyegek', 'Belső felszerelés']
+  },
+  climate: {
+    title: 'Klíma és fűtés a tökéletes hőmérséklethez',
+    intro: 'Klímakompresszorok, fűtőventilátorok, hűtők – kényelmes klímáért a járműben.',
+    content: `
+      <h3>Klíma és fűtő rendszerek – kényelem minden évszakban</h3>
+      <p>A működő klíma és fűtés kellemes hőmérsékletet és tiszta kilátást biztosít. Minden alkatrészt szállítunk klímarendszeréhez.</p>
+      
+      <h3>Klíma kínálatunk</h3>
+      <ul>
+        <li><strong>Klímakompresszorok:</strong> Eredeti és kiváló minőségű alternatívák</li>
+        <li><strong>Kondenzátorok:</strong> Hatékony hűtéshez</li>
+        <li><strong>Fűtőventilátorok:</strong> Meleg levegőhöz télen</li>
+        <li><strong>Hűtőfolyadék hűtők:</strong> Optimális motor hőmérséklethez</li>
+        <li><strong>Szárítók és szűrők:</strong> Tiszta klímarendszerekhez</li>
+      </ul>
+    `,
+    keywords: ['Klímakompresszor', 'Kondenzátor', 'Fűtőventilátor', 'Hűtő', 'Klíma szerviz']
+  },
+  others: {
+    title: 'További autóalkatrészek és kiegészítők',
+    intro: 'Minden más, amire szüksége van – ablaktörlőktől a vonóhorgokig.',
+    content: `
+      <h3>Átfogó kínálat minden igényhez</h3>
+      <p>A főkategóriák mellett széles választékú további autóalkatrészt és kiegészítőt vezetünk. Bármit keres – megvan vagy beszerezzük.</p>
+      
+      <h3>További termékek</h3>
+      <ul>
+        <li><strong>Ablaktörlő lapátok:</strong> Minden hosszban és típusban</li>
+        <li><strong>Gumiabroncsok:</strong> Nyári, téli és négyévszakos gumiabroncsok</li>
+        <li><strong>Vonóhorgok:</strong> Fix és levehető</li>
+        <li><strong>Tömítések:</strong> Ajtókhoz, ablakokhoz és csomagtartóhoz</li>
+        <li><strong>Ápolószerek:</strong> Motorolaj, fagyálló, tisztítók</li>
+      </ul>
+    `,
+    keywords: ['Ablaktörlő lapátok', 'Gumiabroncsok', 'Vonóhorog', 'Ápolószerek', 'Kiegészítők']
+  }
 };
 
 export const categoryDetailsPL = {
