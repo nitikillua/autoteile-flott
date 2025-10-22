@@ -125,7 +125,7 @@ export const translations = {
     hero: {
       title: 'Autoteile Flott – We find the right part for your vehicle.',
       subtitle: 'Professional consulting, fast delivery, 100% perfect fit.',
-      cta: 'Call Now'
+      cta: 'Contact us on WhatsApp'
     },
     categories: {
       title: 'Our Auto Parts Categories',
