@@ -282,7 +282,7 @@ export const translations = {
       title: 'Nasze Kategorie Części Samochodowych',
       subtitle: 'Kliknij kategorię, aby uzyskać więcej informacji',
       readMore: 'Czytaj więcej',
-      callNow: 'Zadzwoń teraz',
+      callNow: 'Wiadomość WhatsApp',
       showMore: 'Pokaż więcej',
       showAll: 'Pokaż wszystkie',
       items: categoriesPL
