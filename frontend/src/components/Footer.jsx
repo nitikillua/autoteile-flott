@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { companyInfo } from '../mock';
@@ -59,12 +59,6 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
             <div className="space-y-3 text-slate-400">
-              <div className="flex items-start">
-                <Phone className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" />
-                <a href="tel:+491744185651" className="hover:text-white transition-colors">
-                  {companyInfo.phone}
-                </a>
-              </div>
               <div className="flex items-start">
                 <Mail className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" />
                 <a href={`mailto:${companyInfo.email}`} className="hover:text-white transition-colors break-all">
