@@ -243,7 +243,7 @@ export const translations = {
       title: 'Autóalkatrész Kategóriáink',
       subtitle: 'Kattintson egy kategóriára további információkért',
       readMore: 'Tovább olvasom',
-      callNow: 'Hívjon most',
+      callNow: 'WhatsApp üzenet',
       showMore: 'Továbbiak megjelenítése',
       showAll: 'Összes megjelenítése',
       items: categoriesHU
