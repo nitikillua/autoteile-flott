@@ -237,7 +237,7 @@ export const translations = {
     hero: {
       title: 'Autoteile Flott – Megtaláljuk a megfelelő alkatrészt járműve számára.',
       subtitle: 'Szakmai tanácsadás, gyors szállítás, 100%-os pontosság.',
-      cta: 'Hívjon most'
+      cta: 'WhatsApp üzenet küldése'
     },
     categories: {
       title: 'Autóalkatrész Kategóriáink',
