@@ -255,10 +255,10 @@ export const translations = {
     },
     contact: {
       title: 'Kérjen tanácsadást most',
-      subtitle: 'Hívjon minket, és megtaláljuk a megfelelő alkatrészt járműve számára.',
-      phone: companyInfo.phone,
+      subtitle: 'Írjon nekünk WhatsAppon, és megtaláljuk a megfelelő alkatrészt járműve számára.',
       email: companyInfo.email,
-      cta: 'Hívjon most',
+      cta: 'WhatsApp üzenet küldése',
+      whatsappMessage: 'Szia, autóalkatrészek iránt érdeklődöm és szeretnék tanácsot kérni.',
       location: `${companyInfo.address.street}, ${companyInfo.address.zipCity}`
     },
     footer: {
