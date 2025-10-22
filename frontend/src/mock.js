@@ -216,10 +216,10 @@ export const translations = {
     },
     contact: {
       title: 'Get Consultation Now',
-      subtitle: 'Call us and we will find the right part for your vehicle.',
-      phone: companyInfo.phone,
+      subtitle: 'Message us on WhatsApp and we will find the right part for your vehicle.',
       email: companyInfo.email,
-      cta: 'Call Now',
+      cta: 'Send WhatsApp Message',
+      whatsappMessage: 'Hello, I am interested in auto parts and would like some advice.',
       location: `${companyInfo.address.street}, ${companyInfo.address.zipCity}`
     },
     footer: {
