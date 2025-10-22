@@ -294,10 +294,10 @@ export const translations = {
     },
     contact: {
       title: 'Uzyskaj poradę teraz',
-      subtitle: 'Zadzwoń do nas, a znajdziemy odpowiednią część do Twojego pojazdu.',
-      phone: companyInfo.phone,
+      subtitle: 'Napisz do nas na WhatsApp, a znajdziemy odpowiednią część do Twojego pojazdu.',
       email: companyInfo.email,
-      cta: 'Zadzwoń teraz',
+      cta: 'Wyślij wiadomość WhatsApp',
+      whatsappMessage: 'Cześć, interesuję się częściami samochodowymi i chciałbym uzyskać poradę.',
       location: `${companyInfo.address.street}, ${companyInfo.address.zipCity}`
     },
     footer: {
