@@ -131,7 +131,7 @@ export const translations = {
       title: 'Our Auto Parts Categories',
       subtitle: 'Click on a category for more information',
       readMore: 'Read More',
-      callNow: 'Call Now',
+      callNow: 'WhatsApp Message',
       showMore: 'Show More',
       showAll: 'Show All',
       items: [
