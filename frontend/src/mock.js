@@ -104,10 +104,10 @@ export const translations = {
     },
     contact: {
       title: 'Jetzt beraten lassen',
-      subtitle: 'Rufen Sie uns an und wir finden das passende Teil für Ihr Fahrzeug.',
-      phone: companyInfo.phone,
+      subtitle: 'Schreiben Sie uns auf WhatsApp und wir finden das passende Teil für Ihr Fahrzeug.',
       email: companyInfo.email,
-      cta: 'Jetzt anrufen',
+      cta: 'WhatsApp Nachricht senden',
+      whatsappMessage: 'Hallo, ich interessiere mich für Autoteile und hätte gerne eine Beratung.',
       location: `${companyInfo.address.street}, ${companyInfo.address.zipCity}`
     },
     footer: {
