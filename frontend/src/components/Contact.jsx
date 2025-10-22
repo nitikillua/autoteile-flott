@@ -1,9 +1,11 @@
 import React from 'react';
-import { Phone, MapPin, Mail } from 'lucide-react';
+import { MessageCircle, MapPin, Mail } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Contact = () => {
   const { t } = useLanguage();
+  
+  const whatsappLink = `https://wa.me/491744185651?text=${encodeURIComponent(t.contact.whatsappMessage || 'Hallo, ich interessiere mich für Autoteile.')}`;
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-gray-50 to-white">
@@ -18,21 +20,7 @@ const Contact = () => {
 
           {/* Contact Card */}
           <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-gray-200">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-              {/* Phone Section */}
-              <div className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
-                  <Phone className="w-8 h-8 text-white" />
-                </div>
-                <p className="text-sm text-slate-600 mb-2">Telefon</p>
-                <a
-                  href="tel:+491744185651"
-                  className="text-lg font-bold text-slate-900 hover:text-blue-600 transition-colors block"
-                >
-                  {t.contact.phone}
-                </a>
-              </div>
-
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               {/* Email Section */}
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
@@ -61,10 +49,12 @@ const Contact = () => {
 
             {/* CTA Button */}
             <a
-              href="tel:+491744185651"
-              className="inline-flex items-center justify-center px-10 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-10 py-4 bg-green-600 text-white text-lg font-semibold rounded-lg hover:bg-green-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              <Phone className="w-5 h-5 mr-3" />
+              <MessageCircle className="w-5 h-5 mr-3" />
               {t.contact.cta}
             </a>
           </div>
