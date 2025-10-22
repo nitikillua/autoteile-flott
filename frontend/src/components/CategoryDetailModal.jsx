@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Phone } from 'lucide-react';
+import { X, MessageCircle } from 'lucide-react';
 import {
   Dialog,
   DialogContent,
