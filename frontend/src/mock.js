@@ -276,7 +276,7 @@ export const translations = {
     hero: {
       title: 'Autoteile Flott – Znajdziemy odpowiednią część do Twojego pojazdu.',
       subtitle: 'Profesjonalne doradztwo, szybka dostawa, 100% dopasowanie.',
-      cta: 'Zadzwoń teraz'
+      cta: 'Napisz na WhatsApp'
     },
     categories: {
       title: 'Nasze Kategorie Części Samochodowych',
