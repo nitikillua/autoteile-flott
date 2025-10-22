@@ -8,6 +8,7 @@ import Categories from './components/Categories';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
 import AGB from './pages/AGB';
@@ -22,6 +23,7 @@ const HomePage = () => (
       <Contact />
     </main>
     <Footer />
+    <CookieBanner />
   </>
 );
 
