@@ -84,7 +84,7 @@ const CategoryDetailModal = ({ isOpen, onClose, categoryId }) => {
                     <img
                       src={manufacturer.logo}
                       alt={manufacturer.name}
-                      className="max-w-full max-h-12 object-contain filter grayscale hover:grayscale-0 transition-all"
+                      className="max-w-full max-h-12 object-contain transition-all"
                       onError={(e) => {
                         e.target.style.display = 'none';
                         e.target.parentElement.innerHTML = `<span class="text-xs text-slate-600 font-medium">${manufacturer.name}</span>`;
