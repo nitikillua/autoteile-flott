@@ -175,7 +175,7 @@ export const manufacturerLogos = {
   },
   lobro: {
     name: 'Löbro',
-    logo: 'https://www.gknautomotive.com/sites/default/files/logo_0.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ze5gzkw2_gkn%20spidan%20loebro.jpg',
     categories: ['others']
   },
   luk: {
