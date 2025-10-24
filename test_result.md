@@ -168,6 +168,18 @@ test_plan:
   test_all: false
   test_priority: "completed"
 
+  - task: "Hersteller-Logos Integration in CategoryDetailModal"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/CategoryDetailModal.jsx, /app/frontend/src/manufacturerLogos.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "68 Hersteller-Logos erfolgreich integriert und kategorisiert. Logos werden dynamisch basierend auf Kategorie angezeigt (z.B. Bremsen: 12 Hersteller, Filter: 4 Hersteller, Beleuchtung: 3 Hersteller). Einheitliche Größe, Grid-Layout mit 6 Spalten, Hover-Effekte (grayscale → color), Fallback-Handling wenn Logo nicht lädt. Sektion 'Unsere Partner-Hersteller' erscheint im CategoryDetailModal nach SEO-Text."
+
 agent_communication:
   - agent: "main"
-    message: "All frontend changes completed successfully. WhatsApp buttons replaced with Kontakt buttons throughout (Header, Hero, CategoryDetailModal). Desktop categories now display in 3x4 grid. Contact form fully functional with HSN/TSN validation, help function, file upload, and multi-language support. Formspree setup guide created. All changes verified via screenshots on desktop and mobile views."
+    message: "Hersteller-Logos Integration abgeschlossen. 68 Marken-Logos aus Word-Datei analysiert und allen 12 Kategorien zugeordnet. Logos werden nur in relevanten Kategorien angezeigt. Implementiert mit dynamischem Logo-Loading, Fehlerbehandlung und professionellem Design."
