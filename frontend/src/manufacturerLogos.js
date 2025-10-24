@@ -40,7 +40,7 @@ export const manufacturerLogos = {
   },
   blueprint: {
     name: 'Blue Print',
-    logo: 'https://logo.clearbit.com/blue-print.com',
+    logo: 'https://media.daparto.com/media/image/38/ce/a9/adn1000033_herstellerlogo_200x200.jpg',
     categories: ['brakes', 'chassis']
   },
   borgwarner: {
