@@ -130,7 +130,7 @@ export const manufacturerLogos = {
   },
   herthbuss: {
     name: 'Herth+Buss',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=Herth%2BBuss',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/6qobrmvl_herthbuss.jpg',
     categories: ['electrical', 'brakes']
   },
   imasaf: {
