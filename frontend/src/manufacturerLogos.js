@@ -270,7 +270,7 @@ export const manufacturerLogos = {
   },
   ravenol: {
     name: 'Ravenol',
-    logo: 'https://www.ravenol.de/images/ravenol-logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/8co8lpas_RAVENOL_Logo.jpg',
     categories: ['filters']
   },
   sachs: {
