@@ -18,6 +18,16 @@ const CategoryDetailModal = ({ isOpen, onClose, categoryId }) => {
 
   if (!details) return null;
 
+  const scrollToContact = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      onClose(); // Close modal first
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  };
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
