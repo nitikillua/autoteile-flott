@@ -280,7 +280,7 @@ export const manufacturerLogos = {
   },
   shell: {
     name: 'Shell',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Shell_logo.svg/320px-Shell_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fwdo765z_shell.png',
     categories: ['filters']
   },
   skf: {
