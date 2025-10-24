@@ -152,15 +152,13 @@ const Header = () => {
                 </SelectContent>
               </Select>
 
-              <a
-                href="https://wa.me/491744185651?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20Autoteile%20und%20h%C3%A4tte%20gerne%20eine%20Beratung."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-full px-4 py-2.5 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+              <button
+                onClick={() => scrollToSection('contact')}
+                className="flex items-center justify-center w-full px-4 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
-                WhatsApp
-              </a>
+                {t.nav.contact}
+              </button>
             </div>
           </div>
         </div>
