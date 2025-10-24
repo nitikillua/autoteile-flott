@@ -46,7 +46,6 @@ const Hero = () => {
               onClick={scrollToContact}
               className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              <MessageCircle className="w-5 h-5 mr-3" />
               {t.hero.cta}
             </button>
             <button
