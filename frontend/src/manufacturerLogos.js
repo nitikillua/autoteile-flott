@@ -30,7 +30,7 @@ export const manufacturerLogos = {
   },
   bhsens: {
     name: 'BH SENS',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=BH+SENS',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/wy1kuz1m_bhsens.png',
     categories: ['others']
   },
   bilstein: {
