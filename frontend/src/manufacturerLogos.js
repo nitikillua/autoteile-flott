@@ -275,7 +275,7 @@ export const manufacturerLogos = {
   },
   sachs: {
     name: 'Sachs',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/ZF_Sachs_logo.svg/320px-ZF_Sachs_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/yf7kh5h8_sachs-2.svg',
     categories: ['chassis']
   },
   shell: {
