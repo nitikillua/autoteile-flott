@@ -13,7 +13,7 @@ export const translations = {
     hero: {
       title: 'Autoteile Flott – Wir finden das richtige Teil für Ihr Fahrzeug.',
       subtitle: 'Professionelle Beratung, schnelle Lieferung, 100 % passgenau.',
-      cta: 'Jetzt auf WhatsApp kontaktieren'
+      cta: 'Jetzt Kontakt aufnehmen'
     },
     categories: {
       title: 'Unsere Autoteil-Kategorien',
