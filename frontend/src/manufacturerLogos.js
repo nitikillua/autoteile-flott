@@ -210,7 +210,7 @@ export const manufacturerLogos = {
   },
   meyle: {
     name: 'Meyle',
-    logo: 'https://logo.clearbit.com/meyle.com',
+    logo: 'https://www.meyle.com/typo3conf/ext/sitepackage_meyle/Resources/Public/Images/meyle-logo.svg',
     categories: ['chassis', 'brakes']
   },
   mobil: {
