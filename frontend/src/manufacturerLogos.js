@@ -310,7 +310,7 @@ export const manufacturerLogos = {
   },
   total: {
     name: 'Total',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TotalEnergies_logo.svg/320px-TotalEnergies_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/6aemi053_Total_Logo.svg',
     categories: ['filters']
   },
   trw: {
