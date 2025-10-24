@@ -115,7 +115,7 @@ export const manufacturerLogos = {
   },
   febi: {
     name: 'Febi',
-    logo: 'https://logo.clearbit.com/febi.com',
+    logo: 'https://www.febi.com/typo3conf/ext/sitepackage_billstein_febi/Resources/Public/Images/febi-logo.svg',
     categories: ['chassis', 'engine']
   },
   gkn: {
