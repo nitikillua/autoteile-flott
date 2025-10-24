@@ -8,6 +8,7 @@ import {
 } from './ui/dialog';
 import { useLanguage } from '../contexts/LanguageContext';
 import { categoryDetails } from '../mockExtended';
+import { getManufacturersByCategory } from '../manufacturerLogos';
 
 const CategoryDetailModal = ({ isOpen, onClose, categoryId }) => {
   const { language, t } = useLanguage();
