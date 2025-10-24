@@ -25,7 +25,7 @@ export const manufacturerLogos = {
   },
   beru: {
     name: 'Beru',
-    logo: 'https://www.beru.com/sites/default/files/logo_0.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/047qc79e_beru-logo.png',
     categories: ['electrical']
   },
   bhsens: {
