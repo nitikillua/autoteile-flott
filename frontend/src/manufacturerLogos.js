@@ -85,7 +85,7 @@ export const manufacturerLogos = {
   },
   corteco: {
     name: 'Corteco',
-    logo: 'https://www.corteco.com/themes/custom/corteco/logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/wjyszxie_corteco.jpg',
     categories: ['engine']
   },
   dayco: {
