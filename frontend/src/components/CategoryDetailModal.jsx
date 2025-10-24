@@ -16,6 +16,7 @@ const CategoryDetailModal = ({ isOpen, onClose, categoryId }) => {
   if (!categoryId) return null;
 
   const details = categoryDetails[language]?.[categoryId];
+  const manufacturers = getManufacturersByCategory(categoryId);
 
   if (!details) return null;
 
