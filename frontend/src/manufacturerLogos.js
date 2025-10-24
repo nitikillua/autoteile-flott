@@ -1,11 +1,12 @@
 // Manufacturer logos and their category mapping
 // Logos sourced from official brand resources and trusted CDN services
+// Corrected mapping based on Word document specifications
 
 export const manufacturerLogos = {
   // Logo format: { name, logo, categories }
   ajusa: {
     name: 'Ajusa',
-    logo: 'https://logo.clearbit.com/ajusa.es',
+    logo: 'https://www.ajusa.com/themes/custom/ajusa/logo.svg',
     categories: ['engine']
   },
   arnott: {
