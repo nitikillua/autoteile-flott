@@ -260,7 +260,7 @@ export const manufacturerLogos = {
   },
   pierburg: {
     name: 'Pierburg',
-    logo: 'https://www.rheinmetall-automotive.com/typo3conf/ext/rheinmetall_template/Resources/Public/Icons/logo-pierburg.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/q0sivwaj_pierburg.jpg',
     categories: ['engine', 'electrical']
   },
   quaro: {
