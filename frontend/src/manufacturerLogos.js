@@ -155,7 +155,7 @@ export const manufacturerLogos = {
   },
   kyb: {
     name: 'KYB',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/KYB_Corporation_logo.svg/320px-KYB_Corporation_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/11xtzx4p_KYB-LOGO_NoStrapline-1.png',
     categories: ['chassis']
   },
   lemforder: {
