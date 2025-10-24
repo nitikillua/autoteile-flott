@@ -295,7 +295,7 @@ export const manufacturerLogos = {
   },
   stabilus: {
     name: 'Stabilus',
-    logo: 'https://www.stabilus.com/fileadmin/user_upload/logos/stabilus-logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/s3qvv2j8_Stabilus_logo.svg.png',
     categories: ['interior']
   },
   swf: {
