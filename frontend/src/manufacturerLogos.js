@@ -170,7 +170,7 @@ export const manufacturerLogos = {
   },
   liquimoly: {
     name: 'Liqui Moly',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Liqui_Moly_logo.svg/320px-Liqui_Moly_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/f4abb5ma_Liqui-moly.svg.png',
     categories: ['filters']
   },
   lobro: {
