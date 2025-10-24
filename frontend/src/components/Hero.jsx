@@ -42,15 +42,13 @@ const Hero = () => {
             {t.hero.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay-2">
-            <a
-              href="https://wa.me/491744185651?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20Autoteile%20und%20h%C3%A4tte%20gerne%20eine%20Beratung."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white text-lg font-semibold rounded-lg hover:bg-green-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+            <button
+              onClick={scrollToContact}
+              className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <MessageCircle className="w-5 h-5 mr-3" />
               {t.hero.cta}
-            </a>
+            </button>
             <button
               onClick={scrollToCategories}
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-800 text-lg font-semibold rounded-lg border-2 border-slate-300 hover:border-blue-600 hover:text-blue-600 transition-all hover:scale-105 shadow-md"
