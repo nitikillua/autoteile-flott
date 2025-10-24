@@ -35,7 +35,7 @@ export const manufacturerLogos = {
   },
   bilstein: {
     name: 'Bilstein',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bilstein_logo.svg/320px-Bilstein_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/wts47xii_BILSTEIN_Logo.png',
     categories: ['chassis']
   },
   blueprint: {
