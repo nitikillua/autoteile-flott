@@ -200,7 +200,7 @@ export const manufacturerLogos = {
   },
   maxgear: {
     name: 'Maxgear',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=MAXGEAR',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/5jwcas4n_maxgear-logo.png',
     categories: ['chassis', 'brakes']
   },
   metzger: {
