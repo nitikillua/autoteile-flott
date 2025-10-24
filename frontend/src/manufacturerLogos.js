@@ -325,7 +325,7 @@ export const manufacturerLogos = {
   },
   vanwezel: {
     name: 'Van Wezel',
-    logo: 'https://www.vanwezel.net/sites/default/files/logo.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/nzvtu4bz_van_wezel.jpg',
     categories: ['body']
   },
   varta: {
