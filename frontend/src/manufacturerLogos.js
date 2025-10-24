@@ -330,7 +330,7 @@ export const manufacturerLogos = {
   },
   varta: {
     name: 'Varta',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Varta_Logo.svg/320px-Varta_Logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ttz6vbmd_Varta-Logo.svg.png',
     categories: ['electrical']
   },
   victorreinz: {
