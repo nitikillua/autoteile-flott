@@ -205,7 +205,7 @@ export const manufacturerLogos = {
   },
   metzger: {
     name: 'Metzger',
-    logo: 'https://www.metzger-mcz.com/themes/custom/metzger/logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ieqsge0r_Metzger-Autoteile-4C.avif',
     categories: ['engine', 'electrical']
   },
   meyle: {
