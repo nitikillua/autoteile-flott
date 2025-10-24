@@ -68,6 +68,37 @@ const CategoryDetailModal = ({ isOpen, onClose, categoryId }) => {
             </div>
           )}
 
+          {/* Manufacturer Logos Section */}
+          {manufacturers && manufacturers.length > 0 && (
+            <div className="mt-8 p-6 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-200">
+              <h4 className="text-xl font-bold text-slate-900 mb-6 text-center">
+                Unsere Partner-Hersteller
+              </h4>
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+                {manufacturers.map((manufacturer, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center p-3 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow"
+                    title={manufacturer.name}
+                  >
+                    <img
+                      src={manufacturer.logo}
+                      alt={manufacturer.name}
+                      className="max-w-full max-h-12 object-contain filter grayscale hover:grayscale-0 transition-all"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.parentElement.innerHTML = `<span class="text-xs text-slate-600 font-medium">${manufacturer.name}</span>`;
+                      }}
+                    />
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-slate-500 text-center mt-4">
+                Wir arbeiten mit führenden Marken zusammen, um Ihnen höchste Qualität zu garantieren.
+              </p>
+            </div>
+          )}
+
           {/* CTA Section */}
           <div className="mt-8 pt-6 border-t border-gray-200">
             <div className="bg-blue-50 rounded-xl p-6 text-center">
