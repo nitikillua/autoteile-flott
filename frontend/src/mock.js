@@ -19,7 +19,7 @@ export const translations = {
       title: 'Unsere Autoteil-Kategorien',
       subtitle: 'Klicken Sie auf eine Kategorie für mehr Informationen',
       readMore: 'Weiterlesen',
-      callNow: 'WhatsApp Nachricht',
+      callNow: 'Kontakt',
       showMore: 'Mehr anzeigen',
       showAll: 'Alle anzeigen',
       items: [
