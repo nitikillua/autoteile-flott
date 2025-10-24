@@ -185,7 +185,7 @@ export const manufacturerLogos = {
   },
   magnetimarelli: {
     name: 'Magneti Marelli',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Magneti_Marelli_logo.svg/320px-Magneti_Marelli_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/qh4md0p9_magnetimarelli.svg',
     categories: ['electrical', 'others']
   },
   mahle: {
