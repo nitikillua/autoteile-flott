@@ -55,7 +55,7 @@ export const manufacturerLogos = {
   },
   bosch: {
     name: 'BOSCH',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bosch-logotype.svg/320px-Bosch-logotype.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fipcq3ut_bosch.png',
     categories: ['filters', 'electrical', 'brakes']
   },
   brembo: {
