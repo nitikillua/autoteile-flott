@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { companyInfo } from '../mock';
 import {
