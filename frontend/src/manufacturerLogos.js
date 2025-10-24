@@ -15,7 +15,7 @@ export const manufacturerLogos = {
   },
   as: {
     name: 'AS',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=AS',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/9l3a6r1c_as.png',
     categories: ['electrical']
   },
   ate: {
