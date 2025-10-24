@@ -220,7 +220,7 @@ export const manufacturerLogos = {
   },
   motul: {
     name: 'Motul',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Motul_logo.svg/320px-Motul_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/n0y7rudr_Motul_logo.svg.png',
     categories: ['filters']
   },
   narva: {
