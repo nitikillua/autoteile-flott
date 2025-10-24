@@ -5,7 +5,7 @@
 export const manufacturerLogos = {
   ajusa: {
     name: 'Ajusa',
-    logo: 'https://www.ajusa.com/themes/custom/ajusa/logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/rljg7das_ajusa.jpg',
     categories: ['engine']
   },
   arnott: {
