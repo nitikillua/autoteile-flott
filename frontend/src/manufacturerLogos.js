@@ -90,7 +90,7 @@ export const manufacturerLogos = {
   },
   dayco: {
     name: 'Dayco',
-    logo: 'https://logo.clearbit.com/dayco.com',
+    logo: 'https://www.dayco.com/sites/default/files/logo.png',
     categories: ['engine']
   },
   elf: {
