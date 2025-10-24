@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, ArrowDown } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { heroImage } from '../mock';
 
