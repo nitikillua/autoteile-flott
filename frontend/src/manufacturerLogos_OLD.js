@@ -1,8 +1,9 @@
 // Manufacturer logos and their category mapping
-// Corrected mapping based on Word document specifications
 // Logos sourced from official brand resources and trusted CDN services
+// Corrected mapping based on Word document specifications
 
 export const manufacturerLogos = {
+  // Logo format: { name, logo, categories }
   ajusa: {
     name: 'Ajusa',
     logo: 'https://www.ajusa.com/themes/custom/ajusa/logo.svg',
@@ -10,7 +11,7 @@ export const manufacturerLogos = {
   },
   arnott: {
     name: 'Arnott',
-    logo: 'https://www.arnottindustries.com/wp-content/uploads/2021/03/arnott-logo.svg',
+    logo: 'https://logo.clearbit.com/arnottindustries.com',
     categories: ['others']
   },
   as: {
@@ -25,7 +26,7 @@ export const manufacturerLogos = {
   },
   beru: {
     name: 'Beru',
-    logo: 'https://www.beru.com/sites/default/files/logo_0.png',
+    logo: 'https://logo.clearbit.com/beru.com',
     categories: ['electrical']
   },
   bhsens: {
@@ -50,7 +51,7 @@ export const manufacturerLogos = {
   },
   bosal: {
     name: 'BOSAL',
-    logo: 'https://www.bosal.com/sites/default/files/logo_1.png',
+    logo: 'https://logo.clearbit.com/bosal.com',
     categories: ['exhaust']
   },
   bosch: {
@@ -70,13 +71,13 @@ export const manufacturerLogos = {
   },
   bugiad: {
     name: 'Bugiad',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=BUGIAD',
+    logo: 'https://logo.clearbit.com/bugiad.com',
     categories: ['others']
   },
   castrol: {
     name: 'Castrol',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Castrol_logo.svg/320px-Castrol_logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   continental: {
     name: 'Continental',
@@ -96,16 +97,16 @@ export const manufacturerLogos = {
   elf: {
     name: 'ELF',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Elf_Logo.svg/320px-Elf_Logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   elring: {
     name: 'Elring',
-    logo: 'https://www.elring.com/typo3conf/ext/ke_elring/Resources/Public/Images/logo.svg',
+    logo: 'https://logo.clearbit.com/elring.com',
     categories: ['engine']
   },
   era: {
     name: 'ERA',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=ERA',
+    logo: 'https://logo.clearbit.com/era-auto.com',
     categories: ['electrical']
   },
   fag: {
@@ -116,7 +117,7 @@ export const manufacturerLogos = {
   febi: {
     name: 'Febi',
     logo: 'https://www.febi.com/typo3conf/ext/sitepackage_billstein_febi/Resources/Public/Images/febi-logo.svg',
-    categories: ['chassis', 'electrical', 'engine']
+    categories: ['chassis', 'engine']
   },
   gkn: {
     name: 'GKN',
@@ -130,12 +131,12 @@ export const manufacturerLogos = {
   },
   herthbuss: {
     name: 'Herth+Buss',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=Herth%2BBuss',
+    logo: 'https://logo.clearbit.com/herth-buss.com',
     categories: ['electrical', 'brakes']
   },
   imasaf: {
     name: 'Imasaf',
-    logo: 'https://www.imasaf.com/sites/default/files/logo.png',
+    logo: 'https://logo.clearbit.com/imasaf.com',
     categories: ['exhaust']
   },
   ina: {
@@ -145,12 +146,12 @@ export const manufacturerLogos = {
   },
   japanparts: {
     name: 'Japanparts',
-    logo: 'https://www.japanparts.it/images/logo.png',
-    categories: ['chassis', 'engine', 'clutch', 'others']
+    logo: 'https://logo.clearbit.com/japanparts.it',
+    categories: ['chassis', 'engine', 'clutch']
   },
   kolbenschmidt: {
     name: 'Kolbenschmidt',
-    logo: 'https://www.ms-motorservice.com/typo3conf/ext/ms_ms/Resources/Public/Images/logo-kolbenschmidt.svg',
+    logo: 'https://logo.clearbit.com/kolbenschmidt.com',
     categories: ['engine']
   },
   kyb: {
@@ -160,33 +161,33 @@ export const manufacturerLogos = {
   },
   lemforder: {
     name: 'Lemförder',
-    logo: 'https://www.zf.com/img/zf_logo.svg',
+    logo: 'https://logo.clearbit.com/zf.com',
     categories: ['chassis']
   },
   lesjofors: {
     name: 'Lesjöfors',
-    logo: 'https://www.lesjoforsab.com/globalassets/lesjofors-ab/lesjofors_logo.svg',
+    logo: 'https://logo.clearbit.com/lesjoforsab.com',
     categories: ['chassis']
   },
   liquimoly: {
     name: 'Liqui Moly',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Liqui_Moly_logo.svg/320px-Liqui_Moly_logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   lobro: {
     name: 'Löbro',
-    logo: 'https://www.gknautomotive.com/sites/default/files/logo_0.svg',
+    logo: 'https://logo.clearbit.com/gknautomotive.com',
     categories: ['others']
   },
   luk: {
     name: 'LUK',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/LuK_logo.svg/320px-LuK_logo.svg.png',
-    categories: ['clutch', 'others']
+    categories: ['clutch']
   },
   magnetimarelli: {
     name: 'Magneti Marelli',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Magneti_Marelli_logo.svg/320px-Magneti_Marelli_logo.svg.png',
-    categories: ['electrical', 'others']
+    categories: ['electrical']
   },
   mahle: {
     name: 'MAHLE',
@@ -195,47 +196,47 @@ export const manufacturerLogos = {
   },
   mannfilter: {
     name: 'MANN-FILTER',
-    logo: 'https://www.mann-hummel.com/var/site/storage/images/_aliases/crop_freeform_width/3/5/7/1/11753-1-eng-GB/mann_hummel_logo.png',
+    logo: 'https://logo.clearbit.com/mann-hummel.com',
     categories: ['filters']
   },
   maxgear: {
     name: 'Maxgear',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=MAXGEAR',
+    logo: 'https://logo.clearbit.com/maxgear.eu',
     categories: ['chassis', 'brakes']
   },
   metzger: {
     name: 'Metzger',
-    logo: 'https://www.metzger-mcz.com/themes/custom/metzger/logo.svg',
-    categories: ['engine', 'electrical']
+    logo: 'https://logo.clearbit.com/metzger-mcz.com',
+    categories: ['engine']
   },
   meyle: {
     name: 'Meyle',
     logo: 'https://www.meyle.com/typo3conf/ext/sitepackage_meyle/Resources/Public/Images/meyle-logo.svg',
-    categories: ['chassis', 'brakes', 'others']
+    categories: ['chassis', 'brakes']
   },
   mobil: {
     name: 'Mobil',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mobil_logo.svg/320px-Mobil_logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   motul: {
     name: 'Motul',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Motul_logo.svg/320px-Motul_logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   narva: {
     name: 'Narva',
-    logo: 'https://www.narva.de/fileadmin/user_upload/NARVA/Logos/NARVA_Logo.svg',
+    logo: 'https://logo.clearbit.com/narva.de',
     categories: ['lighting']
   },
   ngk: {
     name: 'NGK',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NGK_Spark_Plugs_logo.svg/320px-NGK_Spark_Plugs_logo.svg.png',
-    categories: ['electrical']
+    categories: ['others']
   },
   nissens: {
     name: 'Nissens',
-    logo: 'https://www.nissens.com/sites/default/files/logo.svg',
+    logo: 'https://logo.clearbit.com/nissens.com',
     categories: ['engine', 'climate']
   },
   nk: {
@@ -245,12 +246,12 @@ export const manufacturerLogos = {
   },
   ntk: {
     name: 'NTK',
-    logo: 'https://via.placeholder.com/150x60/CC0000/FFFFFF?text=NTK',
-    categories: ['electrical']
+    logo: 'https://logo.clearbit.com/ntktech.com',
+    categories: ['others']
   },
   optimal: {
     name: 'Optimal',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=OPTIMAL',
+    logo: 'https://logo.clearbit.com/optimal-ag.de',
     categories: ['chassis', 'brakes']
   },
   philips: {
@@ -260,18 +261,18 @@ export const manufacturerLogos = {
   },
   pierburg: {
     name: 'Pierburg',
-    logo: 'https://www.rheinmetall-automotive.com/typo3conf/ext/rheinmetall_template/Resources/Public/Icons/logo-pierburg.svg',
-    categories: ['engine', 'electrical']
+    logo: 'https://logo.clearbit.com/rheinmetall-automotive.com',
+    categories: ['engine']
   },
   quaro: {
     name: 'Quaro',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=QUARO',
+    logo: 'https://logo.clearbit.com/quaro.de',
     categories: ['brakes', 'chassis']
   },
   ravenol: {
     name: 'Ravenol',
-    logo: 'https://www.ravenol.de/images/ravenol-logo.svg',
-    categories: ['filters']
+    logo: 'https://logo.clearbit.com/ravenol.de',
+    categories: ['others']
   },
   sachs: {
     name: 'Sachs',
@@ -281,37 +282,37 @@ export const manufacturerLogos = {
   shell: {
     name: 'Shell',
     logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Shell_logo.svg/320px-Shell_logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   skf: {
     name: 'SKF',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/SKF_logo.svg/320px-SKF_logo.svg.png',
-    categories: ['engine', 'chassis']
+    categories: ['others']
   },
   spidan: {
     name: 'Spidan',
-    logo: 'https://www.gknautomotive.com/sites/default/files/logo_0.svg',
+    logo: 'https://logo.clearbit.com/gknautomotive.com',
     categories: ['others']
   },
   stabilus: {
     name: 'Stabilus',
-    logo: 'https://www.stabilus.com/fileadmin/user_upload/logos/stabilus-logo.svg',
+    logo: 'https://logo.clearbit.com/stabilus.com',
     categories: ['interior']
   },
   swf: {
     name: 'SWF',
-    logo: 'https://www.valeo.com/wp-content/themes/valeo/assets/images/logo.svg',
+    logo: 'https://logo.clearbit.com/valeo.com',
     categories: ['others']
   },
   textar: {
     name: 'Textar',
-    logo: 'https://www.textar.com/typo3conf/ext/tmg_textar/Resources/Public/Images/logo.svg',
+    logo: 'https://logo.clearbit.com/textar.com',
     categories: ['brakes']
   },
   total: {
     name: 'Total',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TotalEnergies_logo.svg/320px-TotalEnergies_logo.svg.png',
-    categories: ['filters']
+    categories: ['others']
   },
   trw: {
     name: 'TRW',
@@ -321,21 +322,21 @@ export const manufacturerLogos = {
   valeo: {
     name: 'Valeo',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Valeo_Logo.svg/320px-Valeo_Logo.svg.png',
-    categories: ['clutch', 'electrical']
+    categories: ['clutch']
   },
   vanwezel: {
     name: 'Van Wezel',
-    logo: 'https://www.vanwezel.net/sites/default/files/logo.png',
+    logo: 'https://logo.clearbit.com/vanwezel.net',
     categories: ['body']
   },
   varta: {
     name: 'Varta',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Varta_Logo.svg/320px-Varta_Logo.svg.png',
-    categories: ['electrical']
+    categories: ['others']
   },
   victorreinz: {
     name: 'Victor Reinz',
-    logo: 'https://www.dana.com/globalassets/logos/victor-reinz-logo.svg',
+    logo: 'https://logo.clearbit.com/dana.com',
     categories: ['engine']
   },
   zf: {
