@@ -305,7 +305,7 @@ export const manufacturerLogos = {
   },
   textar: {
     name: 'Textar',
-    logo: 'https://www.textar.com/typo3conf/ext/tmg_textar/Resources/Public/Images/logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/p58g1x9s_textar.webp',
     categories: ['brakes']
   },
   total: {
