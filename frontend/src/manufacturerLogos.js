@@ -85,7 +85,7 @@ export const manufacturerLogos = {
   },
   corteco: {
     name: 'Corteco',
-    logo: 'https://logo.clearbit.com/corteco.com',
+    logo: 'https://www.corteco.com/themes/custom/corteco/logo.svg',
     categories: ['engine']
   },
   dayco: {
