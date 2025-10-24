@@ -40,7 +40,7 @@ export const manufacturerLogos = {
   },
   blueprint: {
     name: 'Blue Print',
-    logo: 'https://media.daparto.com/media/image/38/ce/a9/adn1000033_herstellerlogo_200x200.jpg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/jk06mvt5_blueprint.svg',
     categories: ['brakes', 'chassis']
   },
   borgwarner: {
