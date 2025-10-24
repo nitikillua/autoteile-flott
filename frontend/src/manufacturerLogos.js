@@ -245,7 +245,7 @@ export const manufacturerLogos = {
   },
   ntk: {
     name: 'NTK',
-    logo: 'https://via.placeholder.com/150x60/CC0000/FFFFFF?text=NTK',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fxolueg9_ntk.png',
     categories: ['electrical']
   },
   optimal: {
