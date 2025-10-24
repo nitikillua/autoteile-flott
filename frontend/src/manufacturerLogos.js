@@ -150,7 +150,7 @@ export const manufacturerLogos = {
   },
   kolbenschmidt: {
     name: 'Kolbenschmidt',
-    logo: 'https://www.ms-motorservice.com/typo3conf/ext/ms_ms/Resources/Public/Images/logo-kolbenschmidt.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/siyo6g76_kolbenschmidt.jpg',
     categories: ['engine']
   },
   kyb: {
