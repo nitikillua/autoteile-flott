@@ -70,17 +70,15 @@ const CategoryDetailModal = ({ isOpen, onClose, categoryId }) => {
           <div className="mt-8 pt-6 border-t border-gray-200">
             <div className="bg-blue-50 rounded-xl p-6 text-center">
               <p className="text-slate-700 mb-4">
-                Haben Sie Fragen zu dieser Kategorie? Schreiben Sie uns auf WhatsApp!
+                Haben Sie Fragen zu dieser Kategorie? Kontaktieren Sie uns!
               </p>
-              <a
-                href="https://wa.me/491744185651?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20Autoteile%20und%20h%C3%A4tte%20gerne%20eine%20Beratung."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-lg hover:bg-green-700 transition-all hover:scale-105 shadow-md"
+              <button
+                onClick={scrollToContact}
+                className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-md"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
-                WhatsApp Nachricht
-              </a>
+                Kontakt
+              </button>
             </div>
           </div>
         </div>
