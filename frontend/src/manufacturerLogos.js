@@ -20,7 +20,7 @@ export const manufacturerLogos = {
   },
   ate: {
     name: 'ATE',
-    logo: 'https://logo.clearbit.com/ate-brakes.com',
+    logo: 'https://www.ate-brakes.com/wp-content/uploads/2018/06/ate_logo.png',
     categories: ['brakes']
   },
   beru: {
