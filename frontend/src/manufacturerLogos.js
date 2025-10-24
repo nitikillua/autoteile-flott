@@ -120,7 +120,7 @@ export const manufacturerLogos = {
   },
   gkn: {
     name: 'GKN',
-    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ze5gzkw2_gkn%20spidan%20loebro.jpg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/r95s7vld_GKN_Logo.svg.png',
     categories: ['others']
   },
   hella: {
