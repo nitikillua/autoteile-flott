@@ -335,7 +335,7 @@ export const manufacturerLogos = {
   },
   victorreinz: {
     name: 'Victor Reinz',
-    logo: 'https://www.dana.com/globalassets/logos/victor-reinz-logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/qsgebao0_victor-reinz.png',
     categories: ['engine']
   },
   zf: {
