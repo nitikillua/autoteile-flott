@@ -50,7 +50,7 @@ export const manufacturerLogos = {
   },
   bosal: {
     name: 'BOSAL',
-    logo: 'https://www.bosal.com/sites/default/files/logo_1.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/9znxe8og_bosal-logo-1.svg',
     categories: ['exhaust']
   },
   bosch: {
