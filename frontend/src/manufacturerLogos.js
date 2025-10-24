@@ -215,7 +215,7 @@ export const manufacturerLogos = {
   },
   mobil: {
     name: 'Mobil',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mobil_logo.svg/320px-Mobil_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ml451l30_Mobil_logo.svg.png',
     categories: ['filters']
   },
   motul: {
