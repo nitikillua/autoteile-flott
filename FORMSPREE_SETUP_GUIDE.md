@@ -136,7 +136,7 @@ For a business like Autoteile Flott, we recommend starting with a paid plan to e
 ### Issue: CORS errors
 **Solution:**
 - In Formspree settings, add your domain to allowed origins
-- For development: `https://auto-parts-consult.preview.emergentagent.com`
+- For development: `https://autoteile-landing.preview.emergentagent.com`
 - For production: Your actual domain
 
 ## Multi-Language Support
