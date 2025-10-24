@@ -315,7 +315,7 @@ export const manufacturerLogos = {
   },
   trw: {
     name: 'TRW',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TRW_Automotive_logo.svg/320px-TRW_Automotive_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/arzw0rvf_TRW_logo.svg.png',
     categories: ['brakes']
   },
   valeo: {
