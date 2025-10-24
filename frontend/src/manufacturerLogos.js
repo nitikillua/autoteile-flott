@@ -250,7 +250,7 @@ export const manufacturerLogos = {
   },
   optimal: {
     name: 'Optimal',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=OPTIMAL',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/v0rrc3z9_optimal.png',
     categories: ['chassis', 'brakes']
   },
   philips: {
