@@ -70,7 +70,7 @@ export const manufacturerLogos = {
   },
   bugiad: {
     name: 'Bugiad',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=BUGIAD',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ywca3399_bugiad.png',
     categories: ['others']
   },
   castrol: {
