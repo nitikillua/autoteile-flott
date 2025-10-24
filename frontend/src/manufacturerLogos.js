@@ -300,7 +300,7 @@ export const manufacturerLogos = {
   },
   swf: {
     name: 'SWF',
-    logo: 'https://www.valeo.com/wp-content/themes/valeo/assets/images/logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/f1b5ik8m_swf.gif',
     categories: ['others']
   },
   textar: {
