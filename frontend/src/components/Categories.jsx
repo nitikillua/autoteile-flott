@@ -14,6 +14,17 @@ const Categories = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(3);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if mobile
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const handleReadMore = (categoryId) => {
     setSelectedCategory(categoryId);
@@ -28,8 +39,8 @@ const Categories = () => {
     }
   };
 
-  const visibleCategories = t.categories.items.slice(0, visibleCount);
-  const hasMoreToShow = visibleCount < t.categories.items.length;
+  const visibleCategories = isMobile ? t.categories.items.slice(0, visibleCount) : t.categories.items;
+  const hasMoreToShow = isMobile && visibleCount < t.categories.items.length;
 
   return (
     <>
