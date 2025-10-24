@@ -80,7 +80,7 @@ export const manufacturerLogos = {
   },
   continental: {
     name: 'Continental',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Continental_AG_logo.svg/320px-Continental_AG_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/kywpcc4l_Continental-Logo.svg.png',
     categories: ['engine']
   },
   corteco: {
