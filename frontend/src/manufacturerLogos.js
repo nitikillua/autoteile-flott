@@ -265,7 +265,7 @@ export const manufacturerLogos = {
   },
   quaro: {
     name: 'Quaro',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=QUARO',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ir2vuf35_quaro.png',
     categories: ['brakes', 'chassis']
   },
   ravenol: {
