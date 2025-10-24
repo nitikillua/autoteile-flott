@@ -165,7 +165,7 @@ export const manufacturerLogos = {
   },
   lesjofors: {
     name: 'Lesjöfors',
-    logo: 'https://www.lesjoforsab.com/globalassets/lesjofors-ab/lesjofors_logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/cel6y66i_lesjofors-logo-without-payoff.jpg',
     categories: ['chassis']
   },
   liquimoly: {
