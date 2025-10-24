@@ -160,7 +160,7 @@ export const manufacturerLogos = {
   },
   lemforder: {
     name: 'Lemförder',
-    logo: 'https://www.zf.com/img/zf_logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/0jida6im_lemfoerder-logo-cmyk.png',
     categories: ['chassis']
   },
   lesjofors: {
