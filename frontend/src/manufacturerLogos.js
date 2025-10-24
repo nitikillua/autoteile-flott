@@ -105,7 +105,7 @@ export const manufacturerLogos = {
   },
   era: {
     name: 'ERA',
-    logo: 'https://via.placeholder.com/150x60/0066CC/FFFFFF?text=ERA',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/5x65m497_era.png',
     categories: ['electrical']
   },
   fag: {
