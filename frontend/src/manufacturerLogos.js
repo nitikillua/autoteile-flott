@@ -225,7 +225,7 @@ export const manufacturerLogos = {
   },
   narva: {
     name: 'Narva',
-    logo: 'https://www.narva.de/fileadmin/user_upload/NARVA/Logos/NARVA_Logo.svg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/pxf4d6q2_narva.jpg',
     categories: ['lighting']
   },
   ngk: {
