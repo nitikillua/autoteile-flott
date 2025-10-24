@@ -140,7 +140,7 @@ export const manufacturerLogos = {
   },
   ina: {
     name: 'INA',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/INA_logo.svg/320px-INA_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/u1v6id4c_INA_logo.svg.png',
     categories: ['engine']
   },
   japanparts: {
