@@ -155,7 +155,6 @@ const Header = () => {
                 onClick={() => scrollToSection('contact')}
                 className="flex items-center justify-center w-full px-4 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
               >
-                <MessageCircle className="w-4 h-4 mr-2" />
                 {t.nav.contact}
               </button>
             </div>
