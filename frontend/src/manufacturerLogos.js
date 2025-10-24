@@ -145,7 +145,7 @@ export const manufacturerLogos = {
   },
   japanparts: {
     name: 'Japanparts',
-    logo: 'https://www.japanparts.it/images/logo.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/8bz0n8mv_japanparts_logo.png',
     categories: ['chassis', 'engine', 'clutch', 'others']
   },
   kolbenschmidt: {
