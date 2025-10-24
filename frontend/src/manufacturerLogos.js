@@ -45,7 +45,7 @@ export const manufacturerLogos = {
   },
   borgwarner: {
     name: 'BorgWarner',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/BorgWarner_logo.svg/320px-BorgWarner_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/rfw0h2e5_BorgWarner_logo.svg.png',
     categories: ['electrical', 'exhaust']
   },
   bosal: {
