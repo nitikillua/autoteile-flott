@@ -340,7 +340,7 @@ export const manufacturerLogos = {
   },
   zf: {
     name: 'ZF',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/ZF_logo.svg/320px-ZF_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/uw2hfztf_ZF_logo_STD_Blue_3CC.svg',
     categories: ['filters']
   }
 };
