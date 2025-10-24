@@ -195,7 +195,7 @@ export const manufacturerLogos = {
   },
   mannfilter: {
     name: 'MANN-FILTER',
-    logo: 'https://www.mann-hummel.com/var/site/storage/images/_aliases/crop_freeform_width/3/5/7/1/11753-1-eng-GB/mann_hummel_logo.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/zqxdg46p_mann%20filter.webp',
     categories: ['filters']
   },
   maxgear: {
