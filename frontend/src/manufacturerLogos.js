@@ -65,7 +65,7 @@ export const manufacturerLogos = {
   },
   budweg: {
     name: 'Budweg Caliper',
-    logo: 'https://via.placeholder.com/150x60/CC0000/FFFFFF?text=Budweg',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fz2f1i9c_budweg_nav.png',
     categories: ['brakes']
   },
   bugiad: {
