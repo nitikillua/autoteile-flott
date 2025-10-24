@@ -180,7 +180,7 @@ export const manufacturerLogos = {
   },
   luk: {
     name: 'LUK',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/LuK_logo.svg/320px-LuK_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fbagojwz_LuK_logo.svg',
     categories: ['clutch', 'others']
   },
   magnetimarelli: {
