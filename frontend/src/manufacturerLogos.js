@@ -20,7 +20,7 @@ export const manufacturerLogos = {
   },
   ate: {
     name: 'ATE',
-    logo: 'https://www.ate-brakes.com/wp-content/uploads/2018/06/ate_logo.png',
+    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/q5irozu4_ate_bremsen.png',
     categories: ['brakes']
   },
   beru: {
