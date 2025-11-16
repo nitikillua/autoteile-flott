@@ -75,7 +75,7 @@ export const translations = {
           id: 'body',
           name: 'Karosserie',
           description: 'Außenspiegel, Türgriffe, Stoßfänger, Kotflügel – für perfekte Optik und Funktionalität. Original- und Aftermarket-Teile in geprüfter Qualität.',
-          image: 'https://images.unsplash.com/photo-1661501316011-607a6871ecce'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/knk1i0xe_karosserie.webp'
         },
         {
           id: 'interior',
