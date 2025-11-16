@@ -93,7 +93,7 @@ export const translations = {
           id: 'others',
           name: 'Sonstige',
           description: 'Scheibenwischer, Reifen, Anhängerkupplungen und vieles mehr. Alles was Sie für Ihr Fahrzeug benötigen – wir haben es oder besorgen es für Sie.',
-          image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/qoza0hlx_sonstige.jpg'
         }
       ]
     },
