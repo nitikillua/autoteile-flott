@@ -63,7 +63,7 @@ export const translations = {
           id: 'clutch',
           name: 'Kupplung',
           description: 'Kupplungssätze, Zweimassenschwungräder, Ausrücklager – für sanfte Gangwechsel und lange Lebensdauer. Wir finden den passenden Kupplungssatz für Ihr Fahrzeug.',
-          image: 'https://images.unsplash.com/photo-1603925246538-193f96ec9acd'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/nakw9ewc_kupplung.webp'
         },
         {
           id: 'engine',
