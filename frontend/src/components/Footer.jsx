@@ -20,7 +20,7 @@ const Footer = () => {
               className="h-16 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-slate-400">
-              Ihr Partner für Autoteile in Feldkirchen und Umgebung.
+              Ihr Partner für Autoteile in Feldkirchen, Aschheim, Haar, Trudering und Poing.
             </p>
           </div>
 
