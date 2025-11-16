@@ -92,9 +92,6 @@ export const categoryDetails = {
         <p><strong>Wann müssen Stoßdämpfer gewechselt werden?</strong><br>
         Bei schwammigem Fahrverhalten, längeren Bremswegen oder ungleichmäßigem Reifenverschleiß.</p>
         
-        <p><strong>Kann ich Sportfedern ohne Probleme einbauen?</strong><br>
-        Das hängt vom Fahrzeug ab. Wir beraten Sie gerne zu den Möglichkeiten und zur Eintragung.</p>
-        
         <p><strong>Vertrauen Sie unserer Erfahrung:</strong> Wir finden die passenden Fahrwerksteile für Ihre Ansprüche.</p>
       `,
       keywords: ['Stoßdämpfer', 'Federn', 'Querlenker', 'Stabilisatoren', 'Radlager']
