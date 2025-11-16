@@ -186,9 +186,9 @@ export const categoryDetails = {
         <h3>Unser Kupplungs-Sortiment</h3>
         <ul>
           <li><strong>Kupplungssätze:</strong> 3-teilig mit Druckplatte, Scheibe und Ausrücklager</li>
-          <li><strong>Zweimassenschwungräder:</strong> Original und verstärkte Ausführungen</li>
+          <li><strong>Zweimassenschwungräder:</strong> in Erstausrüster Qualität</li>
           <li><strong>Ausrücksysteme:</strong> Hydraulisch und mechanisch</li>
-          <li><strong>Kupplungsscheiben:</strong> Standard und für hohe Drehmomente</li>
+          <li><strong>Kupplungsscheiben:</strong> in Erstausrüster Qualität</li>
           <li><strong>Geberzylinder:</strong> Für hydraulische Kupplungen</li>
         </ul>
         
