@@ -109,9 +109,9 @@ const ContactForm = () => {
       return;
     }
     
-    // TSN: only numbers, max 3 digits
+    // TSN: alphanumeric, max 3 characters
     if (name === 'tsn') {
-      const filtered = value.replace(/\D/g, '').slice(0, 3);
+      const filtered = value.toUpperCase().slice(0, 3);
       setFormData({ ...formData, [name]: filtered });
       return;
     }
