@@ -51,7 +51,7 @@ export const translations = {
           id: 'lighting',
           name: 'Beleuchtung',
           description: 'Scheinwerfer, Leuchtmittel, Rücklichter – für optimale Sicht und Sicherheit bei Tag und Nacht. LED, Xenon oder Halogen – wir haben die richtige Beleuchtung für Ihr Fahrzeug.',
-          image: 'https://images.unsplash.com/photo-1542282088-fe8426682b8f'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/027lpw4v_beleuchtung.jpg'
         },
         {
           id: 'exhaust',
