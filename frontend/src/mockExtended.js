@@ -132,11 +132,10 @@ export const categoryDetails = {
         
         <h3>Unser Beleuchtungssortiment</h3>
         <ul>
-          <li><strong>Scheinwerfer:</strong> Halogen, Xenon und LED-Scheinwerfer</li>
+          <li><strong>Scheinwerfer:</strong> Halogen, Xenon und LED-Scheinwerfer + LED-Umrüstsets</li>
           <li><strong>Leuchtmittel:</strong> H1, H4, H7 und alle gängigen Typen</li>
-          <li><strong>Rückleuchten:</strong> Original und Tuning-Varianten</li>
+          <li><strong>Rückleuchten:</strong> in Erstausrüster Qualität</li>
           <li><strong>Nebelscheinwerfer:</strong> Für bessere Sicht bei schlechtem Wetter</li>
-          <li><strong>Innenraumbeleuchtung:</strong> LED-Umrüstsets</li>
         </ul>
         
         <h3>Häufig gestellte Fragen</h3>
