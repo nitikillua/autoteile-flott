@@ -45,7 +45,7 @@ export const translations = {
           id: 'electrical',
           name: 'Elektrik',
           description: 'Batterien, Anlasser, Lichtmaschinen und elektrische Komponenten – kompetente Beratung für alle elektrischen Autoteile. Wir finden die richtige Lösung für Ihr Fahrzeug.',
-          image: 'https://images.unsplash.com/photo-1640018578914-abe1d592ef50'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/hb1f5eac_elektrik.jpg'
         },
         {
           id: 'lighting',
