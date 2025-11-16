@@ -313,7 +313,7 @@ export const categoryDetails = {
     },
     others: {
       title: 'Weitere Autoteile und Zubehör',
-      intro: 'Alles, was Sie sonst noch benötigen – von Scheibenwischern bis Anhängerkupplungen.',
+      intro: 'Alles, was Sie sonst noch benötigen – von Scheibenwischern bis Pflegemitteln.',
       content: `
         <h3>Umfangreiches Sortiment für alle Bedürfnisse</h3>
         <p>Neben den Hauptkategorien führen wir ein breites Sortiment an weiteren Autoteilen und Zubehör. Egal was Sie suchen – wir haben es oder besorgen es für Sie.</p>
@@ -321,9 +321,6 @@ export const categoryDetails = {
         <h3>Weitere Produkte</h3>
         <ul>
           <li><strong>Scheibenwischer:</strong> Alle Längen und Typen</li>
-          <li><strong>Reifen:</strong> Sommer, Winter und Ganzjahresreifen</li>
-          <li><strong>Anhängerkupplungen:</strong> Fest und abnehmbar</li>
-          <li><strong>Dichtungen:</strong> Für Türen, Fenster und Kofferraum</li>
           <li><strong>Pflegemittel:</strong> Motoröl, Frostschutz, Reiniger</li>
         </ul>
         
