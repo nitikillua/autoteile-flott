@@ -116,7 +116,12 @@ export const manufacturerLogos = {
   era: {
     name: 'ERA',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/5x65m497_era.png',
-    categories: ['electrical']
+    categories: ['electrical', 'climate']
+  },
+  ernst: {
+    name: 'ERNST',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/xfgq4iey_ernst-vector-logo.png',
+    categories: ['exhaust']
   },
   fag: {
     name: 'FAG',
