@@ -288,6 +288,11 @@ export const manufacturerLogos = {
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/q0sivwaj_pierburg.jpg',
     categories: ['engine', 'electrical']
   },
+  prasco: {
+    name: 'PRASCO',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/ye97eaiq_PRASCO.webp',
+    categories: ['body']
+  },
   quaro: {
     name: 'Quaro',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ir2vuf35_quaro.png',
