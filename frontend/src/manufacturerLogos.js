@@ -206,7 +206,7 @@ export const manufacturerLogos = {
   mahle: {
     name: 'MAHLE',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ts4h1wbn_Mahle_%28Unternehmen%29_2020_logo.svg',
-    categories: ['filters', 'engine']
+    categories: ['filters', 'engine', 'climate']
   },
   mannfilter: {
     name: 'MANN-FILTER',
