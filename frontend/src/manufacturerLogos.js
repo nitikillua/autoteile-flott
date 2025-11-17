@@ -41,7 +41,7 @@ export const manufacturerLogos = {
   blueprint: {
     name: 'Blue Print',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/jk06mvt5_blueprint.svg',
-    categories: ['brakes', 'chassis']
+    categories: ['brakes', 'chassis', 'clutch']
   },
   borgwarner: {
     name: 'BorgWarner',
