@@ -258,6 +258,11 @@ export const manufacturerLogos = {
     logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=NK',
     categories: ['chassis']
   },
+  nrf: {
+    name: 'NRF',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/e05euxnv_NRF_LOGO_PNG.png',
+    categories: ['climate']
+  },
   ntk: {
     name: 'NTK',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fxolueg9_ntk.png',
