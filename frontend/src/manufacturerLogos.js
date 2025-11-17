@@ -273,6 +273,11 @@ export const manufacturerLogos = {
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/v0rrc3z9_optimal.png',
     categories: ['chassis', 'brakes']
   },
+  osram: {
+    name: 'OSRAM',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Osram_logo.svg/320px-Osram_logo.svg.png',
+    categories: ['lighting']
+  },
   philips: {
     name: 'Philips',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Philips_logo_new.svg/320px-Philips_logo_new.svg.png',
