@@ -276,7 +276,7 @@ export const manufacturerLogos = {
   sachs: {
     name: 'Sachs',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/yf7kh5h8_sachs-2.svg',
-    categories: ['chassis']
+    categories: ['chassis', 'clutch']
   },
   shell: {
     name: 'Shell',
