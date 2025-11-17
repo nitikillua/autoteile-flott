@@ -351,7 +351,7 @@ export const manufacturerLogos = {
   valeo: {
     name: 'Valeo',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/bn11b1rn_Valeo_Logo.svg.png',
-    categories: ['clutch', 'electrical']
+    categories: ['clutch', 'electrical', 'lighting', 'climate']
   },
   vanwezel: {
     name: 'Van Wezel',
