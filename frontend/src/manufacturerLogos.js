@@ -350,7 +350,7 @@ export const manufacturerLogos = {
   },
   triscan: {
     name: 'Triscan',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Triscan_logo.svg/320px-Triscan_logo.svg.png',
+    logo: 'https://logo.clearbit.com/triscan.dk',
     categories: ['drivetrain']
   },
   valeo: {
