@@ -177,23 +177,36 @@ export const categoryDetailsHU = {
     `,
     keywords: ['Külső tükrök', 'Ajtókilincsek', 'Lökhárítók', 'Sárvédők', 'Díszlécek']
   },
-  interior: {
-    title: 'Belső tér alkatrészek a kényelemért',
-    intro: 'Ülések, kormánykerekek, burkolatok – kellemes vezetési élményért.',
+  drivetrain: {
+    title: 'Hajtáslánc alkatrészek erőteljes erőátvitelhez',
+    intro: 'Hajtótengelyek, csuklók, kardántengelyek – biztonságos erőátvitelhez a kerekekhez.',
     content: `
-      <h3>A belső tér – személyes komfortzónája</h3>
-      <p>Az elhasználódott vagy sérült belső alkatrészek csökkentik a vezetési kényelmet. Pótalkatrészeket és kiegészítőket kínálunk a gondozott belső térhez.</p>
+      <h3>A hajtáslánc – az erőátvitel szíve</h3>
+      <p>A hajtáslánc továbbítja a motor teljesítményét a kerekekhez. A kopás vagy hibák rezgésekhez, zajokhoz vezetnek és ronthatják a vezetési biztonságot. Kiváló minőségű hajtáslánc alkatrészeket szállítunk OEM minőségben.</p>
       
-      <h3>Belső tér kínálatunk</h3>
+      <h3>Hajtáslánc kínálatunk</h3>
       <ul>
-        <li><strong>Üléshuzatok:</strong> Szövet, bőr és műbőr</li>
-        <li><strong>Kormánykerekek:</strong> Eredeti és sport kormánykerekek</li>
-        <li><strong>Burkolatok:</strong> Ajtóburkolatok és középkonzolok</li>
-        <li><strong>Szőnyegek:</strong> Gumi és textil</li>
-        <li><strong>Napellenzők:</strong> Tükörrel és anélkül</li>
+        <li><strong>Hajtótengelyek:</strong> Komplett csuklókkal és védőgumikkal</li>
+        <li><strong>Csuklók:</strong> Első-, hátsó- és összkerékhajtáshoz</li>
+        <li><strong>Kardántengelyek:</strong> Hátsó- és összkerékhajtású járművekhez</li>
+        <li><strong>CV-csuklók:</strong> Homokinetikus csuklók egyenletes futáshoz</li>
+        <li><strong>Hajtótengely védőgumik:</strong> Megbízható csukló védelemhez</li>
+        <li><strong>Tengely csapágyak:</strong> Rezgésmentes futáshoz</li>
       </ul>
+      
+      <h3>Gyakran feltett kérdések</h3>
+      <p><strong>Hogyan ismerem fel a hibás hajtótengelyt?</strong><br>
+      Tipikus tünetek a kattogó hangok kormányzáskor, rezgések gyorsításkor vagy láthatóan sérült védőgumik.</p>
+      
+      <p><strong>Javíthatók a hajtótengelyek?</strong><br>
+      A legtöbb esetben a csere gazdaságosabb és biztonságosabb, mint a javítás.</p>
+      
+      <p><strong>Milyen gyakran kell ellenőrizni a hajtótengely védőgumikat?</strong><br>
+      A védőgumikat minden vizsgálatnál ellenőrizni kell repedések és sérülések szempontjából.</p>
+      
+      <p><strong>Bízzon tapasztalatunkban:</strong> Megtaláljuk a megfelelő hajtáslánc alkatrészeket járművéhez – akár első-, hátsó- vagy összkerékhajtásról van szó.</p>
     `,
-    keywords: ['Üléshuzatok', 'Kormány', 'Burkolatok', 'Szőnyegek', 'Belső felszerelés']
+    keywords: ['Hajtótengely', 'Csukló', 'Kardántengely', 'CV-csukló', 'Homokinetikus', 'Védőgumi']
   },
   climate: {
     title: 'Klíma és fűtés a tökéletes hőmérséklethez',
