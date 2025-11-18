@@ -11,7 +11,6 @@ import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
-import AGB from './pages/AGB';
 
 const HomePage = () => (
   <>
