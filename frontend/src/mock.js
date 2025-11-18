@@ -199,13 +199,13 @@ export const translations = {
           id: 'climate',
           name: 'Climate & Heating',
           description: 'AC compressors, condensers, heater blowers – for comfortable temperatures in any season. Professional advice for your climate system.',
-          image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399'
+          image: 'https://customer-assets.emergentagent.com/job_autoberatung/artifacts/idk0bzb2_heizung.png'
         },
         {
           id: 'others',
           name: 'Others',
           description: 'Wiper blades, tires, trailer hitches and much more. Everything you need for your vehicle – we have it or we get it for you.',
-          image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/qoza0hlx_sonstige.jpg'
         }
       ]
     },
