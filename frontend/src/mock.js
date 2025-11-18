@@ -39,7 +39,7 @@ export const translations = {
           id: 'chassis',
           name: 'Fahrwerk',
           description: 'Stoßdämpfer, Federn, Querlenker und weitere Fahrwerkskomponenten in geprüfter Qualität. Wir sorgen dafür, dass Sie die passenden Teile für sicheres Fahren erhalten.',
-          image: 'https://images.unsplash.com/photo-1610876126529-fb3aa7e9abc1'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/hvcgzlb3_fahrwerk%20%282%29.jpg'
         },
         {
           id: 'electrical',
