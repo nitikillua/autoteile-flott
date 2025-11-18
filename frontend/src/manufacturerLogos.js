@@ -316,7 +316,7 @@ export const manufacturerLogos = {
   skf: {
     name: 'SKF',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/b3lvhhfa_skf.png',
-    categories: ['engine', 'chassis']
+    categories: ['engine', 'chassis', 'drivetrain']
   },
   spidan: {
     name: 'Spidan',
