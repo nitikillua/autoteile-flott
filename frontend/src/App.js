@@ -35,7 +35,6 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/datenschutz" element={<Datenschutz />} />
-            <Route path="/agb" element={<AGB />} />
           </Routes>
         </div>
       </BrowserRouter>
