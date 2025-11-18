@@ -320,7 +320,7 @@ export const manufacturerLogos = {
   },
   spidan: {
     name: 'Spidan',
-    logo: 'https://logo.clearbit.com/spidanchassisparts.com',
+    logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/w0g2l6fu_image.png',
     categories: ['drivetrain', 'others']
   },
   stabilus: {
