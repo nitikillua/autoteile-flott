@@ -112,7 +112,7 @@ export const translations = {
     },
     footer: {
       tagline: '© 2025 Autoteile Flott. Alle Rechte vorbehalten.',
-      links: ['Impressum', 'Datenschutz', 'AGB']
+      links: ['Impressum', 'Datenschutz']
     }
   },
   en: {
