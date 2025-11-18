@@ -44,14 +44,6 @@ const Footer = () => {
                   Datenschutz
                 </button>
               </li>
-              <li>
-                <button 
-                  onClick={() => navigate('/agb')}
-                  className="text-slate-400 hover:text-white transition-colors"
-                >
-                  AGB
-                </button>
-              </li>
             </ul>
           </div>
 
