@@ -33,7 +33,7 @@ export const translations = {
           id: 'filters',
           name: 'Öl und Filter',
           description: 'Luftfilter, Ölfilter, Kraftstofffilter – wir haben die richtigen Filter für optimale Motorleistung. Lassen Sie sich von uns beraten, welcher Filter zu Ihrem Wartungsintervall passt.',
-          image: 'https://images.unsplash.com/photo-1588294020274-1e23a4815b72'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/ox4a7k60_Filter.jpeg'
         },
         {
           id: 'chassis',
