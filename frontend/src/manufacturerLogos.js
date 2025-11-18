@@ -136,7 +136,7 @@ export const manufacturerLogos = {
   gkn: {
     name: 'GKN',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/r95s7vld_GKN_Logo.svg.png',
-    categories: ['others']
+    categories: ['drivetrain', 'others']
   },
   hella: {
     name: 'HELLA',
