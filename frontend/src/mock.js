@@ -139,61 +139,61 @@ export const translations = {
           id: 'brakes',
           name: 'Brakes',
           description: 'We supply high-quality brake components for all vehicle types – brake discs, brake pads, and complete brake systems. Our experts will advise you on which parts are perfect for your vehicle.',
-          image: 'https://images.unsplash.com/photo-1613214150384-14921ff659b2'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/x2n4ufrn_bremsen.jpg'
         },
         {
           id: 'filters',
           name: 'Oil and Filters',
           description: 'Air filters, oil filters, fuel filters – we have the right filters for optimal engine performance. Let us advise you on which filter suits your maintenance interval.',
-          image: 'https://images.unsplash.com/photo-1588294020274-1e23a4815b72'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/ox4a7k60_Filter.jpeg'
         },
         {
           id: 'chassis',
           name: 'Chassis',
           description: 'Shock absorbers, springs, control arms, and other chassis components in tested quality. We ensure you get the right parts for safe driving.',
-          image: 'https://images.unsplash.com/photo-1610876126529-fb3aa7e9abc1'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/hvcgzlb3_fahrwerk%20%282%29.jpg'
         },
         {
           id: 'electrical',
           name: 'Electrical',
           description: 'Batteries, starters, alternators, and electrical components – expert advice for all electrical auto parts. We find the right solution for your vehicle.',
-          image: 'https://images.unsplash.com/photo-1640018578914-abe1d592ef50'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/hb1f5eac_elektrik.jpg'
         },
         {
           id: 'lighting',
           name: 'Lighting',
           description: 'Headlights, bulbs, taillights – for optimal visibility and safety day and night. LED, Xenon or Halogen – we have the right lighting for your vehicle.',
-          image: 'https://images.unsplash.com/photo-1542282088-fe8426682b8f'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/027lpw4v_beleuchtung.jpg'
         },
         {
           id: 'exhaust',
           name: 'Exhaust',
           description: 'Mufflers, catalytic converters, particulate filters and exhaust pipes – for clean emissions and optimal performance. Original or sports exhaust, we advise you competently.',
-          image: 'https://images.unsplash.com/photo-1556783151-c6d5e7d296bb'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/gghcbeg0_Auspuff.jpeg'
         },
         {
           id: 'clutch',
           name: 'Clutch',
           description: 'Clutch kits, dual-mass flywheels, release bearings – for smooth gear changes and long service life. We find the right clutch kit for your vehicle.',
-          image: 'https://images.unsplash.com/photo-1603925246538-193f96ec9acd'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/nakw9ewc_kupplung.webp'
         },
         {
           id: 'engine',
           name: 'Engine',
           description: 'Cylinder head gaskets, timing belts, timing chains, water pumps – for a reliable engine. High-quality components in OEM quality.',
-          image: 'https://images.unsplash.com/photo-1552656967-7a0991a13906'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/akowp90d_Motor.jpeg'
         },
         {
           id: 'body',
           name: 'Body',
           description: 'Side mirrors, door handles, bumpers, fenders – for perfect appearance and functionality. Original and aftermarket parts in tested quality.',
-          image: 'https://images.unsplash.com/photo-1661501316011-607a6871ecce'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/knk1i0xe_karosserie.webp'
         },
         {
-          id: 'interior',
-          name: 'Interior',
-          description: 'Seat covers, steering wheels, trim panels, floor mats – for comfort and well-being. We have the right interior parts for your vehicle.',
-          image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d'
+          id: 'drivetrain',
+          name: 'Drivetrain',
+          description: 'Drive shafts, CV joints, propeller shafts and joints – for powerful and reliable power transmission. High-quality drivetrain components in OEM quality.',
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/qe7ipe0n_Antrieb.jpeg'
         },
         {
           id: 'climate',
