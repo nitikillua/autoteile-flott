@@ -27,7 +27,7 @@ export const translations = {
           id: 'brakes',
           name: 'Bremsen',
           description: 'Wir liefern hochwertige Bremskomponenten für alle Fahrzeugtypen – Bremsscheiben, Bremsbeläge und komplette Bremssysteme. Unsere Experten beraten Sie, welche Teile perfekt zu Ihrem Fahrzeug passen.',
-          image: 'https://images.unsplash.com/photo-1613214150384-14921ff659b2'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/x2n4ufrn_bremsen.jpg'
         },
         {
           id: 'filters',
