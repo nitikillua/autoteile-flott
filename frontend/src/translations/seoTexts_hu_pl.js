@@ -425,23 +425,36 @@ export const categoryDetailsPL = {
     `,
     keywords: ['Lusterka boczne', 'Klamki', 'Zderzaki', 'Błotniki', 'Listwy ozdobne']
   },
-  interior: {
-    title: 'Komponenty wnętrza dla komfortu',
-    intro: 'Siedzenia, kierownice, panele – dla przyjemnego doświadczenia w jeździe.',
+  drivetrain: {
+    title: 'Komponenty napędu dla mocnego przenoszenia mocy',
+    intro: 'Półosie, przeguby, wały napędowe – dla bezpiecznego przenoszenia mocy na koła.',
     content: `
-      <h3>Wnętrze – osobista strefa komfortu</h3>
-      <p>Zużyte lub uszkodzone części wnętrza zmniejszają komfort jazdy. Oferujemy części zamienne i akcesoria dla zadbanego wnętrza.</p>
+      <h3>Napęd – serce przenoszenia mocy</h3>
+      <p>Układ napędowy przenosi moc silnika na koła. Zużycie lub usterki prowadzą do wibracji, hałasów i mogą pogorszyć bezpieczeństwo jazdy. Dostarczamy wysokiej jakości komponenty napędowe w jakości OEM.</p>
       
-      <h3>Nasza oferta wnętrza</h3>
+      <h3>Nasza oferta napędu</h3>
       <ul>
-        <li><strong>Pokrowce na siedzenia:</strong> Tkanina, skóra i sztuczna skóra</li>
-        <li><strong>Kierownice:</strong> Oryginalne i sportowe kierownice</li>
-        <li><strong>Panele:</strong> Panele drzwi i konsole środkowe</li>
-        <li><strong>Dywaniki:</strong> Gumowe i tekstylne</li>
-        <li><strong>Osłony przeciwsłoneczne:</strong> Z i bez lusterka</li>
+        <li><strong>Półosie:</strong> Kompletne z przegubami i osłonami</li>
+        <li><strong>Przeguby:</strong> Dla napędu przedniego, tylnego i na wszystkie koła</li>
+        <li><strong>Wały napędowe:</strong> Dla pojazdów z napędem tylnym i na wszystkie koła</li>
+        <li><strong>Przeguby CV:</strong> Przeguby homokinetyczne dla płynnego biegu</li>
+        <li><strong>Osłony półosi:</strong> Dla niezawodnej ochrony przegubów</li>
+        <li><strong>Łożyska wałów:</strong> Dla biegu bez wibracji</li>
       </ul>
+      
+      <h3>Często zadawane pytania</h3>
+      <p><strong>Jak rozpoznać uszkodzoną półoś?</strong><br>
+      Typowe objawy to klikające odgłosy podczas skręcania, wibracje podczas przyspieszania lub widocznie uszkodzone osłony.</p>
+      
+      <p><strong>Czy można naprawić półosie?</strong><br>
+      W większości przypadków wymiana jest bardziej ekonomiczna i bezpieczniejsza niż naprawa.</p>
+      
+      <p><strong>Jak często należy sprawdzać osłony półosi?</strong><br>
+      Osłony należy sprawdzać pod kątem pęknięć i uszkodzeń przy każdym przeglądzie.</p>
+      
+      <p><strong>Zaufaj naszemu doświadczeniu:</strong> Znajdziemy odpowiednie komponenty napędowe dla Twojego pojazdu – czy to napęd przedni, tylny czy na wszystkie koła.</p>
     `,
-    keywords: ['Pokrowce na siedzenia', 'Kierownica', 'Panele', 'Dywaniki', 'Wyposażenie wnętrza']
+    keywords: ['Półoś', 'Przegub', 'Wał napędowy', 'Przegub CV', 'Homokinetyczny', 'Osłona']
   },
   climate: {
     title: 'Klimatyzacja i ogrzewanie dla idealnej temperatury',
