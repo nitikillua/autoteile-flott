@@ -393,7 +393,7 @@ export const categoryMapping = {
   clutch: 'clutch',
   engine: 'engine',
   body: 'body',
-  interior: 'interior',
+  drivetrain: 'drivetrain',
   climate: 'climate',
   others: 'others'
 };
