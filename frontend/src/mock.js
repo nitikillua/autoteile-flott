@@ -57,7 +57,7 @@ export const translations = {
           id: 'exhaust',
           name: 'Auspuff',
           description: 'Auspufftöpfe, Katalysatoren, Partikelfilter und Abgasrohre – für saubere Abgase und optimale Performance. Original oder Sportauspuff, wir beraten Sie kompetent.',
-          image: 'https://images.unsplash.com/photo-1556783151-c6d5e7d296bb'
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/gghcbeg0_Auspuff.jpeg'
         },
         {
           id: 'clutch',
