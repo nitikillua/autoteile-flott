@@ -348,6 +348,11 @@ export const manufacturerLogos = {
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/arzw0rvf_TRW_logo.svg.png',
     categories: ['brakes']
   },
+  triscan: {
+    name: 'Triscan',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Triscan_logo.svg/320px-Triscan_logo.svg.png',
+    categories: ['drivetrain']
+  },
   valeo: {
     name: 'Valeo',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/bn11b1rn_Valeo_Logo.svg.png',
