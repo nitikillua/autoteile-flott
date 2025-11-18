@@ -257,32 +257,36 @@ export const categoryDetails = {
       `,
       keywords: ['Außenspiegel', 'Türgriffe', 'Stoßfänger', 'Kotflügel', 'Zierleisten']
     },
-    interior: {
-      title: 'Innenraumkomponenten für Komfort',
-      intro: 'Sitze, Lenkräder, Verkleidungen – für ein angenehmes Fahrerlebnis.',
+    drivetrain: {
+      title: 'Antriebskomponenten für kraftvolle Leistungsübertragung',
+      intro: 'Antriebswellen, Gelenkwellen, Kardanwellen – für sichere Kraftübertragung auf die Räder.',
       content: `
-        <h3>Der Innenraum – Ihr persönlicher Wohlfühlbereich</h3>
-        <p>Verschlissene oder beschädigte Innenraumteile mindern den Fahrkomfort. Wir bieten Ersatzteile und Zubehör für einen gepflegten Innenraum.</p>
+        <h3>Der Antrieb – Das Herzstück der Kraftübertragung</h3>
+        <p>Der Antriebsstrang überträgt die Motorleistung auf die Räder. Verschleiß oder Defekte führen zu Vibrationen, Geräuschen und können die Fahrsicherheit beeinträchtigen. Wir liefern hochwertige Antriebskomponenten in Erstausrüster-Qualität.</p>
         
-        <h3>Unser Innenraum-Sortiment</h3>
+        <h3>Unser Antriebs-Sortiment</h3>
         <ul>
-          <li><strong>Sitzbezüge:</strong> Stoff, Leder und Kunstleder</li>
-          <li><strong>Lenkräder:</strong> Original und Sportlenkräder</li>
-          <li><strong>Verkleidungen:</strong> Türverkleidungen und Mittelkonsolen</li>
-          <li><strong>Fußmatten:</strong> Gummi und Textil</li>
-          <li><strong>Sonnenblenden:</strong> Mit und ohne Spiegel</li>
+          <li><strong>Antriebswellen:</strong> Komplett mit Gelenken und Manschetten</li>
+          <li><strong>Gelenkwellen:</strong> Für Front-, Heck- und Allradantrieb</li>
+          <li><strong>Kardanwellen:</strong> Für Hinterrad- und Allradfahrzeuge</li>
+          <li><strong>CV-Gelenke:</strong> Homokinetische Gelenke für gleichmäßigen Lauf</li>
+          <li><strong>Antriebswellenmanschetten:</strong> Für zuverlässigen Schutz der Gelenke</li>
+          <li><strong>Wellenlager:</strong> Für vibrationsfreien Lauf</li>
         </ul>
         
         <h3>Häufig gestellte Fragen</h3>
-        <p><strong>Kann ich Sitzbezüge selbst montieren?</strong><br>
-        Ja, mit etwas Geschick ist die Montage problemlos möglich.</p>
+        <p><strong>Woran erkenne ich eine defekte Antriebswelle?</strong><br>
+        Typische Symptome sind klackende Geräusche beim Lenken, Vibrationen beim Beschleunigen oder sichtbar beschädigte Manschetten.</p>
         
-        <p><strong>Wie pflege ich Lederausstattung richtig?</strong><br>
-        Regelmäßige Reinigung und Pflege mit speziellen Lederpflegemitteln erhält die Geschmeidigkeit.</p>
+        <p><strong>Können Antriebswellen repariert werden?</strong><br>
+        In den meisten Fällen ist ein Austausch wirtschaftlicher und sicherer als eine Reparatur.</p>
         
-        <p><strong>Rufen Sie uns an:</strong> Wir helfen Ihnen bei der Auswahl der richtigen Innenraumteile.</p>
+        <p><strong>Wie oft sollten Antriebswellenmanschetten geprüft werden?</strong><br>
+        Bei jeder Inspektion sollten die Manschetten auf Risse und Beschädigungen kontrolliert werden.</p>
+        
+        <p><strong>Vertrauen Sie auf unsere Erfahrung:</strong> Wir finden die passenden Antriebskomponenten für Ihr Fahrzeug – ob Frontantrieb, Heckantrieb oder Allrad.</p>
       `,
-      keywords: ['Sitzbezüge', 'Lenkrad', 'Verkleidungen', 'Fußmatten', 'Innenausstattung']
+      keywords: ['Antriebswelle', 'Gelenkwelle', 'Kardanwelle', 'CV-Gelenk', 'Homokinetisch', 'Manschette']
     },
     climate: {
       title: 'Klima & Heizung für perfekte Temperatur',
