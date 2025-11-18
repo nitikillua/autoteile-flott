@@ -78,10 +78,10 @@ export const translations = {
           image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/knk1i0xe_karosserie.webp'
         },
         {
-          id: 'interior',
-          name: 'Innenraum',
-          description: 'Sitzbezüge, Lenkräder, Verkleidungen, Fußmatten – für Komfort und Wohlfühlatmosphäre. Wir haben die passenden Innenraumteile für Ihr Fahrzeug.',
-          image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d'
+          id: 'drivetrain',
+          name: 'Antrieb',
+          description: 'Antriebswellen, Gelenkwellen, Kardanwellen und Gelenke – für kraftvolle und zuverlässige Leistungsübertragung. Hochwertige Antriebskomponenten in Erstausrüster-Qualität.',
+          image: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/qe7ipe0n_Antrieb.jpeg'
         },
         {
           id: 'climate',
