@@ -320,7 +320,7 @@ export const manufacturerLogos = {
   },
   spidan: {
     name: 'Spidan',
-    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/ze5gzkw2_gkn%20spidan%20loebro.jpg',
+    logo: 'https://logo.clearbit.com/spidanchassisparts.com',
     categories: ['drivetrain', 'others']
   },
   stabilus: {
