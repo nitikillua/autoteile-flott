@@ -242,32 +242,36 @@ export const categoryDetailsEN = {
     `,
     keywords: ['Side Mirrors', 'Door Handles', 'Bumpers', 'Fenders', 'Trim Strips']
   },
-  interior: {
-    title: 'Interior Components for Comfort',
-    intro: 'Seats, steering wheels, trim – for a pleasant driving experience.',
+  drivetrain: {
+    title: 'Drivetrain Components for Powerful Power Transmission',
+    intro: 'Drive shafts, CV joints, propeller shafts – for safe power transmission to the wheels.',
     content: `
-      <h3>The interior – your personal comfort zone</h3>
-      <p>Worn or damaged interior parts reduce driving comfort. We offer spare parts and accessories for a well-maintained interior.</p>
+      <h3>The drivetrain – the heart of power transmission</h3>
+      <p>The drivetrain transmits engine power to the wheels. Wear or defects lead to vibrations, noises and can impair driving safety. We supply high-quality drivetrain components in OEM quality.</p>
       
-      <h3>Our Interior Range</h3>
+      <h3>Our Drivetrain Range</h3>
       <ul>
-        <li><strong>Seat Covers:</strong> Fabric, leather and artificial leather</li>
-        <li><strong>Steering Wheels:</strong> Original and sport steering wheels</li>
-        <li><strong>Trim Panels:</strong> Door panels and center consoles</li>
-        <li><strong>Floor Mats:</strong> Rubber and textile</li>
-        <li><strong>Sun Visors:</strong> With and without mirror</li>
+        <li><strong>Drive Shafts:</strong> Complete with joints and boots</li>
+        <li><strong>CV Joints:</strong> For front, rear and all-wheel drive</li>
+        <li><strong>Propeller Shafts:</strong> For rear-wheel and all-wheel drive vehicles</li>
+        <li><strong>CV Joints:</strong> Constant velocity joints for smooth running</li>
+        <li><strong>Drive Shaft Boots:</strong> For reliable protection of joints</li>
+        <li><strong>Shaft Bearings:</strong> For vibration-free running</li>
       </ul>
       
       <h3>Frequently Asked Questions</h3>
-      <p><strong>Can I install seat covers myself?</strong><br>
-      Yes, with some skill the installation is no problem.</p>
+      <p><strong>How do I recognize a defective drive shaft?</strong><br>
+      Typical symptoms are clicking noises when steering, vibrations when accelerating or visibly damaged boots.</p>
       
-      <p><strong>How do I properly care for leather upholstery?</strong><br>
-      Regular cleaning and care with special leather care products maintains suppleness.</p>
+      <p><strong>Can drive shafts be repaired?</strong><br>
+      In most cases, replacement is more economical and safer than repair.</p>
       
-      <p><strong>Call us:</strong> We help you choose the right interior parts.</p>
+      <p><strong>How often should drive shaft boots be checked?</strong><br>
+      The boots should be checked for cracks and damage at every inspection.</p>
+      
+      <p><strong>Trust our experience:</strong> We find the right drivetrain components for your vehicle – whether front-wheel, rear-wheel or all-wheel drive.</p>
     `,
-    keywords: ['Seat Covers', 'Steering Wheel', 'Trim Panels', 'Floor Mats', 'Interior Equipment']
+    keywords: ['Drive Shaft', 'CV Joint', 'Propeller Shaft', 'CV Joint', 'Constant Velocity', 'Boot']
   },
   climate: {
     title: 'Climate & Heating for Perfect Temperature',
