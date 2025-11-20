@@ -132,16 +132,34 @@ const ContactForm = () => {
   };
 
   const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      setFormData({ ...formData, file });
-      setFileName(file.name);
+    const selectedFiles = Array.from(e.target.files);
+    setUploadError('');
+    
+    // Check number of files
+    if (formData.files.length + selectedFiles.length > 5) {
+      setUploadError(t.tooManyFiles);
+      return;
     }
+    
+    // Check file sizes (max 10MB per file)
+    const maxSize = 10 * 1024 * 1024; // 10MB in bytes
+    const validFiles = [];
+    
+    for (const file of selectedFiles) {
+      if (file.size > maxSize) {
+        setUploadError(`${file.name}: ${t.fileSizeError}`);
+        return;
+      }
+      validFiles.push(file);
+    }
+    
+    setFormData({ ...formData, files: [...formData.files, ...validFiles] });
   };
 
-  const removeFile = () => {
-    setFormData({ ...formData, file: null });
-    setFileName('');
+  const removeFile = (index) => {
+    const newFiles = formData.files.filter((_, i) => i !== index);
+    setFormData({ ...formData, files: newFiles });
+    setUploadError('');
   };
 
   const handleSubmit = async (e) => {
