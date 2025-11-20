@@ -108,6 +108,11 @@ export const manufacturerLogos = {
     logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/k82hn6fu_elf.png',
     categories: ['filters']
   },
+  eurolube: {
+    name: 'Eurolube',
+    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=Eurolube',
+    categories: ['filters']
+  },
   elring: {
     name: 'Elring',
     logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/azvzewyj_elring.svg',
