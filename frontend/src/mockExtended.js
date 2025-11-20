@@ -279,7 +279,7 @@ export const categoryDetails = {
           <li><strong>Kardanwellen:</strong> Für Hinterrad- und Allradfahrzeuge</li>
           <li><strong>CV-Gelenke:</strong> Homokinetische Gelenke für gleichmäßigen Lauf</li>
           <li><strong>Antriebswellenmanschetten:</strong> Für zuverlässigen Schutz der Gelenke</li>
-          <li><strong>Wellenlager:</strong> Für vibrationsfreien Lauf</li>
+          <li><strong>Kardanwellenlager:</strong> Für vibrationsfreien Lauf</li>
         </ul>
         
         <h3>Häufig gestellte Fragen</h3>
