@@ -490,6 +490,7 @@ export const categoryDetailsPL = {
         <li><strong>Sprężarki klimatyzacji:</strong> Oryginalne i wysokiej jakości alternatywy</li>
         <li><strong>Skraplacze:</strong> Dla wydajnego chłodzenia</li>
         <li><strong>Dmuchawy ogrzewania:</strong> Dla ciepłego powietrza zimą</li>
+        <li><strong>Opornik dmuchawy ogrzewania:</strong> gdy poziomy wentylatora nie przełączają się</li>
         <li><strong>Chłodnice płynu chłodzącego:</strong> Dla optymalnej temperatury silnika</li>
         <li><strong>Osuszacze i filtry:</strong> Dla czystych systemów klimatyzacji</li>
       </ul>
