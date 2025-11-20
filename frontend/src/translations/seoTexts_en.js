@@ -264,7 +264,7 @@ export const categoryDetailsEN = {
         <li><strong>Propeller Shafts:</strong> For rear-wheel and all-wheel drive vehicles</li>
         <li><strong>CV Joints:</strong> Constant velocity joints for smooth running</li>
         <li><strong>Drive Shaft Boots:</strong> For reliable protection of joints</li>
-        <li><strong>Shaft Bearings:</strong> For vibration-free running</li>
+        <li><strong>Propeller Shaft Bearings:</strong> For vibration-free running</li>
       </ul>
       
       <h3>Frequently Asked Questions</h3>
