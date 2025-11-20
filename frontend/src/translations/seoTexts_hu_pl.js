@@ -511,8 +511,13 @@ export const categoryDetailsPL = {
         <li><strong>Haki holownicze:</strong> Stałe i zdejmowane</li>
         <li><strong>Uszczelki:</strong> Dla drzwi, okien i bagażnika</li>
         <li><strong>Produkty pielęgnacyjne:</strong> Olej silnikowy, płyn niezamarzający, środki czyszczące</li>
+        <li><strong>Czujnik ciśnienia w oponach:</strong> Dla nowoczesnych pojazdów z TPMS</li>
+        <li><strong>Środki polerskie:</strong> Do lśniącej pielęgnacji lakieru</li>
+        <li><strong>Uszczelnienie / politura reflektorów:</strong> Dla czystej widoczności i zadbać wyglądu</li>
+        <li><strong>Płyn do spryskiwaczy / zimowy płyn niezamarzający:</strong> Dla czystej widoczności w mroźnych temperaturach</li>
+        <li><strong>Pokrowce na szybę czołową / półgaraże:</strong> Ochrona przed warunkami atmosferycznymi</li>
       </ul>
     `,
-    keywords: ['Wycieraczki', 'Opony', 'Hak holowniczy', 'Produkty pielęgnacyjne', 'Akcesoria']
+    keywords: ['Wycieraczki', 'Opony', 'Hak holowniczy', 'Produkty pielęgnacyjne', 'Akcesoria', 'Czujnik ciśnienia w oponach', 'Środki polerskie', 'Zimowy płyn niezamarzający']
   }
 };
