@@ -109,7 +109,7 @@ export const categoryDetails = {
           <li><strong>Anlasser:</strong> Für Benzin- und Dieselmotoren</li>
           <li><strong>Lichtmaschinen:</strong> Original und aufbereitete Qualität</li>
           <li><strong>Zündkerzen:</strong> Kupfer, Platin und Iridium</li>
-          <li><strong>Sensoren:</strong> Lambdasonden, ABS-Sensoren, Kurbelwellensensoren</li>
+          <li><strong>Sensoren:</strong> Lambdasonden, ABS-Sensoren, Kurbelwellensensoren, Nockenwellensensor, Abgastemperatursensor, Differenzdrucksensor, NOX-Sensor, Öldrucksensor, Temperatursensor Kühlwasser, Ladedrucksensor, Drucksensor Saugrohr</li>
         </ul>
         
         <h3>Häufig gestellte Fragen</h3>
