@@ -11,12 +11,12 @@ const ContactForm = () => {
     hsn: '',
     tsn: '',
     message: '',
-    file: null
+    files: []
   });
   const [showHsnHelp, setShowHsnHelp] = useState(false);
-  const [fileName, setFileName] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [uploadError, setUploadError] = useState('');
 
   const texts = {
     de: {
