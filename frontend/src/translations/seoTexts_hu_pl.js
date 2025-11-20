@@ -249,9 +249,14 @@ export const categoryDetailsHU = {
         <li><strong>Vonóhorgok:</strong> Fix és levehető</li>
         <li><strong>Tömítések:</strong> Ajtókhoz, ablakokhoz és csomagtartóhoz</li>
         <li><strong>Ápolószerek:</strong> Motorolaj, fagyálló, tisztítók</li>
+        <li><strong>Gumiabroncs nyomásérzékelő:</strong> Modern TPMS-sel rendelkező járművekhez</li>
+        <li><strong>Fényezőszer:</strong> Fényes lakkápoláshoz</li>
+        <li><strong>Fényszóró tömítés / fényezés:</strong> Tiszta kilátáshoz és ápolt megjelenéshez</li>
+        <li><strong>Szélvédőmosó / téli fagyálló:</strong> Tiszta kilátáshoz fagyos hőmérsékleten</li>
+        <li><strong>Szélvédő takaró / félgarázs:</strong> Védelem az időjárástól</li>
       </ul>
     `,
-    keywords: ['Ablaktörlő lapátok', 'Gumiabroncsok', 'Vonóhorog', 'Ápolószerek', 'Kiegészítők']
+    keywords: ['Ablaktörlő lapátok', 'Gumiabroncsok', 'Vonóhorog', 'Ápolószerek', 'Kiegészítők', 'Gumiabroncs nyomásérzékelő', 'Fényezőszer', 'Szélvédő fagyálló']
   }
 };
 
