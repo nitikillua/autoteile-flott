@@ -151,13 +151,18 @@ export const categoryDetailsHU = {
       <h3>Motor kínálatunk</h3>
       <ul>
         <li><strong>Hengerfej tömítések:</strong> Minden motortípushoz</li>
-        <li><strong>Vezérlőláncok és szíjak:</strong> Feszítőkkel és terelőkkel</li>
-        <li><strong>Vízpumpák:</strong> Integrált termosztáttal és anélkül</li>
+        <li><strong>Vezérlőláncok és szíjak:</strong> OEM minőségben, vagy olcsóbban márkagyártóktól költséghatékony javításhoz</li>
+        <li><strong>Vízpumpák:</strong> Mechanikus, kapcsolható vagy tisztán elektromos vízpumpák</li>
         <li><strong>Dugattyúk és hajtórudak:</strong> Standard és megerősített változatok</li>
         <li><strong>Vezérműtengelyek:</strong> Eredeti és teljesítmény változatok</li>
+        <li><strong>Adalékanyagok:</strong> Hidraulikus emelő adalék, befecskendező rendszer tisztító, ólom-helyettesítő veterán motorokhoz, visco-adalék olajfogyasztás ellen</li>
+        <li><strong>Szelepek:</strong> Szívó- és kipufogószelepek, szeleptőtömítések OEM minőségben</li>
+        <li><strong>Olajteknő:</strong> Az acél teknők idővel rozsdásodnak, gyakori probléma a műszaki vizsgákon</li>
+        <li><strong>Tömítőgyűrűk:</strong> pl. főtengely tömítőgyűrűk gyakran olajszivárgást okoznak és szintén gyakori probléma a műszaki vizsgákon</li>
+        <li><strong>Termosztát:</strong> optimális hűtést biztosít a motornak, de meleg utasteret is télen</li>
       </ul>
     `,
-    keywords: ['Hengerfej tömítés', 'Fogasszíj', 'Vezérlőlánc', 'Vízpumpa', 'Dugattyúk']
+    keywords: ['Hengerfej tömítés', 'Fogasszíj', 'Vezérlőlánc', 'Vízpumpa', 'Dugattyúk', 'Tömítőgyűrű', 'Szelep', 'Termosztát', 'Adalékanyag', 'Olajfogyasztás']
   },
   body: {
     title: 'Karosszéria alkatrészek megjelenéshez és funkcióhoz',
