@@ -166,6 +166,7 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
+    setUploadError('');
 
     try {
       const formDataToSend = new FormData();
@@ -175,9 +176,11 @@ const ContactForm = () => {
       formDataToSend.append('hsn', formData.hsn);
       formDataToSend.append('tsn', formData.tsn);
       formDataToSend.append('message', formData.message);
-      if (formData.file) {
-        formDataToSend.append('file', formData.file);
-      }
+      
+      // Append all files
+      formData.files.forEach((file, index) => {
+        formDataToSend.append('file', file);
+      });
 
       // Formspree form endpoint
       const response = await fetch('https://formspree.io/f/xldpqybz', {
@@ -197,13 +200,18 @@ const ContactForm = () => {
           hsn: '',
           tsn: '',
           message: '',
-          file: null
+          files: []
         });
-        setFileName('');
       } else {
+        const errorData = await response.json();
+        console.error('Formspree error:', errorData);
         setSubmitStatus('error');
+        if (errorData.error) {
+          setUploadError(errorData.error);
+        }
       }
     } catch (error) {
+      console.error('Submit error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
