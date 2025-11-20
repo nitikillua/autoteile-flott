@@ -436,13 +436,16 @@ export const categoryDetailsPL = {
       <h3>Nasza oferta nadwozia</h3>
       <ul>
         <li><strong>Lusterka boczne:</strong> Kompletne lub pojedyncze szkła lusterek</li>
+        <li><strong>Szkło lusterka:</strong> Wymienne szkła do różnych modeli pojazdów</li>
         <li><strong>Klamki:</strong> Wewnętrzne i zewnętrzne</li>
         <li><strong>Zderzaki:</strong> Podkładowane lub malowane</li>
         <li><strong>Błotniki:</strong> Oryginalne i aftermarket</li>
+        <li><strong>Progi / Wejście:</strong> Blachy naprawcze i części zamienne</li>
+        <li><strong>Blacha naprawcza do błotników:</strong> Do precyzyjnych napraw nadwozia</li>
         <li><strong>Listwy ozdobne:</strong> Chromowane i plastikowe</li>
       </ul>
     `,
-    keywords: ['Lusterka boczne', 'Klamki', 'Zderzaki', 'Błotniki', 'Listwy ozdobne']
+    keywords: ['Lusterka boczne', 'Klamki', 'Zderzaki', 'Błotniki', 'Listwy ozdobne', 'Szkło lusterka', 'Progi', 'Blacha naprawcza']
   },
   drivetrain: {
     title: 'Komponenty napędu dla mocnego przenoszenia mocy',
