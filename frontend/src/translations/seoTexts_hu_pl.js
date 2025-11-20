@@ -401,7 +401,7 @@ export const categoryDetailsPL = {
         <li><strong>Pompy główne:</strong> Dla sprzęgieł hydraulicznych</li>
       </ul>
     `,
-    keywords: ['Zestaw sprzęgła', 'Dwumasowe koło zamachowe', 'Łożysko wyciskowe', 'Tarcza sprzęgła']
+    keywords: ['Zestaw sprzęgła', 'Dwumasowe koło zamachowe', 'Łożysko wyciskowe', 'Tarcza sprzęgła', 'Centralne łożysko wyciskowe', 'Pompa główna', 'Pompa robocza']
   },
   engine: {
     title: 'Komponenty silnika dla wydajności i niezawodności',
