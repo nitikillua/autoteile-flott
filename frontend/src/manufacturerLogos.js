@@ -158,6 +158,11 @@ export const manufacturerLogos = {
     logo: 'https://customer-assets.emergentagent.com/job_7c9c200c-91a8-481c-82f7-30f6f659281a/artifacts/u1v6id4c_INA_logo.svg.png',
     categories: ['engine']
   },
+  iwis: {
+    name: 'IWIS',
+    logo: 'https://customer-assets.emergentagent.com/job_autoparts-landing/artifacts/bzin0cym_iwis%20Logo.jpg',
+    categories: ['engine']
+  },
   japanparts: {
     name: 'Japanparts',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/8bz0n8mv_japanparts_logo.png',
