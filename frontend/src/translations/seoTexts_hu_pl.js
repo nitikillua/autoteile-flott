@@ -199,7 +199,7 @@ export const categoryDetailsHU = {
         <li><strong>Kardántengelyek:</strong> Hátsó- és összkerékhajtású járművekhez</li>
         <li><strong>CV-csuklók:</strong> Homokinetikus csuklók egyenletes futáshoz</li>
         <li><strong>Hajtótengely védőgumik:</strong> Megbízható csukló védelemhez</li>
-        <li><strong>Tengely csapágyak:</strong> Rezgésmentes futáshoz</li>
+        <li><strong>Kardántengely csapágyak:</strong> Rezgésmentes futáshoz</li>
       </ul>
       
       <h3>Gyakran feltett kérdések</h3>
