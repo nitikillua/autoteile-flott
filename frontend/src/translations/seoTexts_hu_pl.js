@@ -174,13 +174,16 @@ export const categoryDetailsHU = {
       <h3>Karosszéria kínálatunk</h3>
       <ul>
         <li><strong>Külső tükrök:</strong> Komplett vagy egyes tükörüvegek</li>
+        <li><strong>Tükörüveg:</strong> Csere üvegek különböző járműmodellekhez</li>
         <li><strong>Ajtókilincsek:</strong> Belső és külső</li>
         <li><strong>Lökhárítók:</strong> Alapozott vagy festett</li>
         <li><strong>Sárvédők:</strong> Eredeti és utángyártott</li>
+        <li><strong>Küszöb / Belépő:</strong> Javító lemezek és pótalkatrészek</li>
+        <li><strong>Javító lemez sárvédőkhöz:</strong> Precíz karosszéria javításokhoz</li>
         <li><strong>Díszlécek:</strong> Króm és műanyag</li>
       </ul>
     `,
-    keywords: ['Külső tükrök', 'Ajtókilincsek', 'Lökhárítók', 'Sárvédők', 'Díszlécek']
+    keywords: ['Külső tükrök', 'Ajtókilincsek', 'Lökhárítók', 'Sárvédők', 'Díszlécek', 'Tükörüveg', 'Küszöb', 'Javító lemez']
   },
   drivetrain: {
     title: 'Hajtáslánc alkatrészek erőteljes erőátvitelhez',
