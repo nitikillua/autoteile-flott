@@ -213,22 +213,27 @@ export const categoryDetails = {
         <h3>Unser Motor-Sortiment</h3>
         <ul>
           <li><strong>Zylinderkopfdichtungen:</strong> Für alle Motortypen</li>
-          <li><strong>Steuerketten und Zahnriemen:</strong> Inklusive Spanner und Umlenkrollen</li>
-          <li><strong>Wasserpumpen:</strong> Mit und ohne integriertem Thermostat</li>
+          <li><strong>Steuerketten und Zahnriemen:</strong> In Erstausrüsterqualität, oder günstiger von Markenhersteller für zeitwertgerechte Reparatur</li>
+          <li><strong>Wasserpumpen:</strong> Mechanische, schaltbare oder rein elektrische Wasserpumpen</li>
           <li><strong>Kolben und Pleuel:</strong> Standard und verstärkte Ausführungen</li>
           <li><strong>Nockenwellen:</strong> Original und Performance-Varianten</li>
+          <li><strong>Additive:</strong> Hydrostössel Additiv, Einspritzsystem-Reiniger, Blei-Ersatz für Oldtimer Motoren, Visco-Additiv gegen Ölverbrauch</li>
+          <li><strong>Ventile:</strong> Einlass- Auslassventile, Ventilschaftdichtungen in Erstausrüsterqualität</li>
+          <li><strong>Ölwanne:</strong> Stahlwannen rosten mit der Zeit, ein häufiges Problem bei TÜV-Untersuchungen</li>
+          <li><strong>Dichtringe:</strong> z.B.: Kurbelwellendichtringe verursachen oft Ölverlust und sorgen ebenso für ein häufiges Problem bei TÜV-Untersuchungen</li>
+          <li><strong>Thermostat:</strong> sorgt für optimale Kühlung für den Motor aber auch für einen warmen Innenraum im Winter</li>
         </ul>
         
         <h3>Häufig gestellte Fragen</h3>
         <p><strong>Wann muss der Zahnriemen gewechselt werden?</strong><br>
-        Laut Herstellervorgabe, meist zwischen 60.000 und 120.000 km.</p>
+        Laut Herstellerangabe, meist zwischen 60.000 und 220.000 km.</p>
         
         <p><strong>Was passiert bei einer defekten Zylinderkopfdichtung?</strong><br>
         Kühlwasserverlust, weißer Rauch aus dem Auspuff und Überhitzung sind typische Symptome.</p>
         
         <p><strong>Lassen Sie sich beraten:</strong> Wir finden die richtigen Motorkomponenten für Ihr Fahrzeug.</p>
       `,
-      keywords: ['Zylinderkopfdichtung', 'Zahnriemen', 'Steuerkette', 'Wasserpumpe', 'Kolben']
+      keywords: ['Zylinderkopfdichtung', 'Zahnriemen', 'Steuerkette', 'Wasserpumpe', 'Kolben', 'Dichtring', 'Ventil', 'Thermostat', 'Additiv', 'Ölverbrauch']
     },
     body: {
       title: 'Karosserieteile für Optik und Funktion',
