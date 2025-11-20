@@ -323,6 +323,11 @@ export const categoryDetailsEN = {
         <li><strong>Trailer Hitches:</strong> Fixed and removable</li>
         <li><strong>Seals:</strong> For doors, windows and trunk</li>
         <li><strong>Care Products:</strong> Engine oil, antifreeze, cleaners</li>
+        <li><strong>Tire Pressure Sensor:</strong> For modern vehicles with TPMS</li>
+        <li><strong>Polish:</strong> For shiny paint care</li>
+        <li><strong>Headlight Sealant / Polish:</strong> For clear visibility and well-maintained appearance</li>
+        <li><strong>Windshield Washer Fluid / Winter Antifreeze:</strong> For clear vision in freezing temperatures</li>
+        <li><strong>Windshield Cover / Half Garage:</strong> Protection from weather</li>
       </ul>
       
       <h3>Frequently Asked Questions</h3>
@@ -334,6 +339,6 @@ export const categoryDetailsEN = {
       
       <p><strong>Contact us:</strong> For all auto parts you don't find online – we're here to help!</p>
     `,
-    keywords: ['Wiper Blades', 'Tires', 'Trailer Hitch', 'Care Products', 'Accessories']
+    keywords: ['Wiper Blades', 'Tires', 'Trailer Hitch', 'Care Products', 'Accessories', 'Tire Pressure Sensor', 'Polish', 'Windshield Antifreeze']
   }
 };
