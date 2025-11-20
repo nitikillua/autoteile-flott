@@ -182,13 +182,11 @@ const ContactForm = () => {
         formDataToSend.append('file', file);
       });
 
-      // Formspree form endpoint
-      const response = await fetch('https://formspree.io/f/xldpqybz', {
+      // Backend API endpoint
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
+      const response = await fetch(`${backendUrl}/api/contact`, {
         method: 'POST',
-        body: formDataToSend,
-        headers: {
-          'Accept': 'application/json'
-        }
+        body: formDataToSend
       });
 
       if (response.ok) {
