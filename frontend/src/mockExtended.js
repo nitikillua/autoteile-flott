@@ -335,6 +335,11 @@ export const categoryDetails = {
         <ul>
           <li><strong>Scheibenwischer:</strong> Alle Längen und Typen</li>
           <li><strong>Pflegemittel:</strong> Motoröl, Frostschutz, Reiniger</li>
+          <li><strong>Reifendrucksensor:</strong> Für moderne Fahrzeuge mit RDKS</li>
+          <li><strong>Poliermittel:</strong> Für glänzende Lackpflege</li>
+          <li><strong>Scheinwerfer Versiegelung / Politur:</strong> Für klare Sicht und gepflegte Optik</li>
+          <li><strong>Scheibenklar / Scheibenfrostschutz für den Winter:</strong> Für freie Sicht bei Minusgraden</li>
+          <li><strong>Abdeckhauben für Windschutzscheibe / Halbgaragen:</strong> Schutz vor Witterung</li>
         </ul>
         
         <h3>Häufig gestellte Fragen</h3>
@@ -346,7 +351,7 @@ export const categoryDetails = {
         
         <p><strong>Kontaktieren Sie uns:</strong> Für alle Autoteile, die Sie nicht online finden – wir helfen weiter!</p>
       `,
-      keywords: ['Scheibenwischer', 'Reifen', 'Anhängerkupplung', 'Pflegemittel', 'Zubehör']
+      keywords: ['Scheibenwischer', 'Reifen', 'Anhängerkupplung', 'Pflegemittel', 'Zubehör', 'Reifendrucksensor', 'Poliermittel', 'Scheibenfrostschutz']
     }
   }
 };
