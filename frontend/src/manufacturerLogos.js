@@ -110,7 +110,7 @@ export const manufacturerLogos = {
   },
   eurolube: {
     name: 'Eurolube',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=Eurolube',
+    logo: 'https://customer-assets.emergentagent.com/job_autoparts-landing/artifacts/tyekjvsh_EUROLUB-logo.webp',
     categories: ['filters']
   },
   elring: {
