@@ -201,7 +201,7 @@ export const categoryDetails = {
         
         <p><strong>Vertrauen Sie unserer Beratung:</strong> Wir finden den richtigen Kupplungssatz für Ihr Fahrzeug.</p>
       `,
-      keywords: ['Kupplungssatz', 'Zweimassenschwungrad', 'Ausrücklager', 'Kupplungsscheibe']
+      keywords: ['Kupplungssatz', 'Zweimassenschwungrad', 'Ausrücklager', 'Kupplungsscheibe', 'Zentralausrücklager', 'Geberzylinder', 'Nehmerzylinder']
     },
     engine: {
       title: 'Motorkomponenten für Leistung und Zuverlässigkeit',
