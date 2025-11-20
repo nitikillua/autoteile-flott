@@ -461,7 +461,7 @@ export const categoryDetailsPL = {
         <li><strong>Wały napędowe:</strong> Dla pojazdów z napędem tylnym i na wszystkie koła</li>
         <li><strong>Przeguby CV:</strong> Przeguby homokinetyczne dla płynnego biegu</li>
         <li><strong>Osłony półosi:</strong> Dla niezawodnej ochrony przegubów</li>
-        <li><strong>Łożyska wałów:</strong> Dla biegu bez wibracji</li>
+        <li><strong>Łożyska wałów napędowych:</strong> Dla biegu bez wibracji</li>
       </ul>
       
       <h3>Często zadawane pytania</h3>
