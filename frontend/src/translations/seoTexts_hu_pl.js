@@ -344,7 +344,7 @@ export const categoryDetailsPL = {
         <li><strong>Rozruszniki:</strong> Dla silników benzynowych i diesla</li>
         <li><strong>Alternatory:</strong> Jakość oryginalna i odnowiona</li>
         <li><strong>Świece zapłonowe:</strong> Miedziane, platynowe i irydowe</li>
-        <li><strong>Czujniki:</strong> Sondy lambda, czujniki ABS, czujniki wału korbowego</li>
+        <li><strong>Czujniki:</strong> Sondy lambda, czujniki ABS, czujniki wału korbowego, czujnik wałka rozrządu, czujnik temperatury spalin, czujnik ciśnienia różnicowego, czujnik NOX, czujnik ciśnienia oleju, czujnik temperatury płynu chłodzącego, czujnik ciśnienia doładowania, czujnik ciśnienia kolektora ssącego</li>
       </ul>
     `,
     keywords: ['Akumulator', 'Rozrusznik', 'Alternator', 'Świece zapłonowe', 'Czujniki']
