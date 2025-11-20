@@ -230,9 +230,12 @@ export const categoryDetailsEN = {
       <h3>Our Body Range</h3>
       <ul>
         <li><strong>Side Mirrors:</strong> Complete or individual mirror glasses</li>
+        <li><strong>Mirror Glass:</strong> Replacement glasses for various vehicle models</li>
         <li><strong>Door Handles:</strong> Interior and exterior</li>
         <li><strong>Bumpers:</strong> Primed or painted</li>
         <li><strong>Fenders:</strong> Original and aftermarket</li>
+        <li><strong>Sills / Entry:</strong> Repair panels and spare parts</li>
+        <li><strong>Repair Panel for Fenders:</strong> For precise body repairs</li>
         <li><strong>Trim Strips:</strong> Chrome and plastic</li>
       </ul>
       
@@ -245,7 +248,7 @@ export const categoryDetailsEN = {
       
       <p><strong>We're happy to advise you:</strong> Find the right body parts for your vehicle.</p>
     `,
-    keywords: ['Side Mirrors', 'Door Handles', 'Bumpers', 'Fenders', 'Trim Strips']
+    keywords: ['Side Mirrors', 'Door Handles', 'Bumpers', 'Fenders', 'Trim Strips', 'Mirror Glass', 'Sills', 'Repair Panel']
   },
   drivetrain: {
     title: 'Drivetrain Components for Powerful Power Transmission',
