@@ -293,6 +293,7 @@ export const categoryDetailsEN = {
         <li><strong>AC Compressors:</strong> Original and high-quality alternatives</li>
         <li><strong>Condensers:</strong> For efficient cooling</li>
         <li><strong>Heater Fans:</strong> For warm air in winter</li>
+        <li><strong>Heater Fan Resistor:</strong> when the fan speed settings no longer switch through</li>
         <li><strong>Coolant Radiators:</strong> For optimal engine temperature</li>
         <li><strong>Dryers and Filters:</strong> For clean air conditioning systems</li>
       </ul>
