@@ -201,11 +201,17 @@ const ContactForm = () => {
           files: []
         });
       } else {
-        const errorData = await response.json();
-        console.error('Formspree error:', errorData);
-        setSubmitStatus('error');
-        if (errorData.error) {
-          setUploadError(errorData.error);
+        console.error('Backend response error:', response.status, response.statusText);
+        try {
+          const errorData = await response.json();
+          console.error('Error details:', errorData);
+          setSubmitStatus('error');
+          if (errorData.error) {
+            setUploadError(errorData.error);
+          }
+        } catch (e) {
+          console.error('Could not parse error response:', e);
+          setSubmitStatus('error');
         }
       }
     } catch (error) {
