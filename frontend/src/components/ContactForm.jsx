@@ -179,7 +179,7 @@ const ContactForm = () => {
       
       // Append all files
       formData.files.forEach((file, index) => {
-        formDataToSend.append('file', file);
+        formDataToSend.append('files', file);
       });
 
       // Backend API endpoint
