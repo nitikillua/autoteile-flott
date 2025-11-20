@@ -340,33 +340,80 @@ const ContactForm = () => {
           <label className="block text-sm font-medium text-slate-700 mb-2">
             {t.attachment}
           </label>
-          <div className="relative">
+          <p className="text-xs text-slate-500 mb-2">{t.attachmentHelp}</p>
+          
+          {/* Upload Button */}
+          <div className="relative mb-3">
             <input
               type="file"
               id="file-upload"
               onChange={handleFileChange}
-              accept="image/*"
+              accept="image/*,.pdf"
+              multiple
               className="hidden"
+              disabled={formData.files.length >= 5}
             />
             <label
               htmlFor="file-upload"
-              className="flex items-center justify-center w-full px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer hover:border-blue-500 transition-colors"
+              className={`flex items-center justify-center w-full px-4 py-3 border-2 border-dashed rounded-lg cursor-pointer transition-colors ${
+                formData.files.length >= 5
+                  ? 'border-gray-200 bg-gray-50 cursor-not-allowed'
+                  : 'border-gray-300 hover:border-blue-500'
+              }`}
             >
               <Upload className="w-5 h-5 mr-2 text-slate-500" />
               <span className="text-slate-600">
-                {fileName || 'Foto auswählen'}
+                {formData.files.length >= 5 
+                  ? t.tooManyFiles
+                  : language === 'de' 
+                    ? 'Dateien auswählen' 
+                    : language === 'en'
+                    ? 'Select files'
+                    : language === 'hu'
+                    ? 'Fájlok kiválasztása'
+                    : 'Wybierz pliki'
+                }
               </span>
             </label>
-            {fileName && (
-              <button
-                type="button"
-                onClick={removeFile}
-                className="absolute right-3 top-3 text-red-500 hover:text-red-700"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            )}
           </div>
+
+          {/* Upload Error */}
+          {uploadError && (
+            <div className="mb-3 p-2 bg-red-50 border border-red-200 rounded text-sm text-red-700">
+              {uploadError}
+            </div>
+          )}
+
+          {/* File List */}
+          {formData.files.length > 0 && (
+            <div className="space-y-2">
+              {formData.files.map((file, index) => (
+                <div
+                  key={index}
+                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg border border-gray-200"
+                >
+                  <div className="flex items-center space-x-3 flex-1 min-w-0">
+                    <Upload className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium text-slate-700 truncate">
+                        {file.name}
+                      </p>
+                      <p className="text-xs text-slate-500">
+                        {(file.size / 1024 / 1024).toFixed(2)} MB
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => removeFile(index)}
+                    className="ml-3 text-red-500 hover:text-red-700 flex-shrink-0"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Submit Button */}
