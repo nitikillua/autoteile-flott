@@ -413,13 +413,18 @@ export const categoryDetailsPL = {
       <h3>Nasza oferta silnikowa</h3>
       <ul>
         <li><strong>Uszczelki głowicy:</strong> Dla wszystkich typów silników</li>
-        <li><strong>Łańcuchy i paski rozrządu:</strong> Włącznie z napinakami i kołkami prowadzącymi</li>
-        <li><strong>Pompy wody:</strong> Z i bez zintegrowanego termostatu</li>
+        <li><strong>Łańcuchy i paski rozrządu:</strong> W jakości OEM lub taniej od producentów markowych do ekonomicznej naprawy</li>
+        <li><strong>Pompy wody:</strong> Mechaniczne, przełączalne lub całkowicie elektryczne pompy wody</li>
         <li><strong>Tłoki i korbowody:</strong> Standardowe i wzmocnione wersje</li>
         <li><strong>Wałki rozrządu:</strong> Oryginalne i wersje wydajnościowe</li>
+        <li><strong>Dodatki:</strong> Dodatek do popychaczy hydraulicznych, czyszczenie układu wtryskowego, zamiennik ołowiu do silników klasycznych, dodatek visco przeciw zużyciu oleju</li>
+        <li><strong>Zawory:</strong> Zawory dolotowe i wydechowe, uszczelki trzonków zaworów w jakości OEM</li>
+        <li><strong>Miska olejowa:</strong> Stalowe miski rdzewiją z czasem, częsty problem przy przeglądach technicznych</li>
+        <li><strong>Pierścienie uszczelniające:</strong> np. pierścienie uszczelniające wału korbowego często powodują wyciek oleju i również są częstym problemem przy przeglądach technicznych</li>
+        <li><strong>Termostat:</strong> zapewnia optymalne chłodzenie silnika, ale także ciepłe wnętrze zimą</li>
       </ul>
     `,
-    keywords: ['Uszczelka głowicy', 'Pasek rozrządu', 'Łańcuch rozrządu', 'Pompa wody', 'Tłoki']
+    keywords: ['Uszczelka głowicy', 'Pasek rozrządu', 'Łańcuch rozrządu', 'Pompa wody', 'Tłoki', 'Pierścień uszczelniający', 'Zawór', 'Termostat', 'Dodatek', 'Zużycie oleju']
   },
   body: {
     title: 'Części nadwozia dla wyglądu i funkcji',
