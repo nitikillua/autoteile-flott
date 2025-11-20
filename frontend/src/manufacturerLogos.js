@@ -323,6 +323,11 @@ export const manufacturerLogos = {
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/fwdo765z_shell.png',
     categories: ['filters']
   },
+  sonax: {
+    name: 'Sonax',
+    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=Sonax',
+    categories: ['others']
+  },
   skf: {
     name: 'SKF',
     logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/b3lvhhfa_skf.png',
