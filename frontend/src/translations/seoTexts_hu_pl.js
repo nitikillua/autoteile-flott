@@ -228,6 +228,7 @@ export const categoryDetailsHU = {
         <li><strong>Klímakompresszorok:</strong> Eredeti és kiváló minőségű alternatívák</li>
         <li><strong>Kondenzátorok:</strong> Hatékony hűtéshez</li>
         <li><strong>Fűtőventilátorok:</strong> Meleg levegőhöz télen</li>
+        <li><strong>Fűtőventilátor ellenállás:</strong> amikor a ventilátor fokozatai nem kapcsolnak át</li>
         <li><strong>Hűtőfolyadék hűtők:</strong> Optimális motor hőmérséklethez</li>
         <li><strong>Szárítók és szűrők:</strong> Tiszta klímarendszerekhez</li>
       </ul>
