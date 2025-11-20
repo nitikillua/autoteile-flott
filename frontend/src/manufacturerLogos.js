@@ -285,7 +285,7 @@ export const manufacturerLogos = {
   },
   osram: {
     name: 'OSRAM',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Osram_logo.svg/320px-Osram_logo.svg.png',
+    logo: 'https://customer-assets.emergentagent.com/job_autoparts-landing/artifacts/qu93eoe5_osram-vector-logo.png',
     categories: ['lighting']
   },
   philips: {
