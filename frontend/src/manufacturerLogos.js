@@ -325,7 +325,7 @@ export const manufacturerLogos = {
   },
   sonax: {
     name: 'Sonax',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=Sonax',
+    logo: 'https://customer-assets.emergentagent.com/job_autoparts-landing/artifacts/2rzlocsi_Sonax_logo.svg.png',
     categories: ['others']
   },
   skf: {
