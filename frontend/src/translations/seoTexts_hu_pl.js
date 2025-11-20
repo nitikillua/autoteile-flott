@@ -82,7 +82,7 @@ export const categoryDetailsHU = {
         <li><strong>Indítómotorok:</strong> Benzin és dízel motorokhoz</li>
         <li><strong>Generátorok:</strong> Eredeti és felújított minőség</li>
         <li><strong>Gyújtógyertyák:</strong> Réz, platina és irídium</li>
-        <li><strong>Érzékelők:</strong> Lambda szondák, ABS érzékelők, főtengely érzékelők</li>
+        <li><strong>Érzékelők:</strong> Lambda szondák, ABS érzékelők, főtengely érzékelők, vezérműtengely érzékelő, kipufogógáz hőmérséklet érzékelő, differenciálnyomás érzékelő, NOX-érzékelő, olajnyomás érzékelő, hűtővíz hőmérséklet érzékelő, töltőnyomás érzékelő, szívócső nyomás érzékelő</li>
       </ul>
     `,
     keywords: ['Akkumulátor', 'Indítómotor', 'Generátor', 'Gyújtógyertyák', 'Érzékelők']
