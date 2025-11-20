@@ -245,9 +245,12 @@ export const categoryDetails = {
         <h3>Unser Karosserie-Sortiment</h3>
         <ul>
           <li><strong>Außenspiegel:</strong> Komplett oder einzelne Spiegelgläser</li>
+          <li><strong>Spiegelglas:</strong> Ersatzgläser für verschiedene Fahrzeugmodelle</li>
           <li><strong>Türgriffe:</strong> Innen und außen</li>
           <li><strong>Stoßfänger:</strong> Grundiert oder lackiert</li>
           <li><strong>Kotflügel:</strong> Original und Aftermarket</li>
+          <li><strong>Schweller / Einstieg:</strong> Reparaturbleche und Ersatzteile</li>
+          <li><strong>Reparaturblech für Kotflügel:</strong> Für präzise Karosseriereparaturen</li>
           <li><strong>Zierleisten:</strong> Chrom und Kunststoff</li>
         </ul>
         
@@ -260,7 +263,7 @@ export const categoryDetails = {
         
         <p><strong>Wir beraten Sie gerne:</strong> Finden Sie die passenden Karosserieteile für Ihr Fahrzeug.</p>
       `,
-      keywords: ['Außenspiegel', 'Türgriffe', 'Stoßfänger', 'Kotflügel', 'Zierleisten']
+      keywords: ['Außenspiegel', 'Türgriffe', 'Stoßfänger', 'Kotflügel', 'Zierleisten', 'Spiegelglas', 'Schweller', 'Reparaturblech']
     },
     drivetrain: {
       title: 'Antriebskomponenten für kraftvolle Leistungsübertragung',
