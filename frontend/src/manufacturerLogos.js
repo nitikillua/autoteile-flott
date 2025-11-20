@@ -10,8 +10,8 @@ export const manufacturerLogos = {
   },
   arnott: {
     name: 'Arnott',
-    logo: 'https://customer-assets.emergentagent.com/job_auto-parts-consult/artifacts/cu4ehvo3_arnott.png',
-    categories: ['others']
+    logo: 'https://customer-assets.emergentagent.com/job_autoparts-landing/artifacts/e5clo66c_arnott.png',
+    categories: ['chassis']
   },
   as: {
     name: 'AS',
