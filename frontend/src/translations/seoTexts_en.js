@@ -93,7 +93,7 @@ export const categoryDetailsEN = {
         <li><strong>Starters:</strong> For gasoline and diesel engines</li>
         <li><strong>Alternators:</strong> Original and reconditioned quality</li>
         <li><strong>Spark Plugs:</strong> Copper, platinum and iridium</li>
-        <li><strong>Sensors:</strong> Lambda sensors, ABS sensors, crankshaft sensors</li>
+        <li><strong>Sensors:</strong> Lambda sensors, ABS sensors, crankshaft sensors, camshaft sensor, exhaust gas temperature sensor, differential pressure sensor, NOX sensor, oil pressure sensor, coolant temperature sensor, boost pressure sensor, intake manifold pressure sensor</li>
       </ul>
       
       <h3>Frequently Asked Questions</h3>
