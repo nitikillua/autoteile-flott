@@ -198,22 +198,27 @@ export const categoryDetailsEN = {
       <h3>Our Engine Range</h3>
       <ul>
         <li><strong>Cylinder Head Gaskets:</strong> For all engine types</li>
-        <li><strong>Timing Chains and Belts:</strong> Including tensioners and idlers</li>
-        <li><strong>Water Pumps:</strong> With and without integrated thermostat</li>
+        <li><strong>Timing Chains and Belts:</strong> In OEM quality, or cheaper from brand manufacturers for cost-effective repair</li>
+        <li><strong>Water Pumps:</strong> Mechanical, switchable or purely electric water pumps</li>
         <li><strong>Pistons and Connecting Rods:</strong> Standard and reinforced versions</li>
         <li><strong>Camshafts:</strong> Original and performance variants</li>
+        <li><strong>Additives:</strong> Hydraulic lifter additive, injection system cleaner, lead substitute for classic car engines, visco additive against oil consumption</li>
+        <li><strong>Valves:</strong> Inlet and exhaust valves, valve stem seals in OEM quality</li>
+        <li><strong>Oil Pan:</strong> Steel pans rust over time, a common problem during MOT inspections</li>
+        <li><strong>Sealing Rings:</strong> e.g.: Crankshaft seals often cause oil loss and also a common problem during MOT inspections</li>
+        <li><strong>Thermostat:</strong> ensures optimal cooling for the engine and also a warm interior in winter</li>
       </ul>
       
       <h3>Frequently Asked Questions</h3>
       <p><strong>When does the timing belt need to be replaced?</strong><br>
-      According to manufacturer specifications, usually between 60,000 and 120,000 km.</p>
+      According to manufacturer specifications, usually between 60,000 and 220,000 km.</p>
       
       <p><strong>What happens with a defective cylinder head gasket?</strong><br>
       Coolant loss, white smoke from the exhaust and overheating are typical symptoms.</p>
       
       <p><strong>Get advice:</strong> We find the right engine components for your vehicle.</p>
     `,
-    keywords: ['Cylinder Head Gasket', 'Timing Belt', 'Timing Chain', 'Water Pump', 'Pistons']
+    keywords: ['Cylinder Head Gasket', 'Timing Belt', 'Timing Chain', 'Water Pump', 'Pistons', 'Sealing Ring', 'Valve', 'Thermostat', 'Additive', 'Oil Consumption']
   },
   body: {
     title: 'Body Parts for Appearance and Function',
