@@ -265,7 +265,7 @@ export const manufacturerLogos = {
   },
   nk: {
     name: 'NK',
-    logo: 'https://via.placeholder.com/150x60/003366/FFFFFF?text=NK',
+    logo: 'https://customer-assets.emergentagent.com/job_autoparts-landing/artifacts/qsgxbcma_NK%20Logo.png',
     categories: ['chassis']
   },
   nrf: {
