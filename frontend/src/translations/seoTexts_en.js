@@ -186,7 +186,7 @@ export const categoryDetailsEN = {
       
       <p><strong>Trust our advice:</strong> We find the right clutch kit for your vehicle.</p>
     `,
-    keywords: ['Clutch Kit', 'Dual-Mass Flywheel', 'Release Bearing', 'Clutch Disc']
+    keywords: ['Clutch Kit', 'Dual-Mass Flywheel', 'Release Bearing', 'Clutch Disc', 'Central Release Bearing', 'Master Cylinder', 'Slave Cylinder']
   },
   engine: {
     title: 'Engine Components for Performance and Reliability',
