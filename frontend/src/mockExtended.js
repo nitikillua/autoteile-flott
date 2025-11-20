@@ -308,6 +308,7 @@ export const categoryDetails = {
           <li><strong>Klimakompressoren:</strong> Original und hochwertige Alternativen</li>
           <li><strong>Kondensatoren:</strong> Für effiziente Kühlung</li>
           <li><strong>Heizungsgebläse:</strong> Für warme Luft im Winter</li>
+          <li><strong>Widerstand Heizgebläse:</strong> wenn die Stufen der Lüftung sich nicht mehr durchschalten lassen</li>
           <li><strong>Kühlmittelkühler:</strong> Für optimale Motortemperatur</li>
           <li><strong>Trockner und Filter:</strong> Für saubere Klimaanlagen</li>
         </ul>
