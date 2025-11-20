@@ -139,7 +139,7 @@ export const categoryDetailsHU = {
         <li><strong>Főhengerek:</strong> Hidraulikus kuplungokhoz</li>
       </ul>
     `,
-    keywords: ['Kuplung készlet', 'Kéttömegű lendkerék', 'Kioldócsapágy', 'Kuplung tárcsa']
+    keywords: ['Kuplung készlet', 'Kéttömegű lendkerék', 'Kioldócsapágy', 'Kuplung tárcsa', 'Központi kioldócsapágy', 'Főhenger', 'Munkahenger']
   },
   engine: {
     title: 'Motor alkatrészek teljesítményhez és megbízhatósághoz',
