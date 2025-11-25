@@ -162,6 +162,16 @@ const ContactForm = () => {
     setUploadError('');
   };
 
+  // Helper: Convert File to Base64
+  const fileToBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -169,24 +179,34 @@ const ContactForm = () => {
     setUploadError('');
 
     try {
-      const formDataToSend = new FormData();
-      formDataToSend.append('name', formData.name);
-      formDataToSend.append('email', formData.email);
-      formDataToSend.append('phone', formData.phone);
-      formDataToSend.append('hsn', formData.hsn);
-      formDataToSend.append('tsn', formData.tsn);
-      formDataToSend.append('message', formData.message);
-      
-      // Append all files
-      formData.files.forEach((file, index) => {
-        formDataToSend.append('files', file);
-      });
+      // Convert files to Base64
+      const attachments = [];
+      for (const file of formData.files) {
+        const base64 = await fileToBase64(file);
+        attachments.push({
+          filename: file.name,
+          content: base64.split(',')[1] // remove data:...;base64, prefix
+        });
+      }
 
-      // Backend API endpoint
-      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
-      const response = await fetch(`${backendUrl}/api/contact`, {
+      // Prepare JSON payload
+      const payload = {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        hsn: formData.hsn,
+        tsn: formData.tsn,
+        message: formData.message,
+        attachments: attachments
+      };
+
+      // Send to Vercel Serverless Function
+      const response = await fetch('/api/sendMail', {
         method: 'POST',
-        body: formDataToSend
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
       });
 
       if (response.ok) {
