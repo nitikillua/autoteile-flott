@@ -145,9 +145,16 @@ Diese E-Mail wurde automatisch über das Kontaktformular auf autoteile-flott.de 
         
         # Send email
         logger.info(f"Connecting to SMTP server {email_host}:{email_port}")
-        server = smtplib.SMTP(email_host, email_port)
-        server.starttls()
-        server.login(email_user, email_password)
+        
+        # Use SMTP_SSL for port 465, regular SMTP with STARTTLS for port 587
+        if email_port == 465:
+            server = smtplib.SMTP_SSL(email_host, email_port)
+            server.login(email_user, email_password)
+        else:
+            server = smtplib.SMTP(email_host, email_port)
+            server.starttls()
+            server.login(email_user, email_password)
+        
         server.send_message(msg)
         server.quit()
         
