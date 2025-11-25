@@ -5,7 +5,7 @@ import { categoryDetailsHU, categoryDetailsPL } from './translations/seoTexts_hu
 export const companyInfo = {
   name: 'Autoteile Flott',
   phone: '+49 174 4185651',
-  email: 'flott.autoteile@gmail.com',
+  email: 'info@autoteile-flott.de',
   address: {
     street: 'Friedrich-Schüle-Straße 12',
     zipCity: '85622 Feldkirchen'
