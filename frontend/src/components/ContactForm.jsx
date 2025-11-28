@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, User, MessageSquare, Upload, X, Car, MapPin, Clock } from 'lucide-react';
+import { User, MessageSquare, Car } from 'lucide-react';
 
 const ContactForm = ({ language = 'de' }) => {
   const [showHsnHelp, setShowHsnHelp] = useState(false);
