@@ -58,6 +58,13 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Additional Info */}
+              <div className="mt-8 pt-6 border-t border-gray-200">
+                <p className="text-sm text-slate-600">
+                  Wir beraten Sie gerne persönlich und finden die passenden Teile für Ihr Fahrzeug!
+                </p>
+              </div>
             </div>
 
             {/* Contact Form */}
