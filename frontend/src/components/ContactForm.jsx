@@ -238,8 +238,12 @@ const ContactForm = ({ language = 'de' }) => {
                   {t.hsn} *
                   <button
                     type="button"
-                    onClick={() => setShowHsnHelp(!showHsnHelp)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setShowHsnHelp(!showHsnHelp);
+                    }}
                     className="ml-2 inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors text-xs font-bold"
+                    data-testid="hsn-info-button"
                   >
                     i
                   </button>
