@@ -272,9 +272,6 @@ const ContactForm = ({ language = 'de' }) => {
               </div>
             )}
           </form>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
