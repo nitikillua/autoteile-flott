@@ -92,15 +92,11 @@ const ContactForm = ({ language = 'de' }) => {
   const t = translations[language] || translations.de;
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
 
-    // Formspree handles the submission automatically
-    // We just need to show the loading state
-    
-    // The form will be submitted by the browser's default behavior
-    // After submission, Formspree will redirect or show a message
+    // Let the form submit naturally to Formspree
+    // Don't prevent default - Formspree needs the native form submission
   };
 
   return (
