@@ -203,8 +203,22 @@ test_plan:
         agent: "main"
         comment: "68 Hersteller-Logos erfolgreich integriert und kategorisiert. Logos werden dynamisch basierend auf Kategorie angezeigt (z.B. Bremsen: 12 Hersteller, Filter: 4 Hersteller, Beleuchtung: 3 Hersteller). Einheitliche Größe, Grid-Layout mit 6 Spalten, Hover-Effekte (grayscale → color), Fallback-Handling wenn Logo nicht lädt. Sektion 'Unsere Partner-Hersteller' erscheint im CategoryDetailModal nach SEO-Text."
 
+  - task: "Improved contact form layout and HSN info image functionality"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/ContactForm.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "✅ CONTACT FORM LAYOUT AND HSN INFO FUNCTIONALITY TESTED SUCCESSFULLY! Two-column layout working correctly: Left column displays blue gradient background with contact information (email, phone, address, business hours), Right column shows white form area. HSN info icon ('i') functionality fixed and working perfectly - clicking shows help popup with correct German text and HSN/TSN image from https://customer-assets.emergentagent.com/job_autoteile-form/artifacts/zcwi9x29_kontaktfeld_hilfe_bildhsn_tsn_adac.webp. Image loads successfully (naturalWidth: 2000px). Toggle functionality works (open/close popup). Minor: Form width appears compressed on desktop (246px) but functionality is intact. All contact information elements present and properly positioned."
+
 agent_communication:
   - agent: "main"
     message: "Hersteller-Logos Integration abgeschlossen. 68 Marken-Logos aus Word-Datei analysiert und allen 12 Kategorien zugeordnet. Logos werden nur in relevanten Kategorien angezeigt. Implementiert mit dynamischem Logo-Loading, Fehlerbehandlung und professionellem Design."
   - agent: "testing"
     message: "✅ CONTACT FORM TESTING COMPLETED SUCCESSFULLY! Fixed critical bug in ContactForm.jsx where e.preventDefault() was blocking form submission to Formspree. All functionality now working perfectly: Form validation, required fields (Name, Email, HSN, TSN), optional fields (Phone, Message), file upload with multipart/form-data, and successful submission to https://formspree.io/f/xldpqybz. User will receive form submissions with file attachments. No further testing needed - ready for production use."
+  - agent: "testing"
+    message: "✅ CONTACT FORM LAYOUT AND HSN INFO IMAGE TESTING COMPLETED! Two-column layout verified working: Left side shows blue contact information area, right side shows white form. HSN info icon functionality fixed and working perfectly - help popup displays with correct German text and vehicle registration image. Fixed React state issue by adding e.preventDefault() to button click handler. Minor layout width issue noted (form appears compressed at 246px width) but all functionality intact. Screenshots captured showing working layout and HSN help popup."
