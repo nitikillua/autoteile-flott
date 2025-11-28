@@ -101,13 +101,83 @@ const ContactForm = ({ language = 'de' }) => {
 
   return (
     <div id="kontakt" className="py-20 bg-gradient-to-br from-blue-50 to-slate-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">{t.title}</h2>
           <p className="text-lg text-slate-600">{t.subtitle}</p>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+        <div className="grid lg:grid-cols-5 gap-8">
+          {/* Left Side - Contact Information */}
+          <div className="lg:col-span-2 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl shadow-xl p-8 text-white">
+            <h3 className="text-2xl font-bold mb-6">Kontaktinformationen</h3>
+            
+            <div className="space-y-6">
+              {/* Email */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                  <Mail className="w-6 h-6" />
+                </div>
+                <div>
+                  <p className="text-sm text-blue-100 mb-1">E-Mail</p>
+                  <a href="mailto:info@autoteile-flott.de" className="text-white hover:text-blue-100 transition-colors">
+                    info@autoteile-flott.de
+                  </a>
+                </div>
+              </div>
+
+              {/* Phone */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                  <Phone className="w-6 h-6" />
+                </div>
+                <div>
+                  <p className="text-sm text-blue-100 mb-1">Telefon</p>
+                  <a href="tel:+491744185651" className="text-white hover:text-blue-100 transition-colors">
+                    +49 174 4185651
+                  </a>
+                </div>
+              </div>
+
+              {/* Address */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                  <MapPin className="w-6 h-6" />
+                </div>
+                <div>
+                  <p className="text-sm text-blue-100 mb-1">Standort</p>
+                  <p className="text-white">
+                    Friedrich-Schüle-Straße 12<br />
+                    85622 Feldkirchen
+                  </p>
+                </div>
+              </div>
+
+              {/* Business Hours */}
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                  <Clock className="w-6 h-6" />
+                </div>
+                <div>
+                  <p className="text-sm text-blue-100 mb-1">Öffnungszeiten</p>
+                  <p className="text-white">
+                    Mo - Fr: 8:00 - 18:00 Uhr<br />
+                    Sa: 9:00 - 13:00 Uhr
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Decorative Element */}
+            <div className="mt-12 pt-8 border-t border-white/20">
+              <p className="text-sm text-blue-100">
+                Wir beraten Sie gerne persönlich und finden die passenden Teile für Ihr Fahrzeug!
+              </p>
+            </div>
+          </div>
+
+          {/* Right Side - Contact Form */}
+          <div className="lg:col-span-3 bg-white rounded-2xl shadow-xl p-8 md:p-10">
           <form 
             action="https://formspree.io/f/xldpqybz" 
             method="POST"
