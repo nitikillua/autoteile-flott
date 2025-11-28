@@ -1,467 +1,281 @@
 import React, { useState } from 'react';
-import { Send, HelpCircle, Upload, X } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { Mail, Phone, User, MessageSquare, Upload, X, Car } from 'lucide-react';
 
-const ContactForm = () => {
-  const { language } = useLanguage();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    hsn: '',
-    tsn: '',
-    message: '',
-    files: []
-  });
+const ContactForm = ({ language = 'de' }) => {
   const [showHsnHelp, setShowHsnHelp] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
-  const [uploadError, setUploadError] = useState('');
 
-  const texts = {
+  const translations = {
     de: {
-      title: 'Anfrage senden',
-      name: 'Name',
-      email: 'E-Mail',
-      emailRequired: 'E-Mail (Pflichtfeld)',
-      phone: 'Telefon / WhatsApp',
-      hsn: 'HSN (4-stellig)',
-      tsn: 'TSN (3-stellig)',
-      hsnLabel: 'HSN / TSN (Schlüsselnr.)',
-      message: 'Ihre Anfrage',
-      messagePlaceholder: 'Beschreiben Sie, welche Autoteile Sie benötigen...',
+      title: 'Jetzt Anfrage stellen',
+      subtitle: 'Nennen Sie uns Ihre Fahrzeugdaten und erhalten Sie umgehend ein Angebot.',
+      name: 'Ihr Name',
+      email: 'E-Mail-Adresse',
+      phone: 'Telefon / WhatsApp (optional)',
+      hsn: 'HSN (Herstellerschlüsselnummer)',
+      tsn: 'TSN (Typschlüsselnummer)',
+      hsnHelp: 'Die HSN und TSN finden Sie in Ihrem Fahrzeugschein (Zulassungsbescheinigung Teil I) in den Feldern 2.1 und 2.2',
+      message: 'Ihre Nachricht (optional)',
+      messagePlaceholder: 'Beschreiben Sie, welche Teile Sie benötigen...',
       attachment: 'Dateien hochladen (Fotos/PDF)',
-      attachmentHelp: 'Max. 5 Dateien, je bis 10 MB',
-      fileSizeError: 'Datei zu groß! Maximale Größe: 10 MB',
-      tooManyFiles: 'Maximal 5 Dateien erlaubt',
+      attachmentHelp: 'Optional: Fotos oder Dokumente hochladen',
       submit: 'Anfrage absenden',
       submitting: 'Wird gesendet...',
-      success: 'Ihre Anfrage wurde erfolgreich versendet! Wir melden uns in Kürze.',
-      error: 'Fehler beim Senden. Bitte versuchen Sie es erneut.',
-      hsnHelp: 'Die HSN/TSN-Nummer finden Sie in Ihrem Fahrzeugschein (Zulassungsbescheinigung Teil I).',
-      required: 'Pflichtfeld'
+      successTitle: 'Anfrage erfolgreich versendet!',
+      successMessage: 'Wir melden uns in Kürze.',
+      errorTitle: 'Fehler beim Senden',
+      errorMessage: 'Bitte versuchen Sie es erneut.',
     },
     en: {
-      title: 'Send Inquiry',
-      name: 'Name',
-      email: 'Email',
-      emailRequired: 'Email (Required)',
-      phone: 'Phone / WhatsApp',
-      hsn: 'HSN (4 digits)',
-      tsn: 'TSN (3 digits)',
-      hsnLabel: 'HSN / TSN (Key Number)',
-      message: 'Your Inquiry',
-      messagePlaceholder: 'Describe which auto parts you need...',
+      title: 'Request Now',
+      subtitle: 'Provide your vehicle data and receive an offer immediately.',
+      name: 'Your Name',
+      email: 'Email Address',
+      phone: 'Phone / WhatsApp (optional)',
+      hsn: 'HSN (Manufacturer Key Number)',
+      tsn: 'TSN (Type Key Number)',
+      hsnHelp: 'You can find the HSN and TSN in your vehicle registration document (Part I) in fields 2.1 and 2.2',
+      message: 'Your Message (optional)',
+      messagePlaceholder: 'Describe which parts you need...',
       attachment: 'Upload Files (Photos/PDF)',
-      attachmentHelp: 'Max. 5 files, up to 10 MB each',
-      fileSizeError: 'File too large! Maximum size: 10 MB',
-      tooManyFiles: 'Maximum 5 files allowed',
-      submit: 'Send Inquiry',
+      attachmentHelp: 'Optional: Upload photos or documents',
+      submit: 'Send Request',
       submitting: 'Sending...',
-      success: 'Your inquiry has been sent successfully! We will get back to you shortly.',
-      error: 'Error sending. Please try again.',
-      hsnHelp: 'You can find the HSN/TSN number in your vehicle registration document.',
-      required: 'Required'
+      successTitle: 'Request sent successfully!',
+      successMessage: 'We will contact you shortly.',
+      errorTitle: 'Error sending',
+      errorMessage: 'Please try again.',
     },
     hu: {
-      title: 'Érdeklődés küldése',
-      name: 'Név',
-      email: 'E-mail',
-      emailRequired: 'E-mail (Kötelező)',
-      phone: 'Telefon / WhatsApp',
-      hsn: 'HSN (4 számjegy)',
-      tsn: 'TSN (3 számjegy)',
-      hsnLabel: 'HSN / TSN (Kulcsszám)',
-      message: 'Érdeklődése',
-      messagePlaceholder: 'Írja le, milyen autóalkatrészekre van szüksége...',
+      title: 'Kérdezzen most',
+      subtitle: 'Adja meg járműve adatait és azonnal ajánlatot kap.',
+      name: 'Az Ön neve',
+      email: 'E-mail cím',
+      phone: 'Telefon / WhatsApp (opcionális)',
+      hsn: 'HSN (Gyártói kulcsszám)',
+      tsn: 'TSN (Típus kulcsszám)',
+      hsnHelp: 'A HSN-t és TSN-t a járműnyilvántartási okmányban (I. rész) találja a 2.1 és 2.2 mezőkben',
+      message: 'Az Ön üzenete (opcionális)',
+      messagePlaceholder: 'Írja le, milyen alkatrészekre van szüksége...',
       attachment: 'Fájlok feltöltése (Fotók/PDF)',
-      attachmentHelp: 'Max. 5 fájl, egyenként max. 10 MB',
-      fileSizeError: 'A fájl túl nagy! Maximális méret: 10 MB',
-      tooManyFiles: 'Maximálisan 5 fájl engedélyezett',
-      submit: 'Érdeklődés küldése',
+      attachmentHelp: 'Opcionális: Fotók vagy dokumentumok feltöltése',
+      submit: 'Kérés elküldése',
       submitting: 'Küldés...',
-      success: 'Érdeklődését sikeresen elküldtük! Hamarosan válaszolunk.',
-      error: 'Küldési hiba. Kérjük, próbálja újra.',
-      hsnHelp: 'A HSN/TSN számot a jármű forgalmi engedélyében találja.',
-      required: 'Kötelező'
+      successTitle: 'Kérés sikeresen elküldve!',
+      successMessage: 'Hamarosan felvesszük Önnel a kapcsolatot.',
+      errorTitle: 'Hiba a küldés során',
+      errorMessage: 'Kérjük, próbálja újra.',
     },
     pl: {
-      title: 'Wyślij zapytanie',
-      name: 'Imię',
-      email: 'Email',
-      emailRequired: 'Email (Wymagane)',
-      phone: 'Telefon / WhatsApp',
-      hsn: 'HSN (4 cyfry)',
-      tsn: 'TSN (3 cyfry)',
-      hsnLabel: 'HSN / TSN (Numer klucza)',
-      message: 'Twoje zapytanie',
-      messagePlaceholder: 'Opisz, jakich części samochodowych potrzebujesz...',
+      title: 'Zapytaj teraz',
+      subtitle: 'Podaj dane swojego pojazdu i natychmiast otrzymaj ofertę.',
+      name: 'Twoje imię',
+      email: 'Adres e-mail',
+      phone: 'Telefon / WhatsApp (opcjonalnie)',
+      hsn: 'HSN (Numer klucza producenta)',
+      tsn: 'TSN (Numer klucza typu)',
+      hsnHelp: 'HSN i TSN znajdziesz w dowodzie rejestracyjnym pojazdu (część I) w polach 2.1 i 2.2',
+      message: 'Twoja wiadomość (opcjonalnie)',
+      messagePlaceholder: 'Opisz, jakie części potrzebujesz...',
       attachment: 'Prześlij pliki (Zdjęcia/PDF)',
-      attachmentHelp: 'Maks. 5 plików, do 10 MB każdy',
-      fileSizeError: 'Plik zbyt duży! Maksymalny rozmiar: 10 MB',
-      tooManyFiles: 'Maksymalnie 5 plików dozwolone',
+      attachmentHelp: 'Opcjonalnie: Prześlij zdjęcia lub dokumenty',
       submit: 'Wyślij zapytanie',
       submitting: 'Wysyłanie...',
-      success: 'Twoje zapytanie zostało wysłane pomyślnie! Wkrótce się odezwiemy.',
-      error: 'Błąd wysyłania. Spróbuj ponownie.',
-      hsnHelp: 'Numer HSN/TSN znajduje się w dowodzie rejestracyjnym pojazdu.',
-      required: 'Wymagane'
+      successTitle: 'Zapytanie wysłane pomyślnie!',
+      successMessage: 'Skontaktujemy się wkrótce.',
+      errorTitle: 'Błąd podczas wysyłania',
+      errorMessage: 'Spróbuj ponownie.',
     }
   };
 
-  const t = texts[language] || texts.de;
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    
-    // HSN: only numbers, max 4 digits
-    if (name === 'hsn') {
-      const filtered = value.replace(/\D/g, '').slice(0, 4);
-      setFormData({ ...formData, [name]: filtered });
-      return;
-    }
-    
-    // TSN: alphanumeric, max 3 characters
-    if (name === 'tsn') {
-      const filtered = value.toUpperCase().slice(0, 3);
-      setFormData({ ...formData, [name]: filtered });
-      return;
-    }
-    
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleFileChange = (e) => {
-    const selectedFiles = Array.from(e.target.files);
-    setUploadError('');
-    
-    // Check number of files
-    if (formData.files.length + selectedFiles.length > 5) {
-      setUploadError(t.tooManyFiles);
-      return;
-    }
-    
-    // Check file sizes (max 10MB per file)
-    const maxSize = 10 * 1024 * 1024; // 10MB in bytes
-    const validFiles = [];
-    
-    for (const file of selectedFiles) {
-      if (file.size > maxSize) {
-        setUploadError(`${file.name}: ${t.fileSizeError}`);
-        return;
-      }
-      validFiles.push(file);
-    }
-    
-    setFormData({ ...formData, files: [...formData.files, ...validFiles] });
-  };
-
-  const removeFile = (index) => {
-    const newFiles = formData.files.filter((_, i) => i !== index);
-    setFormData({ ...formData, files: newFiles });
-    setUploadError('');
-  };
-
-  // Helper: Convert File to Base64
-  const fileToBase64 = (file) => {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = () => resolve(reader.result);
-      reader.onerror = reject;
-      reader.readAsDataURL(file);
-    });
-  };
+  const t = translations[language] || translations.de;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
-    setUploadError('');
 
-    try {
-      // Convert files to Base64
-      const attachments = [];
-      for (const file of formData.files) {
-        const base64 = await fileToBase64(file);
-        attachments.push({
-          filename: file.name,
-          content: base64.split(',')[1] // remove data:...;base64, prefix
-        });
-      }
-
-      // Prepare JSON payload
-      const payload = {
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        hsn: formData.hsn,
-        tsn: formData.tsn,
-        message: formData.message,
-        attachments: attachments
-      };
-
-      // Send to Vercel Serverless Function
-      const response = await fetch('/api/sendMail', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(payload)
-      });
-
-      if (response.ok) {
-        setSubmitStatus('success');
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          hsn: '',
-          tsn: '',
-          message: '',
-          files: []
-        });
-      } else {
-        console.error('Backend response error:', response.status, response.statusText);
-        try {
-          const errorData = await response.json();
-          console.error('Error details:', errorData);
-          setSubmitStatus('error');
-          if (errorData.error) {
-            setUploadError(errorData.error);
-          }
-        } catch (e) {
-          console.error('Could not parse error response:', e);
-          setSubmitStatus('error');
-        }
-      }
-    } catch (error) {
-      console.error('Submit error:', error);
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
+    // Formspree handles the submission automatically
+    // We just need to show the loading state
+    
+    // The form will be submitted by the browser's default behavior
+    // After submission, Formspree will redirect or show a message
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-      <h3 className="text-2xl font-bold text-slate-900 mb-6">{t.title}</h3>
-      
-      <form onSubmit={handleSubmit} className="space-y-5">
-        {/* Name */}
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">
-            {t.name}
-          </label>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-          />
+    <div id="kontakt" className="py-20 bg-gradient-to-br from-blue-50 to-slate-50">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">{t.title}</h2>
+          <p className="text-lg text-slate-600">{t.subtitle}</p>
         </div>
 
-        {/* Email */}
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">
-            {t.emailRequired} <span className="text-red-500">*</span>
-          </label>
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-          />
-        </div>
+        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+          <form 
+            action="https://formspree.io/f/xldpqybz" 
+            method="POST"
+            encType="multipart/form-data"
+            onSubmit={handleSubmit}
+          >
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              {/* Name */}
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-2">
+                  {t.name} *
+                </label>
+                <div className="relative">
+                  <User className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                </div>
+              </div>
 
-        {/* Phone / WhatsApp */}
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">
-            {t.phone}
-          </label>
-          <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-          />
-        </div>
+              {/* Email */}
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-2">
+                  {t.email} *
+                </label>
+                <div className="relative">
+                  <Mail className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                </div>
+              </div>
 
-        {/* HSN / TSN with Help */}
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">
-            {t.hsnLabel} <span className="text-red-500">*</span>
-            <button
-              type="button"
-              onClick={() => setShowHsnHelp(!showHsnHelp)}
-              className="inline-flex items-center ml-2 text-blue-600 hover:text-blue-700"
-            >
-              <HelpCircle className="w-4 h-4" />
-            </button>
-          </label>
-          
-          {showHsnHelp && (
-            <div className="mb-3 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-              <p className="text-sm text-slate-700 mb-3">{t.hsnHelp}</p>
-              <img 
-                src="https://customer-assets.emergentagent.com/job_autoberatung/artifacts/00f21zlu_kontaktfeld_hilfe_bildhsn_tsn_adac.webp"
-                alt="HSN/TSN Beispiel"
-                className="w-full max-w-md rounded-lg"
-              />
-            </div>
-          )}
-          
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <input
-                type="text"
-                name="hsn"
-                value={formData.hsn}
-                onChange={handleChange}
-                placeholder="0000"
-                maxLength="4"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-center font-mono text-lg"
-              />
-              <p className="text-xs text-slate-500 mt-1 text-center">{t.hsn}</p>
-            </div>
-            <div>
-              <input
-                type="text"
-                name="tsn"
-                value={formData.tsn}
-                onChange={handleChange}
-                placeholder="000"
-                maxLength="3"
-                required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-center font-mono text-lg"
-              />
-              <p className="text-xs text-slate-500 mt-1 text-center">{t.tsn}</p>
-            </div>
-          </div>
-        </div>
+              {/* Phone */}
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-2">
+                  {t.phone}
+                </label>
+                <div className="relative">
+                  <Phone className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                  <input
+                    type="tel"
+                    name="phone"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                </div>
+              </div>
 
-        {/* Message */}
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">
-            {t.message}
-          </label>
-          <textarea
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            rows="4"
-            placeholder={t.messagePlaceholder}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
-          />
-        </div>
-
-        {/* File Upload */}
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-2">
-            {t.attachment}
-          </label>
-          <p className="text-xs text-slate-500 mb-2">{t.attachmentHelp}</p>
-          
-          {/* Upload Button */}
-          <div className="relative mb-3">
-            <input
-              type="file"
-              id="file-upload"
-              onChange={handleFileChange}
-              accept="image/*,.pdf"
-              multiple
-              className="hidden"
-              disabled={formData.files.length >= 5}
-            />
-            <label
-              htmlFor="file-upload"
-              className={`flex items-center justify-center w-full px-4 py-3 border-2 border-dashed rounded-lg cursor-pointer transition-colors ${
-                formData.files.length >= 5
-                  ? 'border-gray-200 bg-gray-50 cursor-not-allowed'
-                  : 'border-gray-300 hover:border-blue-500'
-              }`}
-            >
-              <Upload className="w-5 h-5 mr-2 text-slate-500" />
-              <span className="text-slate-600">
-                {formData.files.length >= 5 
-                  ? t.tooManyFiles
-                  : language === 'de' 
-                    ? 'Dateien auswählen' 
-                    : language === 'en'
-                    ? 'Select files'
-                    : language === 'hu'
-                    ? 'Fájlok kiválasztása'
-                    : 'Wybierz pliki'
-                }
-              </span>
-            </label>
-          </div>
-
-          {/* Upload Error */}
-          {uploadError && (
-            <div className="mb-3 p-2 bg-red-50 border border-red-200 rounded text-sm text-red-700">
-              {uploadError}
-            </div>
-          )}
-
-          {/* File List */}
-          {formData.files.length > 0 && (
-            <div className="space-y-2">
-              {formData.files.map((file, index) => (
-                <div
-                  key={index}
-                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg border border-gray-200"
-                >
-                  <div className="flex items-center space-x-3 flex-1 min-w-0">
-                    <Upload className="w-4 h-4 text-blue-600 flex-shrink-0" />
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-slate-700 truncate">
-                        {file.name}
-                      </p>
-                      <p className="text-xs text-slate-500">
-                        {(file.size / 1024 / 1024).toFixed(2)} MB
-                      </p>
-                    </div>
-                  </div>
+              {/* HSN */}
+              <div className="relative">
+                <label className="block text-sm font-medium text-slate-700 mb-2">
+                  {t.hsn} *
                   <button
                     type="button"
-                    onClick={() => removeFile(index)}
-                    className="ml-3 text-red-500 hover:text-red-700 flex-shrink-0"
+                    onClick={() => setShowHsnHelp(!showHsnHelp)}
+                    className="ml-2 text-blue-600 hover:text-blue-700"
                   >
-                    <X className="w-5 h-5" />
+                    ⓘ
                   </button>
+                </label>
+                <div className="relative">
+                  <Car className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                  <input
+                    type="text"
+                    name="hsn"
+                    required
+                    maxLength="4"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent uppercase"
+                  />
                 </div>
-              ))}
+                {showHsnHelp && (
+                  <div className="mt-2 p-3 bg-blue-50 rounded-lg text-sm text-blue-900">
+                    {t.hsnHelp}
+                  </div>
+                )}
+              </div>
+
+              {/* TSN */}
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-2">
+                  {t.tsn} *
+                </label>
+                <div className="relative">
+                  <Car className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                  <input
+                    type="text"
+                    name="tsn"
+                    required
+                    maxLength="3"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent uppercase"
+                  />
+                </div>
+              </div>
             </div>
-          )}
+
+            {/* Message */}
+            <div className="mb-6">
+              <label className="block text-sm font-medium text-slate-700 mb-2">
+                {t.message}
+              </label>
+              <div className="relative">
+                <MessageSquare className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                <textarea
+                  name="message"
+                  rows="4"
+                  placeholder={t.messagePlaceholder}
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                ></textarea>
+              </div>
+            </div>
+
+            {/* File Upload */}
+            <div className="mb-6">
+              <label className="block text-sm font-medium text-slate-700 mb-2">
+                {t.attachment}
+              </label>
+              <p className="text-xs text-slate-500 mb-2">{t.attachmentHelp}</p>
+              <div className="relative">
+                <input
+                  type="file"
+                  name="file"
+                  accept="image/*,.pdf"
+                  multiple
+                  className="w-full px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer hover:border-blue-500 transition-colors file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+                />
+              </div>
+            </div>
+
+            {/* Submit Button */}
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className={`w-full py-4 px-6 rounded-lg font-semibold text-white transition-all duration-300 ${
+                isSubmitting
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-lg hover:shadow-xl'
+              }`}
+            >
+              {isSubmitting ? t.submitting : t.submit}
+            </button>
+
+            {/* Status Messages */}
+            {submitStatus === 'success' && (
+              <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                <h4 className="font-semibold text-green-900">{t.successTitle}</h4>
+                <p className="text-green-700">{t.successMessage}</p>
+              </div>
+            )}
+
+            {submitStatus === 'error' && (
+              <div className="mt-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                <h4 className="font-semibold text-red-900">{t.errorTitle}</h4>
+                <p className="text-red-700">{t.errorMessage}</p>
+              </div>
+            )}
+          </form>
         </div>
-
-        {/* Submit Button */}
-        <button
-          type="submit"
-          disabled={isSubmitting}
-          className="w-full inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          <Send className="w-5 h-5 mr-3" />
-          {isSubmitting ? t.submitting : t.submit}
-        </button>
-
-        {/* Status Messages */}
-        {submitStatus === 'success' && (
-          <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
-            <p className="text-green-800 text-center">{t.success}</p>
-          </div>
-        )}
-        {submitStatus === 'error' && (
-          <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-            <p className="text-red-800 text-center">{t.error}</p>
-          </div>
-        )}
-      </form>
+      </div>
     </div>
   );
 };
