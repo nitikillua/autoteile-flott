@@ -186,11 +186,10 @@ metadata:
   run_ui: true
 
 test_plan:
-  current_focus:
-    - "Test contact form submission with file upload after Formspree plan upgrade"
+  current_focus: []
   stuck_tasks: []
   test_all: false
-  test_priority: "P0"
+  test_priority: "completed"
 
   - task: "Hersteller-Logos Integration in CategoryDetailModal"
     implemented: true
