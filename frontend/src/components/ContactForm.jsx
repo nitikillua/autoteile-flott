@@ -239,9 +239,9 @@ const ContactForm = ({ language = 'de' }) => {
                   <button
                     type="button"
                     onClick={() => setShowHsnHelp(!showHsnHelp)}
-                    className="ml-2 text-blue-600 hover:text-blue-700"
+                    className="ml-2 inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors text-xs font-bold"
                   >
-                    ⓘ
+                    i
                   </button>
                 </label>
                 <div className="relative">
@@ -255,8 +255,13 @@ const ContactForm = ({ language = 'de' }) => {
                   />
                 </div>
                 {showHsnHelp && (
-                  <div className="mt-2 p-3 bg-blue-50 rounded-lg text-sm text-blue-900">
-                    {t.hsnHelp}
+                  <div className="mt-3 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                    <p className="text-sm text-blue-900 mb-3">{t.hsnHelp}</p>
+                    <img 
+                      src="https://customer-assets.emergentagent.com/job_autoteile-form/artifacts/zcwi9x29_kontaktfeld_hilfe_bildhsn_tsn_adac.webp"
+                      alt="HSN und TSN im Fahrzeugschein"
+                      className="w-full rounded-lg shadow-md"
+                    />
                   </div>
                 )}
               </div>
