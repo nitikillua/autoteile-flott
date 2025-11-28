@@ -155,18 +155,39 @@ frontend:
         agent: "main"
         comment: "Formspree integration code is ready in ContactForm.jsx (line 153). User needs to replace 'YOUR_FORM_ID' with actual Formspree form ID. Complete setup guide created at /app/FORMSPREE_SETUP_GUIDE.md with step-by-step instructions."
 
+  - task: "Contact form with file upload - Formspree plan upgraded"
+    implemented: true
+    working: "NEEDS_TESTING"
+    file: "/app/frontend/src/components/ContactForm.jsx"
+    stuck_count: 0
+    priority: "P0"
+    needs_retesting: true
+    test_scenario: |
+      1. Navigate to contact form section (scroll to #kontakt)
+      2. Fill in all required fields: Name, Email, HSN (4 digits), TSN (3 digits)
+      3. Fill optional fields: Phone, Message
+      4. Attach a file (PDF or image) using the file upload field
+      5. Submit the form
+      6. Verify submission is successful (check for success message or Formspree redirect)
+      7. Check network request to formspree.io/f/xldpqybz for status 200
+      8. Verify file was included in the submission
+    status_history:
+      - working: "NEEDS_TESTING"
+        agent: "fork_agent"
+        comment: "User confirmed Formspree plan has been upgraded to support file uploads. Form is configured with encType='multipart/form-data' and points to https://formspree.io/f/xldpqybz. Ready for end-to-end testing with file attachment."
+
 metadata:
   created_by: "main_agent"
-  version: "1.0"
-  test_sequence: 1
-  run_ui: false
+  version: "1.1"
+  test_sequence: 2
+  run_ui: true
 
 test_plan:
   current_focus:
-    - "All tasks completed and verified"
+    - "Test contact form submission with file upload after Formspree plan upgrade"
   stuck_tasks: []
   test_all: false
-  test_priority: "completed"
+  test_priority: "P0"
 
   - task: "Hersteller-Logos Integration in CategoryDetailModal"
     implemented: true
