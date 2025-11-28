@@ -215,6 +215,18 @@ test_plan:
         agent: "testing"
         comment: "✅ CONTACT FORM LAYOUT AND HSN INFO FUNCTIONALITY TESTED SUCCESSFULLY! Two-column layout working correctly: Left column displays blue gradient background with contact information (email, phone, address, business hours), Right column shows white form area. HSN info icon ('i') functionality fixed and working perfectly - clicking shows help popup with correct German text and HSN/TSN image from https://customer-assets.emergentagent.com/job_autoteile-form/artifacts/zcwi9x29_kontaktfeld_hilfe_bildhsn_tsn_adac.webp. Image loads successfully (naturalWidth: 2000px). Toggle functionality works (open/close popup). Minor: Form width appears compressed on desktop (246px) but functionality is intact. All contact information elements present and properly positioned."
 
+  - task: "Contact section restructure - 2 cards only, no phone number"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/Contact.jsx, /app/frontend/src/components/ContactForm.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "✅ CONTACT SECTION RESTRUCTURE FULLY WORKING! Fixed critical JavaScript error (missing Mail icon import) that prevented React app loading. Comprehensive testing confirmed: Exactly 2 cards present (left: Kontaktinformationen, right: Contact form), Left card contains only Email and Standort (NO phone number as requested), Right card shows complete contact form with all required fields (Name, Email, HSN, TSN), HSN info icon functionality working perfectly - displays help popup with German text and vehicle registration image, Layout not compressed (496px width per card), No duplicate 'Kontaktinformationen' headings, All user requirements met successfully."
+
 agent_communication:
   - agent: "main"
     message: "Hersteller-Logos Integration abgeschlossen. 68 Marken-Logos aus Word-Datei analysiert und allen 12 Kategorien zugeordnet. Logos werden nur in relevanten Kategorien angezeigt. Implementiert mit dynamischem Logo-Loading, Fehlerbehandlung und professionellem Design."
