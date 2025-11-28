@@ -1,5 +1,4 @@
-from fastapi import FastAPI, APIRouter, File, UploadFile, Form
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, APIRouter
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -7,14 +6,9 @@ import os
 import logging
 from pathlib import Path
 from pydantic import BaseModel, Field, ConfigDict
-from typing import List, Optional
+from typing import List
 import uuid
 from datetime import datetime, timezone
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 
 
 ROOT_DIR = Path(__file__).parent
