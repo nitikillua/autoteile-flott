@@ -155,60 +155,67 @@ const ContactForm = ({ language = 'de' }) => {
                 </div>
               </div>
 
-              {/* HSN */}
-              <div className="relative">
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  {t.hsn} *
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setShowHsnHelp(!showHsnHelp);
-                    }}
-                    className="ml-2 inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors text-xs font-bold"
-                    data-testid="hsn-info-button"
-                  >
-                    i
-                  </button>
-                </label>
-                <div className="relative">
-                  <Car className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
-                  <input
-                    type="text"
-                    name="hsn"
-                    required
-                    maxLength="4"
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent uppercase"
-                  />
-                </div>
-                {showHsnHelp && (
-                  <div className="mt-3 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                    <p className="text-sm text-blue-900 mb-3">{t.hsnHelp}</p>
-                    <img 
-                      src="https://customer-assets.emergentagent.com/job_autoteile-form/artifacts/zcwi9x29_kontaktfeld_hilfe_bildhsn_tsn_adac.webp"
-                      alt="HSN und TSN im Fahrzeugschein"
-                      className="w-full rounded-lg shadow-md"
+            </div>
+
+            {/* HSN/TSN in einer Zeile */}
+            <div className="mb-6">
+              <label className="block text-sm font-medium text-slate-700 mb-2">
+                HSN / TSN (Fahrzeugidentifikation) *
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setShowHsnHelp(!showHsnHelp);
+                  }}
+                  className="ml-2 inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors text-xs font-bold"
+                  data-testid="hsn-info-button"
+                >
+                  i
+                </button>
+              </label>
+              <div className="grid grid-cols-2 gap-4">
+                {/* HSN */}
+                <div>
+                  <label className="block text-xs text-slate-500 mb-1">HSN (4-stellig)</label>
+                  <div className="relative">
+                    <Car className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                    <input
+                      type="text"
+                      name="hsn"
+                      required
+                      maxLength="4"
+                      placeholder="0588"
+                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent uppercase"
                     />
                   </div>
-                )}
-              </div>
+                </div>
 
-              {/* TSN */}
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  {t.tsn} *
-                </label>
-                <div className="relative">
-                  <Car className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
-                  <input
-                    type="text"
-                    name="tsn"
-                    required
-                    maxLength="3"
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent uppercase"
-                  />
+                {/* TSN */}
+                <div>
+                  <label className="block text-xs text-slate-500 mb-1">TSN (3-stellig)</label>
+                  <div className="relative">
+                    <Car className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
+                    <input
+                      type="text"
+                      name="tsn"
+                      required
+                      maxLength="3"
+                      placeholder="AHN"
+                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent uppercase"
+                    />
+                  </div>
                 </div>
               </div>
+              {showHsnHelp && (
+                <div className="mt-3 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                  <p className="text-sm text-blue-900 mb-3">{t.hsnHelp}</p>
+                  <img 
+                    src="https://customer-assets.emergentagent.com/job_autoteile-form/artifacts/zcwi9x29_kontaktfeld_hilfe_bildhsn_tsn_adac.webp"
+                    alt="HSN und TSN im Fahrzeugschein"
+                    className="w-full rounded-lg shadow-md"
+                  />
+                </div>
+              )}
             </div>
 
             {/* Message */}
